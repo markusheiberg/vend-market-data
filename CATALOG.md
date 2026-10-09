@@ -28,7 +28,7 @@ own. **Read `digest/latest.md` first, then `events.csv` before trusting any jump
 | `package` | package name for package metrics, else blank |
 | `metric` | see below |
 | `value` | the number |
-| `unit` | `listings`, `pct`, `sampled_listings`, `visitors`, `days` |
+| `unit` | `listings`, `pct`, `sampled_listings`, `fraction`, `visitors`, `days` |
 | `is_sample` | `1` when the value comes from a sample and is not a market total |
 | `quality_flag` | blank = clean. `outlier` = upstream filter blanked it, raw value kept. `manual` = typed in. `exclude:E##` = covered by an exclude event |
 | `source` | source repo and file |
@@ -42,6 +42,7 @@ Metrics:
 | `package_share` | finn.no, blocket.se cars (dealer); finn.no used homes | % of listings on each package |
 | `package_sample_count` | finn.no, blocket.se cars (dealer) | sampled listings per package. **A sample, not a market count** |
 | `package_count` | finn.no used homes | listings per package, full crawl |
+| `sample_fraction` | finn.no, blocket.se cars (dealer) | share of listings the car package scrape classified that week: 0.05 until 2026-07-20, 0.10 since. Compare `package_sample_count` only between weeks with the same value |
 | `visits`, `supply_cars`, `avg_days_to_sell` | bilinfo.dk | bilinfo's weekly Danish market report |
 
 ## Rules that are easy to get wrong

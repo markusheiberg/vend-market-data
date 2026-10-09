@@ -148,6 +148,11 @@ def mobility_packages(src: Path) -> list[dict]:
                            "finn-mobility-packages/weekly_package_mix", package=pkg, is_sample=1))
             out.append(row(*args, "package_share", num(r[pkg + "_pct"]), "pct",
                            "finn-mobility-packages/weekly_package_mix", package=pkg, is_sample=1))
+        # Present since the source started recording it (2026-10). Counts are only
+        # comparable between weeks with the same fraction.
+        if r.get("sample_fraction"):
+            out.append(row(*args, "sample_fraction", num(r["sample_fraction"]), "fraction",
+                           "finn-mobility-packages/weekly_package_mix"))
     return out
 
 

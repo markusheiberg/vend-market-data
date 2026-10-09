@@ -44,9 +44,9 @@ class BuildTest(unittest.TestCase):
                "run_date,series,domain,vertical,seller_type,all_listings_raw,all_listings,"
                "published_today_raw,published_today", daily)
         _write(self.src / "finn-mobility-packages/data/weekly_package_mix.csv",
-               "week,site,premium,pluss,basis,total,premium_pct,pluss_pct,basis_pct",
-               ["2026-05-11,blocket,0,0,5940,5940,0.0,0.0,100.0",
-                "2026-09-28,finn,2118,1332,1819,5269,40.2,25.3,34.5"])
+               "week,site,premium,pluss,basis,total,premium_pct,pluss_pct,basis_pct,sample_fraction",
+               ["2026-05-11,blocket,0,0,5940,5940,0.0,0.0,100.0,0.05",
+                "2026-09-28,finn,2118,1332,1819,5269,40.2,25.3,34.5,0.10"])
         _write(self.src / "finn-bolig-packages/data/packages_history.csv",
                "run_date,run_time_utc,site,large_count,medium_count,small_count,total_count,"
                "large_pct,medium_pct,small_pct",
@@ -83,6 +83,11 @@ class BuildTest(unittest.TestCase):
         self.assertTrue(finn and all(r["quality_flag"] == "" for r in finn))
         self.assertTrue(all(r["is_sample"] == "1" for r in finn))
 
+    def test_sample_fraction_carried(self):
+        rows = self._build()
+        frac = {(r["site"], r["date"]): r["value"] for r in rows if r["metric"] == "sample_fraction"}
+        self.assertEqual(frac, {("blocket.se", "2026-05-11"): "0.05", ("finn.no", "2026-09-28"): "0.1"})
+
     def test_same_day_runs_keep_later(self):
         rows = self._build()
         large = [r for r in rows if r["metric"] == "package_count" and r["package"] == "large"]
@@ -116,9 +121,9 @@ class BuildTest(unittest.TestCase):
         rows = self._build()
         self.assertEqual(len(_read(self.out / "facts/price_changes.csv")), 2)
         kept = [r for r in rows if r["source"] == "finn-mobility-packages/weekly_package_mix"]
-        self.assertEqual(len(kept), 12)
+        self.assertEqual(len(kept), 14)
         self.assertTrue(all(r["quality_flag"] == "exclude:E02" for r in kept
-                            if r["site"] == "blocket.se"))
+                            if r["site"] == "blocket.se" and r["metric"].startswith("package_")))
         digest = (self.out / "digest/latest.md").read_text()
         self.assertIn("weekly_package_mix.csv", digest.split("##")[1])
 
