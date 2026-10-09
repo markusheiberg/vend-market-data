@@ -1,6 +1,6 @@
 # Vend market digest
 
-Generated 2026-10-09 11:23 UTC. Data up to **2026-10-08**.
+Generated 2026-10-09 11:43 UTC. Data up to **2026-10-08**.
 Read `CATALOG.md` for what each series means and `events.csv` before trusting a jump.
 
 ## Series with no value today
