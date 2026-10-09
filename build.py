@@ -216,6 +216,45 @@ def apply_exclusions(rows: list[dict], events: list[dict], metric_key="metric") 
                 break
 
 
+# ── weekly rollup ────────────────────────────────────────────────────────────
+
+# Same thresholds as the BigQuery weekly_avg view: a stock needs 2 clean days in
+# the week, a flow 4, or the week is left out rather than averaged from a scrap.
+MIN_DAYS = {"listings": 2, "new_listings": 4}
+# Lean on purpose: every column is repeated ~10k times, and the file has to fit
+# whole in a project. grain is always weekly; quality_flag and source live in
+# facts/listings.csv for anyone who needs them.
+WEEKLY_COLS = ["date", "country", "site", "vertical", "segment", "package", "metric",
+               "value", "unit", "is_sample", "valid_days"]
+
+
+def weekly_rollup(listings: list[dict]) -> list[dict]:
+    """facts/listings.csv at a weekly grain, small enough to sit whole in a Claude
+    project's context (the daily file is ~225k tokens). Daily series become the
+    mean of their clean days in the ISO week (Monday date); weekly series pass
+    through unchanged; one-off manual points are left out."""
+    groups: dict[tuple, list] = defaultdict(list)
+    out = []
+    for r in listings:
+        if r["grain"] == "weekly":
+            out.append({**r, "valid_days": ""})
+        elif r["grain"] == "daily" and not r["quality_flag"]:
+            d = date.fromisoformat(r["date"])
+            monday = (d - timedelta(days=d.weekday())).isoformat()
+            key = (monday, r["country"], r["site"], r["vertical"], r["segment"], r["metric"], r["unit"])
+            groups[key].append(float(r["value"]))
+    for (monday, country, site, vertical, segment, metric, unit), vals in groups.items():
+        if len(vals) < MIN_DAYS.get(metric, 2):
+            continue
+        out.append({"date": monday, "grain": "weekly", "country": country, "site": site,
+                    "vertical": vertical, "segment": segment, "package": "", "metric": metric,
+                    "value": fmt(round(mean(vals), 1)), "unit": unit, "is_sample": 0,
+                    "quality_flag": "", "valid_days": len(vals)})
+    out.sort(key=lambda r: (r["date"], r["site"], r["vertical"], r["segment"],
+                            r["package"], r["metric"]))
+    return out
+
+
 # ── digest ───────────────────────────────────────────────────────────────────
 
 def _pct(new, old):
@@ -396,6 +435,7 @@ def build(src: Path, out: Path, now: Optional[datetime] = None) -> None:
     articles = news(src)
 
     n = write_csv(out / "facts/listings.csv", LISTING_COLS, listings)
+    write_csv(out / "facts/listings_weekly.csv", WEEKLY_COLS, weekly_rollup(listings))
     if not have_changes:
         # Keep the previous file; the digest still reads it.
         price_changes = [{**r, "quality_flag": r.get("quality_flag", "")}

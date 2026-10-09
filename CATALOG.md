@@ -9,6 +9,7 @@ own. **Read `digest/latest.md` first, then `events.csv` before trusting any jump
 | `digest/latest.md` | snapshot | what moved, what broke, price changes and news, last 30 days |
 | `events.csv` | one row per known event | outages, glitches, methodology breaks, fixed bugs. Hand-maintained |
 | `facts/listings.csv` | one row per series × date × metric | every count series, in one long table |
+| `facts/listings_weekly.csv` | one row per series × ISO week × metric | the same at a weekly grain, ~39k tokens: **the file a Claude project holds**. Daily series = mean of clean days (stock needs 2, new listings 4, as the BigQuery `weekly_avg` view); weekly series pass through; dates are Mondays; `valid_days` says how many days fed the mean |
 | `facts/prices.csv` | one row per price-row state | price lists over time: `new`, `changed`, `removed` |
 | `facts/price_changes.csv` | one row per changed price field | old, new, % change |
 | `facts/news.csv` | one row per article | B2B blog posts from finn and blocket |

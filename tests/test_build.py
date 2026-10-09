@@ -88,6 +88,20 @@ class BuildTest(unittest.TestCase):
         frac = {(r["site"], r["date"]): r["value"] for r in rows if r["metric"] == "sample_fraction"}
         self.assertEqual(frac, {("blocket.se", "2026-05-11"): "0.05", ("finn.no", "2026-09-28"): "0.1"})
 
+    def test_weekly_rollup(self):
+        self._build()
+        weekly = _read(self.out / "facts/listings_weekly.csv")
+        finn = {r["date"]: r for r in weekly
+                if r["site"] == "finn.no" and r["metric"] == "listings" and r["vertical"] == "mobility_cars"}
+        # 2026-09-07 is a Monday: days 6..12 of the fixture carry 1006..1012
+        self.assertEqual(finn["2026-09-07"]["value"], "1009")
+        self.assertEqual(finn["2026-09-07"]["valid_days"], "7")
+        # the outlier-flagged last day is not averaged in
+        blk = [r for r in weekly if r["site"] == "blocket.se" and r["metric"] == "listings"]
+        self.assertEqual(blk[-1]["valid_days"], "3")    # Mon Oct 5-7 clean, Oct 8 flagged
+        # weekly package rows pass through
+        self.assertTrue(any(r["metric"] == "package_share" for r in weekly))
+
     def test_same_day_runs_keep_later(self):
         rows = self._build()
         large = [r for r in rows if r["metric"] == "package_count" and r["package"] == "large"]
