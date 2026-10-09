@@ -1,6 +1,6 @@
 # Vend market digest
 
-Generated 2026-10-09 11:07 UTC. Data up to **2026-10-08**.
+Generated 2026-10-09 11:23 UTC. Data up to **2026-10-08**.
 Read `CATALOG.md` for what each series means and `events.csv` before trusting a jump.
 
 ## Series with no value today
@@ -80,4 +80,4 @@ None (excluding glitches listed in `events.csv`).
 - **E13** 2026-09-15→2026-09-17 · hemnet.se real_estate_homes · info: Cloudflare bot challenge (HTTP 403) on the filtered page; new listings NULL three nights.
 - **E14** 2026-09-26→2026-10-08 · hemnet.se real_estate_homes* · info: Cloudflare challenges intermittently NULL either hemnet count (2026-09-26 and 2026-10-06 to 10-08).
 - **E15** 2026-10-02→2026-10-03 · finn.no jobs · exclude: All 8 finn_jobb prices read 10 000 kr on 2026-10-02 and reverted on 2026-10-03: a calculator placeholder, not a price change. Both days are excluded; the net change is zero.
-- **E16** 2026-10-06→ongoing · * * · info: Upstream outlier filter (all-time mean ± 3 std dev) blanks genuine values on trending series: biltorvet.dk cars private and blocket.se mobility_other private since 2026-10-06. Raw values are kept in facts/listings.csv with quality_flag=outlier.
+- **E16** 2026-10-06→2026-10-08 · * * · info: Upstream outlier filter (all-time mean ± 3 std dev) blanked genuine values on trending series: biltorvet.dk cars private and blocket.se mobility_other private, 2026-10-06 to 10-08. Fixed 2026-10-09 (vend-scraper-v2 PR #11): a stock value is now blanked only if it is also a sudden break from its recent level. The values reappear in the next export.
