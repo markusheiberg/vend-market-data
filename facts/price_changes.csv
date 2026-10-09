@@ -1,17 +1,1 @@
 observed_date,country,site,vertical,currency,source,year,category,subcategory,package,geo,unit_range,field,old_value,new_value,change_pct,quality_flag,observed_at
-2026-10-02,NO,finn.no,jobs,NOK,finn_jobb,2026,jobb,Heltid- og lederstilling,Kategori 1,,,price_from_nok,10400,10000,-3.85,exclude:E15,2026-10-02T04:00:39.825989+00:00
-2026-10-02,NO,finn.no,jobs,NOK,finn_jobb,2026,jobb,Heltid- og lederstilling,Kategori 2,,,price_from_nok,10900,10000,-8.26,exclude:E15,2026-10-02T04:00:39.825989+00:00
-2026-10-02,NO,finn.no,jobs,NOK,finn_jobb,2026,jobb,Heltid- og lederstilling,Kategori 3,,,price_from_nok,13600,10000,-26.47,exclude:E15,2026-10-02T04:00:39.825989+00:00
-2026-10-02,NO,finn.no,jobs,NOK,finn_jobb,2026,jobb,Heltid- og lederstilling,Kategori 4,,,price_from_nok,14800,10000,-32.43,exclude:E15,2026-10-02T04:00:39.825989+00:00
-2026-10-02,NO,finn.no,jobs,NOK,finn_jobb,2026,jobb,Deltidstilling,Kategori 1,,,price_from_nok,8320,10000,20.19,exclude:E15,2026-10-02T04:00:39.825989+00:00
-2026-10-02,NO,finn.no,jobs,NOK,finn_jobb,2026,jobb,Deltidstilling,Kategori 2,,,price_from_nok,8720,10000,14.68,exclude:E15,2026-10-02T04:00:39.825989+00:00
-2026-10-02,NO,finn.no,jobs,NOK,finn_jobb,2026,jobb,Deltidstilling,Kategori 3,,,price_from_nok,10880,10000,-8.09,exclude:E15,2026-10-02T04:00:39.825989+00:00
-2026-10-02,NO,finn.no,jobs,NOK,finn_jobb,2026,jobb,Deltidstilling,Kategori 4,,,price_from_nok,11840,10000,-15.54,exclude:E15,2026-10-02T04:00:39.825989+00:00
-2026-10-03,NO,finn.no,jobs,NOK,finn_jobb,2026,jobb,Heltid- og lederstilling,Kategori 1,,,price_from_nok,10000,10400,4.0,exclude:E15,2026-10-03T04:00:16.333313+00:00
-2026-10-03,NO,finn.no,jobs,NOK,finn_jobb,2026,jobb,Heltid- og lederstilling,Kategori 2,,,price_from_nok,10000,10900,9.0,exclude:E15,2026-10-03T04:00:16.333313+00:00
-2026-10-03,NO,finn.no,jobs,NOK,finn_jobb,2026,jobb,Heltid- og lederstilling,Kategori 3,,,price_from_nok,10000,13600,36.0,exclude:E15,2026-10-03T04:00:16.333313+00:00
-2026-10-03,NO,finn.no,jobs,NOK,finn_jobb,2026,jobb,Heltid- og lederstilling,Kategori 4,,,price_from_nok,10000,14800,48.0,exclude:E15,2026-10-03T04:00:16.333313+00:00
-2026-10-03,NO,finn.no,jobs,NOK,finn_jobb,2026,jobb,Deltidstilling,Kategori 1,,,price_from_nok,10000,8320,-16.8,exclude:E15,2026-10-03T04:00:16.333313+00:00
-2026-10-03,NO,finn.no,jobs,NOK,finn_jobb,2026,jobb,Deltidstilling,Kategori 2,,,price_from_nok,10000,8720,-12.8,exclude:E15,2026-10-03T04:00:16.333313+00:00
-2026-10-03,NO,finn.no,jobs,NOK,finn_jobb,2026,jobb,Deltidstilling,Kategori 3,,,price_from_nok,10000,10880,8.8,exclude:E15,2026-10-03T04:00:16.333313+00:00
-2026-10-03,NO,finn.no,jobs,NOK,finn_jobb,2026,jobb,Deltidstilling,Kategori 4,,,price_from_nok,10000,11840,18.4,exclude:E15,2026-10-03T04:00:16.333313+00:00
