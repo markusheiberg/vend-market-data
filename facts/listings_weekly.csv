@@ -701,7 +701,7 @@ date,country,site,vertical,segment,package,metric,value,unit,is_sample,valid_day
 2026-05-04,NO,finn.no,real_estate_homes,,,listings,20117,listings,0,7
 2026-05-04,NO,finn.no,real_estate_homes,,,new_listings,602,listings,0,7
 2026-05-04,NO,hjem.no,real_estate_homes,,,listings,8345,listings,0,7
-2026-05-04,SE,tradera.com,mobility_cars,dealer,,listings,23562,listings,0,6
+2026-05-04,SE,tradera.com,mobility_cars,dealer,,listings,22490.1,listings,0,7
 2026-05-04,SE,tradera.com,mobility_cars,private,,listings,1867.3,listings,0,7
 2026-05-04,SE,wayke.se,mobility_cars,dealer,,listings,51130.9,listings,0,7
 2026-05-11,DK,bilbasen.dk,mobility_cars,dealer,,listings,43325.3,listings,0,7
@@ -1649,6 +1649,9 @@ date,country,site,vertical,segment,package,metric,value,unit,is_sample,valid_day
 2026-08-24,DK,bilbasen.dk,mobility_cars,private,,listings,3965.9,listings,0,7
 2026-08-24,DK,bilhandel.dk,mobility_cars,dealer,,listings,26031.3,listings,0,7
 2026-08-24,DK,bilhandel.dk,mobility_cars,private,,listings,2080.3,listings,0,7
+2026-08-24,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,56,days,0,
+2026-08-24,DK,bilinfo.dk,mobility_cars,,,supply_cars,51200,listings,0,
+2026-08-24,DK,bilinfo.dk,mobility_cars,,,visits,436000,visitors,0,
 2026-08-24,DK,biltorvet.dk,mobility_cars,dealer,,listings,43494.4,listings,0,7
 2026-08-24,DK,biltorvet.dk,mobility_cars,private,,listings,1624.1,listings,0,7
 2026-08-24,SE,blocket.se,mobility_cars,dealer,,listings,117827,listings,0,7
@@ -1712,6 +1715,9 @@ date,country,site,vertical,segment,package,metric,value,unit,is_sample,valid_day
 2026-08-31,DK,bilbasen.dk,mobility_cars,private,,listings,3911.9,listings,0,7
 2026-08-31,DK,bilhandel.dk,mobility_cars,dealer,,listings,25720.1,listings,0,7
 2026-08-31,DK,bilhandel.dk,mobility_cars,private,,listings,2077.4,listings,0,7
+2026-08-31,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,56,days,0,
+2026-08-31,DK,bilinfo.dk,mobility_cars,,,supply_cars,51400,listings,0,
+2026-08-31,DK,bilinfo.dk,mobility_cars,,,visits,427000,visitors,0,
 2026-08-31,DK,biltorvet.dk,mobility_cars,dealer,,listings,43595,listings,0,7
 2026-08-31,DK,biltorvet.dk,mobility_cars,private,,listings,1640.1,listings,0,7
 2026-08-31,SE,blocket.se,mobility_cars,dealer,,listings,119018.9,listings,0,7
@@ -1775,6 +1781,9 @@ date,country,site,vertical,segment,package,metric,value,unit,is_sample,valid_day
 2026-09-07,DK,bilbasen.dk,mobility_cars,private,,listings,3992.4,listings,0,7
 2026-09-07,DK,bilhandel.dk,mobility_cars,dealer,,listings,26170.6,listings,0,7
 2026-09-07,DK,bilhandel.dk,mobility_cars,private,,listings,2106.1,listings,0,7
+2026-09-07,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,57,days,0,
+2026-09-07,DK,bilinfo.dk,mobility_cars,,,supply_cars,51600,listings,0,
+2026-09-07,DK,bilinfo.dk,mobility_cars,,,visits,418000,visitors,0,
 2026-09-07,DK,biltorvet.dk,mobility_cars,dealer,,listings,43919,listings,0,7
 2026-09-07,DK,biltorvet.dk,mobility_cars,private,,listings,1693.9,listings,0,7
 2026-09-07,SE,blocket.se,mobility_cars,dealer,,listings,121021.3,listings,0,7
@@ -1838,6 +1847,9 @@ date,country,site,vertical,segment,package,metric,value,unit,is_sample,valid_day
 2026-09-14,DK,bilbasen.dk,mobility_cars,private,,listings,4071.3,listings,0,7
 2026-09-14,DK,bilhandel.dk,mobility_cars,dealer,,listings,26496,listings,0,7
 2026-09-14,DK,bilhandel.dk,mobility_cars,private,,listings,2134.3,listings,0,7
+2026-09-14,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,57,days,0,
+2026-09-14,DK,bilinfo.dk,mobility_cars,,,supply_cars,51800,listings,0,
+2026-09-14,DK,bilinfo.dk,mobility_cars,,,visits,426000,visitors,0,
 2026-09-14,DK,biltorvet.dk,mobility_cars,dealer,,listings,44131.9,listings,0,7
 2026-09-14,DK,biltorvet.dk,mobility_cars,private,,listings,1750.1,listings,0,7
 2026-09-14,SE,blocket.se,mobility_cars,dealer,,listings,122475.3,listings,0,7
@@ -1901,6 +1913,9 @@ date,country,site,vertical,segment,package,metric,value,unit,is_sample,valid_day
 2026-09-21,DK,bilbasen.dk,mobility_cars,private,,listings,4141.7,listings,0,7
 2026-09-21,DK,bilhandel.dk,mobility_cars,dealer,,listings,26496.9,listings,0,7
 2026-09-21,DK,bilhandel.dk,mobility_cars,private,,listings,2160,listings,0,7
+2026-09-21,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,57,days,0,
+2026-09-21,DK,bilinfo.dk,mobility_cars,,,supply_cars,51600,listings,0,
+2026-09-21,DK,bilinfo.dk,mobility_cars,,,visits,422000,visitors,0,
 2026-09-21,DK,biltorvet.dk,mobility_cars,dealer,,listings,44183.7,listings,0,7
 2026-09-21,DK,biltorvet.dk,mobility_cars,private,,listings,1849.9,listings,0,7
 2026-09-21,SE,blocket.se,mobility_cars,dealer,,listings,123121.3,listings,0,7
@@ -1964,6 +1979,9 @@ date,country,site,vertical,segment,package,metric,value,unit,is_sample,valid_day
 2026-09-28,DK,bilbasen.dk,mobility_cars,private,,listings,4236,listings,0,7
 2026-09-28,DK,bilhandel.dk,mobility_cars,dealer,,listings,26846.4,listings,0,7
 2026-09-28,DK,bilhandel.dk,mobility_cars,private,,listings,2188,listings,0,7
+2026-09-28,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,57,days,0,
+2026-09-28,DK,bilinfo.dk,mobility_cars,,,supply_cars,51400,listings,0,
+2026-09-28,DK,bilinfo.dk,mobility_cars,,,visits,419000,visitors,0,
 2026-09-28,DK,biltorvet.dk,mobility_cars,dealer,,listings,44446.3,listings,0,7
 2026-09-28,DK,biltorvet.dk,mobility_cars,private,,listings,1985.6,listings,0,7
 2026-09-28,SE,blocket.se,mobility_cars,dealer,,listings,123440.4,listings,0,7
@@ -2028,12 +2046,14 @@ date,country,site,vertical,segment,package,metric,value,unit,is_sample,valid_day
 2026-10-05,DK,bilhandel.dk,mobility_cars,dealer,,listings,27367.2,listings,0,4
 2026-10-05,DK,bilhandel.dk,mobility_cars,private,,listings,2221.2,listings,0,4
 2026-10-05,DK,biltorvet.dk,mobility_cars,dealer,,listings,44664.5,listings,0,4
+2026-10-05,DK,biltorvet.dk,mobility_cars,private,,listings,2070.5,listings,0,4
 2026-10-05,SE,blocket.se,mobility_cars,dealer,,listings,124638.5,listings,0,4
 2026-10-05,SE,blocket.se,mobility_cars,dealer,,new_listings,5393,listings,0,4
 2026-10-05,SE,blocket.se,mobility_cars,private,,listings,26774.2,listings,0,4
 2026-10-05,SE,blocket.se,mobility_cars,private,,new_listings,1178.2,listings,0,4
 2026-10-05,SE,blocket.se,mobility_other,dealer,,listings,63765.2,listings,0,4
 2026-10-05,SE,blocket.se,mobility_other,dealer,,new_listings,1654.8,listings,0,4
+2026-10-05,SE,blocket.se,mobility_other,private,,listings,19038.8,listings,0,4
 2026-10-05,SE,blocket.se,mobility_other,private,,new_listings,466.2,listings,0,4
 2026-10-05,FI,etuovi.com,real_estate_homes,,,listings,52007.8,listings,0,4
 2026-10-05,FI,etuovi.com,real_estate_homes,,,new_listings,415,listings,0,4

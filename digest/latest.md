@@ -1,6 +1,6 @@
 # Vend market digest
 
-Generated 2026-10-09 11:51 UTC. Data up to **2026-10-08**.
+Generated 2026-10-09 12:17 UTC. Data up to **2026-10-08**.
 Read `CATALOG.md` for what each series means and `events.csv` before trusting a jump.
 
 ## Series with no value today
@@ -8,15 +8,6 @@ Read `CATALOG.md` for what each series means and `events.csv` before trusting a 
 - hemnet.se · real_estate_homes · - · listings
 - hemnet.se · real_estate_homes · - · new_listings
 - hemnet.se · real_estate_homes_upcoming · - · listings
-
-## Series blanked by the outlier filter today
-
-The scrape returned a value but `daily_filtered` nulled it as >3 std dev from
-the series' all-time mean. On a trending series that is usually a real move,
-not a bad scrape: compare against the days before in `facts/listings.csv`.
-
-- biltorvet.dk · mobility_cars · private · listings
-- blocket.se · mobility_other · private · listings
 
 ## Listings stock (daily series)
 
@@ -31,11 +22,11 @@ outlier filter (raw shown). ⚠️ = latest value older than a day.
 | bilhandel.dk | mobility_cars | dealer | 27 585 | 2026-10-08 | +3.2% | +5.7% |
 | bilhandel.dk | mobility_cars | private | 2 226 | 2026-10-08 | +1.8% | +5.9% |
 | biltorvet.dk | mobility_cars | dealer | 44 903 | 2026-10-08 | +1.1% | +2.4% |
-| biltorvet.dk | mobility_cars | private | 2 092 † | 2026-10-08 | +5.6% | +22.7% |
+| biltorvet.dk | mobility_cars | private | 2 092 | 2026-10-08 | +5.6% | +22.7% |
 | blocket.se | mobility_cars | dealer | 125 564 | 2026-10-08 | +0.8% | +3.4% |
 | blocket.se | mobility_cars | private | 26 757 | 2026-10-08 | +1.6% | +5.0% |
 | blocket.se | mobility_other | dealer | 63 056 | 2026-10-08 | -0.1% | +2.0% |
-| blocket.se | mobility_other | private | 18 670 † | 2026-10-08 | -7.3% | -20.9% |
+| blocket.se | mobility_other | private | 18 670 | 2026-10-08 | -7.3% | -20.9% |
 | etuovi.com | real_estate_homes | - | 51 993 | 2026-10-08 | -0.7% | -1.0% |
 | finn.no | jobs_listings | - | 14 523 | 2026-10-08 | -4.7% | -2.1% |
 | finn.no | jobs_positions | - | 29 242 | 2026-10-08 | -5.0% | -1.3% |
