@@ -1,509 +1,915 @@
 date,grain,country,site,vertical,segment,package,metric,value,unit,is_sample,quality_flag,source
 2022-08-22,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,38,days,0,,vend-scraper-v2/bilinfo_weekly
+2022-08-22,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,9879,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2022-08-22,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9579,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2022-08-22,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,52000,listings,0,,vend-scraper-v2/bilinfo_weekly
 2022-08-22,weekly,DK,bilinfo.dk,mobility_cars,,,visits,742000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2022-08-29,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,38,days,0,,vend-scraper-v2/bilinfo_weekly
+2022-08-29,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,11034,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2022-08-29,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9634,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2022-08-29,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,52300,listings,0,,vend-scraper-v2/bilinfo_weekly
 2022-08-29,weekly,DK,bilinfo.dk,mobility_cars,,,visits,727000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2022-09-05,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,39,days,0,,vend-scraper-v2/bilinfo_weekly
+2022-09-05,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,10238,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2022-09-05,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9638,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2022-09-05,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,53700,listings,0,,vend-scraper-v2/bilinfo_weekly
 2022-09-05,weekly,DK,bilinfo.dk,mobility_cars,,,visits,733000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2022-09-12,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,39,days,0,,vend-scraper-v2/bilinfo_weekly
+2022-09-12,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,10246,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2022-09-12,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9746,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2022-09-12,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,54300,listings,0,,vend-scraper-v2/bilinfo_weekly
 2022-09-12,weekly,DK,bilinfo.dk,mobility_cars,,,visits,708000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2022-09-19,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,40,days,0,,vend-scraper-v2/bilinfo_weekly
+2022-09-19,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,10090,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2022-09-19,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9590,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2022-09-19,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,54800,listings,0,,vend-scraper-v2/bilinfo_weekly
 2022-09-19,weekly,DK,bilinfo.dk,mobility_cars,,,visits,691000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2022-09-26,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,40,days,0,,vend-scraper-v2/bilinfo_weekly
+2022-09-26,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,11478,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2022-09-26,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9678,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2022-09-26,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,55300,listings,0,,vend-scraper-v2/bilinfo_weekly
 2022-09-26,weekly,DK,bilinfo.dk,mobility_cars,,,visits,692000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2022-10-03,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,41,days,0,,vend-scraper-v2/bilinfo_weekly
+2022-10-03,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,10299,cars_per_week,0,interpolated,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2022-10-03,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9749,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2022-10-03,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,57100,listings,0,,vend-scraper-v2/bilinfo_weekly
 2022-10-03,weekly,DK,bilinfo.dk,mobility_cars,,,visits,688000,visitors,0,,vend-scraper-v2/bilinfo_weekly
+2022-10-10,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,41,days,0,interpolated,vend-scraper-v2/bilinfo_weekly
+2022-10-10,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,10393,cars_per_week,0,interpolated,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2022-10-10,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9843,cars_per_week,0,interpolated,vend-market-data: supply_cars x 7 / avg_days_to_sell
+2022-10-10,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,57650,listings,0,interpolated,vend-scraper-v2/bilinfo_weekly
 2022-10-17,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,41,days,0,,vend-scraper-v2/bilinfo_weekly
+2022-10-17,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,10237,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2022-10-17,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9937,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2022-10-17,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,58200,listings,0,,vend-scraper-v2/bilinfo_weekly
 2022-10-17,weekly,DK,bilinfo.dk,mobility_cars,,,visits,710000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2022-10-24,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,42,days,0,,vend-scraper-v2/bilinfo_weekly
+2022-10-24,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,10350,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2022-10-24,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9750,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2022-10-24,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,58500,listings,0,,vend-scraper-v2/bilinfo_weekly
 2022-10-24,weekly,DK,bilinfo.dk,mobility_cars,,,visits,688000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2022-10-31,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,42,days,0,,vend-scraper-v2/bilinfo_weekly
+2022-10-31,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,10150,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2022-10-31,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9850,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2022-10-31,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,59100,listings,0,,vend-scraper-v2/bilinfo_weekly
 2022-10-31,weekly,DK,bilinfo.dk,mobility_cars,,,visits,718000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2022-11-07,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,43,days,0,,vend-scraper-v2/bilinfo_weekly
+2022-11-07,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,9870,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2022-11-07,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9670,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2022-11-07,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,59400,listings,0,,vend-scraper-v2/bilinfo_weekly
 2022-11-07,weekly,DK,bilinfo.dk,mobility_cars,,,visits,721000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2022-11-14,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,44,days,0,,vend-scraper-v2/bilinfo_weekly
+2022-11-14,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,9282,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2022-11-14,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9482,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2022-11-14,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,59600,listings,0,,vend-scraper-v2/bilinfo_weekly
 2022-11-14,weekly,DK,bilinfo.dk,mobility_cars,,,visits,702000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2022-11-21,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,44,days,0,,vend-scraper-v2/bilinfo_weekly
+2022-11-21,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,9450,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2022-11-21,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9450,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2022-11-21,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,59400,listings,0,,vend-scraper-v2/bilinfo_weekly
 2022-11-21,weekly,DK,bilinfo.dk,mobility_cars,,,visits,682000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2022-11-28,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,45,days,0,,vend-scraper-v2/bilinfo_weekly
+2022-11-28,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,9040,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2022-11-28,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9240,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2022-11-28,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,59400,listings,0,,vend-scraper-v2/bilinfo_weekly
 2022-11-28,weekly,DK,bilinfo.dk,mobility_cars,,,visits,702000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2022-12-05,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,45,days,0,,vend-scraper-v2/bilinfo_weekly
+2022-12-05,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,8809,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2022-12-05,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9209,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2022-12-05,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,59200,listings,0,,vend-scraper-v2/bilinfo_weekly
 2022-12-05,weekly,DK,bilinfo.dk,mobility_cars,,,visits,688000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2022-12-12,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,45,days,0,,vend-scraper-v2/bilinfo_weekly
+2022-12-12,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,9547,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2022-12-12,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9147,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2022-12-12,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,58800,listings,0,,vend-scraper-v2/bilinfo_weekly
 2022-12-12,weekly,DK,bilinfo.dk,mobility_cars,,,visits,667000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2022-12-19,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,46,days,0,,vend-scraper-v2/bilinfo_weekly
+2022-12-19,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,8409,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2022-12-19,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9009,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2022-12-19,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,59200,listings,0,,vend-scraper-v2/bilinfo_weekly
 2022-12-19,weekly,DK,bilinfo.dk,mobility_cars,,,visits,701000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2022-12-26,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,46,days,0,,vend-scraper-v2/bilinfo_weekly
+2022-12-26,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,8317,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2022-12-26,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,8917,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2022-12-26,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,58600,listings,0,,vend-scraper-v2/bilinfo_weekly
 2022-12-26,weekly,DK,bilinfo.dk,mobility_cars,,,visits,685000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2023-01-02,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,47,days,0,,vend-scraper-v2/bilinfo_weekly
+2023-01-02,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,8238,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2023-01-02,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,8638,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2023-01-02,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,58000,listings,0,,vend-scraper-v2/bilinfo_weekly
 2023-01-02,weekly,DK,bilinfo.dk,mobility_cars,,,visits,722000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2023-01-09,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,47,days,0,,vend-scraper-v2/bilinfo_weekly
+2023-01-09,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,8279,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2023-01-09,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,8579,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2023-01-09,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,57600,listings,0,,vend-scraper-v2/bilinfo_weekly
 2023-01-09,weekly,DK,bilinfo.dk,mobility_cars,,,visits,885000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2023-01-16,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,48,days,0,,vend-scraper-v2/bilinfo_weekly
+2023-01-16,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,8456,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2023-01-16,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,8356,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2023-01-16,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,57300,listings,0,,vend-scraper-v2/bilinfo_weekly
 2023-01-16,weekly,DK,bilinfo.dk,mobility_cars,,,visits,902000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2023-01-23,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,48,days,0,,vend-scraper-v2/bilinfo_weekly
+2023-01-23,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,8571,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2023-01-23,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,8371,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2023-01-23,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,57400,listings,0,,vend-scraper-v2/bilinfo_weekly
 2023-01-23,weekly,DK,bilinfo.dk,mobility_cars,,,visits,849000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2023-01-30,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,49,days,0,,vend-scraper-v2/bilinfo_weekly
+2023-01-30,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,8329,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2023-01-30,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,8229,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2023-01-30,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,57600,listings,0,,vend-scraper-v2/bilinfo_weekly
 2023-01-30,weekly,DK,bilinfo.dk,mobility_cars,,,visits,791000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2023-02-06,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,49,days,0,,vend-scraper-v2/bilinfo_weekly
+2023-02-06,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,8143,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2023-02-06,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,8243,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2023-02-06,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,57700,listings,0,,vend-scraper-v2/bilinfo_weekly
 2023-02-06,weekly,DK,bilinfo.dk,mobility_cars,,,visits,782000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2023-02-13,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,50,days,0,,vend-scraper-v2/bilinfo_weekly
+2023-02-13,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,7864,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2023-02-13,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,8064,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2023-02-13,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,57600,listings,0,,vend-scraper-v2/bilinfo_weekly
 2023-02-13,weekly,DK,bilinfo.dk,mobility_cars,,,visits,788000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2023-02-20,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,50,days,0,,vend-scraper-v2/bilinfo_weekly
+2023-02-20,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,8236,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2023-02-20,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,8036,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2023-02-20,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,57400,listings,0,,vend-scraper-v2/bilinfo_weekly
 2023-02-20,weekly,DK,bilinfo.dk,mobility_cars,,,visits,811000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2023-02-27,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,51,days,0,,vend-scraper-v2/bilinfo_weekly
+2023-02-27,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,8206,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2023-02-27,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,7906,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2023-02-27,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,57600,listings,0,,vend-scraper-v2/bilinfo_weekly
 2023-02-27,weekly,DK,bilinfo.dk,mobility_cars,,,visits,792000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2023-03-06,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,51,days,0,,vend-scraper-v2/bilinfo_weekly
+2023-03-06,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,8047,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2023-03-06,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,7947,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2023-03-06,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,57900,listings,0,,vend-scraper-v2/bilinfo_weekly
 2023-03-06,weekly,DK,bilinfo.dk,mobility_cars,,,visits,762000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2023-03-13,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,51,days,0,,vend-scraper-v2/bilinfo_weekly
+2023-03-13,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,7961,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2023-03-13,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,7961,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2023-03-13,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,58000,listings,0,,vend-scraper-v2/bilinfo_weekly
 2023-03-13,weekly,DK,bilinfo.dk,mobility_cars,,,visits,764000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2023-03-20,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,51,days,0,,vend-scraper-v2/bilinfo_weekly
+2023-03-20,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,7761,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2023-03-20,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,7961,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2023-03-20,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,58000,listings,0,,vend-scraper-v2/bilinfo_weekly
 2023-03-20,weekly,DK,bilinfo.dk,mobility_cars,,,visits,769000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2023-03-27,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,52,days,0,,vend-scraper-v2/bilinfo_weekly
+2023-03-27,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,7881,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2023-03-27,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,7781,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2023-03-27,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,57800,listings,0,,vend-scraper-v2/bilinfo_weekly
 2023-03-27,weekly,DK,bilinfo.dk,mobility_cars,,,visits,712000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2023-04-03,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,52,days,0,,vend-scraper-v2/bilinfo_weekly
+2023-04-03,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,7794,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2023-04-03,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,7794,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2023-04-03,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,57900,listings,0,,vend-scraper-v2/bilinfo_weekly
 2023-04-03,weekly,DK,bilinfo.dk,mobility_cars,,,visits,699000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2023-04-10,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,52,days,0,,vend-scraper-v2/bilinfo_weekly
+2023-04-10,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,7694,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2023-04-10,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,7794,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2023-04-10,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,57900,listings,0,,vend-scraper-v2/bilinfo_weekly
 2023-04-10,weekly,DK,bilinfo.dk,mobility_cars,,,visits,761000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2023-04-17,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,52,days,0,,vend-scraper-v2/bilinfo_weekly
+2023-04-17,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,7681,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2023-04-17,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,7781,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2023-04-17,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,57800,listings,0,,vend-scraper-v2/bilinfo_weekly
 2023-04-17,weekly,DK,bilinfo.dk,mobility_cars,,,visits,734000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2023-04-24,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,52,days,0,,vend-scraper-v2/bilinfo_weekly
+2023-04-24,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,7567,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2023-04-24,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,7767,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2023-04-24,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,57700,listings,0,,vend-scraper-v2/bilinfo_weekly
 2023-04-24,weekly,DK,bilinfo.dk,mobility_cars,,,visits,714000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2023-05-01,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,52,days,0,,vend-scraper-v2/bilinfo_weekly
+2023-05-01,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,7340,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2023-05-01,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,7740,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2023-05-01,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,57500,listings,0,,vend-scraper-v2/bilinfo_weekly
 2023-05-01,weekly,DK,bilinfo.dk,mobility_cars,,,visits,718000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2023-05-08,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,52,days,0,,vend-scraper-v2/bilinfo_weekly
+2023-05-08,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,7487,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2023-05-08,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,7687,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2023-05-08,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,57100,listings,0,,vend-scraper-v2/bilinfo_weekly
 2023-05-08,weekly,DK,bilinfo.dk,mobility_cars,,,visits,702000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2023-05-15,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,51,days,0,,vend-scraper-v2/bilinfo_weekly
+2023-05-15,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,7510,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2023-05-15,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,7810,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2023-05-15,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,56900,listings,0,,vend-scraper-v2/bilinfo_weekly
 2023-05-15,weekly,DK,bilinfo.dk,mobility_cars,,,visits,708000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2023-05-22,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,51,days,0,,vend-scraper-v2/bilinfo_weekly
+2023-05-22,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,7869,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2023-05-22,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,7769,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2023-05-22,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,56600,listings,0,,vend-scraper-v2/bilinfo_weekly
 2023-05-22,weekly,DK,bilinfo.dk,mobility_cars,,,visits,722000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2023-05-29,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,51,days,0,,vend-scraper-v2/bilinfo_weekly
+2023-05-29,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,7682,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2023-05-29,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,7782,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2023-05-29,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,56700,listings,0,,vend-scraper-v2/bilinfo_weekly
 2023-05-29,weekly,DK,bilinfo.dk,mobility_cars,,,visits,695000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2023-06-05,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,50,days,0,,vend-scraper-v2/bilinfo_weekly
+2023-06-05,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,8324,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2023-06-05,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,7924,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2023-06-05,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,56600,listings,0,,vend-scraper-v2/bilinfo_weekly
 2023-06-05,weekly,DK,bilinfo.dk,mobility_cars,,,visits,661000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2023-06-12,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,50,days,0,,vend-scraper-v2/bilinfo_weekly
+2023-06-12,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,7980,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2023-06-12,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,7980,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2023-06-12,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,57000,listings,0,,vend-scraper-v2/bilinfo_weekly
 2023-06-12,weekly,DK,bilinfo.dk,mobility_cars,,,visits,732000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2023-06-19,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,49,days,0,,vend-scraper-v2/bilinfo_weekly
+2023-06-19,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,8543,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2023-06-19,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,8143,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2023-06-19,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,57000,listings,0,,vend-scraper-v2/bilinfo_weekly
 2023-06-19,weekly,DK,bilinfo.dk,mobility_cars,,,visits,744000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2023-06-26,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,49,days,0,,vend-scraper-v2/bilinfo_weekly
+2023-06-26,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,8467,cars_per_week,0,interpolated,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2023-06-26,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,8200,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2023-06-26,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,57400,listings,0,,vend-scraper-v2/bilinfo_weekly
 2023-06-26,weekly,DK,bilinfo.dk,mobility_cars,,,visits,722000,visitors,0,,vend-scraper-v2/bilinfo_weekly
+2023-07-03,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,49,days,0,interpolated,vend-scraper-v2/bilinfo_weekly
+2023-07-03,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,8505,cars_per_week,0,interpolated,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2023-07-03,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,8238,cars_per_week,0,interpolated,vend-market-data: supply_cars x 7 / avg_days_to_sell
+2023-07-03,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,57667,listings,0,interpolated,vend-scraper-v2/bilinfo_weekly
+2023-07-10,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,49,days,0,interpolated,vend-scraper-v2/bilinfo_weekly
+2023-07-10,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,8543,cars_per_week,0,interpolated,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2023-07-10,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,8276,cars_per_week,0,interpolated,vend-market-data: supply_cars x 7 / avg_days_to_sell
+2023-07-10,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,57933,listings,0,interpolated,vend-scraper-v2/bilinfo_weekly
 2023-07-17,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,49,days,0,,vend-scraper-v2/bilinfo_weekly
+2023-07-17,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,8314,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2023-07-17,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,8314,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2023-07-17,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,58200,listings,0,,vend-scraper-v2/bilinfo_weekly
 2023-07-17,weekly,DK,bilinfo.dk,mobility_cars,,,visits,718000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2023-07-24,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,49,days,0,,vend-scraper-v2/bilinfo_weekly
+2023-07-24,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,8514,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2023-07-24,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,8314,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2023-07-24,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,58200,listings,0,,vend-scraper-v2/bilinfo_weekly
 2023-07-24,weekly,DK,bilinfo.dk,mobility_cars,,,visits,721000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2023-07-31,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,49,days,0,,vend-scraper-v2/bilinfo_weekly
+2023-07-31,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,8343,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2023-07-31,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,8343,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2023-07-31,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,58400,listings,0,,vend-scraper-v2/bilinfo_weekly
 2023-07-31,weekly,DK,bilinfo.dk,mobility_cars,,,visits,754000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2023-08-07,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,48,days,0,,vend-scraper-v2/bilinfo_weekly
+2023-08-07,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,9117,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2023-08-07,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,8517,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2023-08-07,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,58400,listings,0,,vend-scraper-v2/bilinfo_weekly
 2023-08-07,weekly,DK,bilinfo.dk,mobility_cars,,,visits,784000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2023-08-14,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,48,days,0,,vend-scraper-v2/bilinfo_weekly
+2023-08-14,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,9104,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2023-08-14,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,8604,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2023-08-14,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,59000,listings,0,,vend-scraper-v2/bilinfo_weekly
 2023-08-14,weekly,DK,bilinfo.dk,mobility_cars,,,visits,759000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2023-08-21,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,48,days,0,,vend-scraper-v2/bilinfo_weekly
+2023-08-21,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,8877,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2023-08-21,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,8677,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2023-08-21,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,59500,listings,0,,vend-scraper-v2/bilinfo_weekly
 2023-08-21,weekly,DK,bilinfo.dk,mobility_cars,,,visits,732000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2023-08-28,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,48,days,0,,vend-scraper-v2/bilinfo_weekly
+2023-08-28,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,9506,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2023-08-28,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,8706,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2023-08-28,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,59700,listings,0,,vend-scraper-v2/bilinfo_weekly
 2023-08-28,weekly,DK,bilinfo.dk,mobility_cars,,,visits,741000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2023-09-04,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,47,days,0,,vend-scraper-v2/bilinfo_weekly
+2023-09-04,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,9711,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2023-09-04,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9011,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2023-09-04,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,60500,listings,0,,vend-scraper-v2/bilinfo_weekly
 2023-09-04,weekly,DK,bilinfo.dk,mobility_cars,,,visits,745000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2023-09-11,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,47,days,0,,vend-scraper-v2/bilinfo_weekly
+2023-09-11,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,9615,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2023-09-11,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9115,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2023-09-11,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,61200,listings,0,,vend-scraper-v2/bilinfo_weekly
 2023-09-11,weekly,DK,bilinfo.dk,mobility_cars,,,visits,738000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2023-09-18,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,47,days,0,,vend-scraper-v2/bilinfo_weekly
+2023-09-18,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,9389,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2023-09-18,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9189,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2023-09-18,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,61700,listings,0,,vend-scraper-v2/bilinfo_weekly
 2023-09-18,weekly,DK,bilinfo.dk,mobility_cars,,,visits,736000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2023-09-25,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,47,days,0,,vend-scraper-v2/bilinfo_weekly
+2023-09-25,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,9719,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2023-09-25,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9219,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2023-09-25,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,61900,listings,0,,vend-scraper-v2/bilinfo_weekly
 2023-09-25,weekly,DK,bilinfo.dk,mobility_cars,,,visits,727000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2023-10-02,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,47,days,0,,vend-scraper-v2/bilinfo_weekly
+2023-10-02,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,9794,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2023-10-02,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9294,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2023-10-02,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,62400,listings,0,,vend-scraper-v2/bilinfo_weekly
 2023-10-02,weekly,DK,bilinfo.dk,mobility_cars,,,visits,732000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2023-10-09,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,47,days,0,,vend-scraper-v2/bilinfo_weekly
+2023-10-09,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,9868,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2023-10-09,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9368,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2023-10-09,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,62900,listings,0,,vend-scraper-v2/bilinfo_weekly
 2023-10-09,weekly,DK,bilinfo.dk,mobility_cars,,,visits,736000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2023-10-16,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,47,days,0,,vend-scraper-v2/bilinfo_weekly
+2023-10-16,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,9843,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2023-10-16,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9443,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2023-10-16,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,63400,listings,0,,vend-scraper-v2/bilinfo_weekly
 2023-10-16,weekly,DK,bilinfo.dk,mobility_cars,,,visits,711000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2023-10-23,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,47,days,0,,vend-scraper-v2/bilinfo_weekly
+2023-10-23,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,9802,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2023-10-23,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9502,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2023-10-23,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,63800,listings,0,,vend-scraper-v2/bilinfo_weekly
 2023-10-23,weekly,DK,bilinfo.dk,mobility_cars,,,visits,731000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2023-10-30,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,47,days,0,,vend-scraper-v2/bilinfo_weekly
+2023-10-30,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,10047,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2023-10-30,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9547,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2023-10-30,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,64100,listings,0,,vend-scraper-v2/bilinfo_weekly
 2023-10-30,weekly,DK,bilinfo.dk,mobility_cars,,,visits,722000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2023-11-06,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,46,days,0,,vend-scraper-v2/bilinfo_weekly
+2023-11-06,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,10330,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2023-11-06,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9830,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2023-11-06,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,64600,listings,0,,vend-scraper-v2/bilinfo_weekly
 2023-11-06,weekly,DK,bilinfo.dk,mobility_cars,,,visits,722000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2023-11-13,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,46,days,0,,vend-scraper-v2/bilinfo_weekly
+2023-11-13,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,10207,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2023-11-13,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9907,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2023-11-13,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,65100,listings,0,,vend-scraper-v2/bilinfo_weekly
 2023-11-13,weekly,DK,bilinfo.dk,mobility_cars,,,visits,722000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2023-11-20,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,46,days,0,,vend-scraper-v2/bilinfo_weekly
+2023-11-20,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,10152,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2023-11-20,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9952,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2023-11-20,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,65400,listings,0,,vend-scraper-v2/bilinfo_weekly
 2023-11-20,weekly,DK,bilinfo.dk,mobility_cars,,,visits,708000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2023-11-27,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,46,days,0,,vend-scraper-v2/bilinfo_weekly
+2023-11-27,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,9983,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2023-11-27,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9983,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2023-11-27,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,65600,listings,0,,vend-scraper-v2/bilinfo_weekly
 2023-11-27,weekly,DK,bilinfo.dk,mobility_cars,,,visits,702000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2023-12-04,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,46,days,0,,vend-scraper-v2/bilinfo_weekly
+2023-12-04,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,10283,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2023-12-04,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9983,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2023-12-04,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,65600,listings,0,,vend-scraper-v2/bilinfo_weekly
 2023-12-04,weekly,DK,bilinfo.dk,mobility_cars,,,visits,699000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2023-12-11,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,46,days,0,,vend-scraper-v2/bilinfo_weekly
+2023-12-11,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,10128,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2023-12-11,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,10028,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2023-12-11,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,65900,listings,0,,vend-scraper-v2/bilinfo_weekly
 2023-12-11,weekly,DK,bilinfo.dk,mobility_cars,,,visits,681000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2023-12-18,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,46,days,0,,vend-scraper-v2/bilinfo_weekly
+2023-12-18,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,9843,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2023-12-18,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,10043,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2023-12-18,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,66000,listings,0,,vend-scraper-v2/bilinfo_weekly
 2023-12-18,weekly,DK,bilinfo.dk,mobility_cars,,,visits,676000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2023-12-25,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,46,days,0,,vend-scraper-v2/bilinfo_weekly
+2023-12-25,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,9213,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2023-12-25,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,10013,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2023-12-25,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,65800,listings,0,,vend-scraper-v2/bilinfo_weekly
 2023-12-25,weekly,DK,bilinfo.dk,mobility_cars,,,visits,679000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2024-01-01,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,46,days,0,,vend-scraper-v2/bilinfo_weekly
+2024-01-01,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,9391,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2024-01-01,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9891,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2024-01-01,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,65000,listings,0,,vend-scraper-v2/bilinfo_weekly
 2024-01-01,weekly,DK,bilinfo.dk,mobility_cars,,,visits,686000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2024-01-08,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,46,days,0,,vend-scraper-v2/bilinfo_weekly
+2024-01-08,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,9415,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2024-01-08,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9815,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2024-01-08,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,64500,listings,0,,vend-scraper-v2/bilinfo_weekly
 2024-01-08,weekly,DK,bilinfo.dk,mobility_cars,,,visits,717000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2024-01-15,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,46,days,0,,vend-scraper-v2/bilinfo_weekly
+2024-01-15,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,8954,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2024-01-15,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9754,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2024-01-15,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,64100,listings,0,,vend-scraper-v2/bilinfo_weekly
 2024-01-15,weekly,DK,bilinfo.dk,mobility_cars,,,visits,749000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2024-01-22,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,46,days,0,,vend-scraper-v2/bilinfo_weekly
+2024-01-22,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,8633,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2024-01-22,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9633,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2024-01-22,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,63300,listings,0,,vend-scraper-v2/bilinfo_weekly
 2024-01-22,weekly,DK,bilinfo.dk,mobility_cars,,,visits,758000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2024-01-29,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,46,days,0,,vend-scraper-v2/bilinfo_weekly
+2024-01-29,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,8980,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2024-01-29,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9480,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2024-01-29,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,62300,listings,0,,vend-scraper-v2/bilinfo_weekly
 2024-01-29,weekly,DK,bilinfo.dk,mobility_cars,,,visits,692000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2024-02-05,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,46,days,0,,vend-scraper-v2/bilinfo_weekly
+2024-02-05,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,9404,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2024-02-05,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9404,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2024-02-05,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,61800,listings,0,,vend-scraper-v2/bilinfo_weekly
 2024-02-05,weekly,DK,bilinfo.dk,mobility_cars,,,visits,661000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2024-02-12,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,45,days,0,,vend-scraper-v2/bilinfo_weekly
+2024-02-12,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,8613,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2024-02-12,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9613,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2024-02-12,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,61800,listings,0,,vend-scraper-v2/bilinfo_weekly
 2024-02-12,weekly,DK,bilinfo.dk,mobility_cars,,,visits,737000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2024-02-19,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,45,days,0,,vend-scraper-v2/bilinfo_weekly
+2024-02-19,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,9058,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2024-02-19,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9458,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2024-02-19,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,60800,listings,0,,vend-scraper-v2/bilinfo_weekly
 2024-02-19,weekly,DK,bilinfo.dk,mobility_cars,,,visits,738000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2024-02-26,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,45,days,0,,vend-scraper-v2/bilinfo_weekly
+2024-02-26,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,8996,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2024-02-26,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9396,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2024-02-26,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,60400,listings,0,,vend-scraper-v2/bilinfo_weekly
 2024-02-26,weekly,DK,bilinfo.dk,mobility_cars,,,visits,748000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2024-03-04,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,45,days,0,,vend-scraper-v2/bilinfo_weekly
+2024-03-04,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,9333,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2024-03-04,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9333,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2024-03-04,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,60000,listings,0,,vend-scraper-v2/bilinfo_weekly
 2024-03-04,weekly,DK,bilinfo.dk,mobility_cars,,,visits,803000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2024-03-11,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,45,days,0,,vend-scraper-v2/bilinfo_weekly
+2024-03-11,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,9133,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2024-03-11,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9333,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2024-03-11,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,60000,listings,0,,vend-scraper-v2/bilinfo_weekly
 2024-03-11,weekly,DK,bilinfo.dk,mobility_cars,,,visits,747000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2024-03-18,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,44,days,0,,vend-scraper-v2/bilinfo_weekly
+2024-03-18,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,9514,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2024-03-18,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9514,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2024-03-18,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,59800,listings,0,,vend-scraper-v2/bilinfo_weekly
 2024-03-18,weekly,DK,bilinfo.dk,mobility_cars,,,visits,821000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2024-03-25,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,44,days,0,,vend-scraper-v2/bilinfo_weekly
+2024-03-25,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,8914,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2024-03-25,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9514,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2024-03-25,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,59800,listings,0,,vend-scraper-v2/bilinfo_weekly
 2024-03-25,weekly,DK,bilinfo.dk,mobility_cars,,,visits,823000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2024-04-01,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,44,days,0,,vend-scraper-v2/bilinfo_weekly
+2024-04-01,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,9018,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2024-04-01,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9418,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2024-04-01,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,59200,listings,0,,vend-scraper-v2/bilinfo_weekly
 2024-04-01,weekly,DK,bilinfo.dk,mobility_cars,,,visits,798000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2024-04-08,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,44,days,0,,vend-scraper-v2/bilinfo_weekly
+2024-04-08,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,9655,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2024-04-08,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9355,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2024-04-08,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,58800,listings,0,,vend-scraper-v2/bilinfo_weekly
 2024-04-08,weekly,DK,bilinfo.dk,mobility_cars,,,visits,813000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2024-04-15,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,44,days,0,,vend-scraper-v2/bilinfo_weekly
+2024-04-15,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,9802,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2024-04-15,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9402,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2024-04-15,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,59100,listings,0,,vend-scraper-v2/bilinfo_weekly
 2024-04-15,weekly,DK,bilinfo.dk,mobility_cars,,,visits,789000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2024-04-22,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,44,days,0,,vend-scraper-v2/bilinfo_weekly
+2024-04-22,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,9066,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2024-04-22,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9466,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2024-04-22,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,59500,listings,0,,vend-scraper-v2/bilinfo_weekly
 2024-04-22,weekly,DK,bilinfo.dk,mobility_cars,,,visits,894000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2024-04-29,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,44,days,0,,vend-scraper-v2/bilinfo_weekly
+2024-04-29,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,9502,cars_per_week,0,interpolated,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2024-04-29,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9402,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2024-04-29,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,59100,listings,0,,vend-scraper-v2/bilinfo_weekly
 2024-04-29,weekly,DK,bilinfo.dk,mobility_cars,,,visits,832000,visitors,0,,vend-scraper-v2/bilinfo_weekly
+2024-05-06,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,44,days,0,interpolated,vend-scraper-v2/bilinfo_weekly
+2024-05-06,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,9518,cars_per_week,0,interpolated,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2024-05-06,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9418,cars_per_week,0,interpolated,vend-market-data: supply_cars x 7 / avg_days_to_sell
+2024-05-06,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,59200,listings,0,interpolated,vend-scraper-v2/bilinfo_weekly
 2024-05-13,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,44,days,0,,vend-scraper-v2/bilinfo_weekly
+2024-05-13,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,9534,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2024-05-13,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9434,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2024-05-13,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,59300,listings,0,,vend-scraper-v2/bilinfo_weekly
 2024-05-13,weekly,DK,bilinfo.dk,mobility_cars,,,visits,769000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2024-05-20,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,44,days,0,,vend-scraper-v2/bilinfo_weekly
+2024-05-20,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,9450,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2024-05-20,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9450,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2024-05-20,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,59400,listings,0,,vend-scraper-v2/bilinfo_weekly
 2024-05-20,weekly,DK,bilinfo.dk,mobility_cars,,,visits,744000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2024-05-27,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,44,days,0,,vend-scraper-v2/bilinfo_weekly
+2024-05-27,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,9850,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2024-05-27,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9450,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2024-05-27,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,59400,listings,0,,vend-scraper-v2/bilinfo_weekly
 2024-05-27,weekly,DK,bilinfo.dk,mobility_cars,,,visits,721000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2024-06-03,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,44,days,0,,vend-scraper-v2/bilinfo_weekly
+2024-06-03,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,9714,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2024-06-03,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9514,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2024-06-03,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,59800,listings,0,,vend-scraper-v2/bilinfo_weekly
 2024-06-03,weekly,DK,bilinfo.dk,mobility_cars,,,visits,752000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2024-06-10,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,43,days,0,,vend-scraper-v2/bilinfo_weekly
+2024-06-10,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,9767,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2024-06-10,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9767,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2024-06-10,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,60000,listings,0,,vend-scraper-v2/bilinfo_weekly
 2024-06-10,weekly,DK,bilinfo.dk,mobility_cars,,,visits,721000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2024-06-17,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,43,days,0,,vend-scraper-v2/bilinfo_weekly
+2024-06-17,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,9467,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2024-06-17,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9767,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2024-06-17,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,60000,listings,0,,vend-scraper-v2/bilinfo_weekly
 2024-06-17,weekly,DK,bilinfo.dk,mobility_cars,,,visits,702000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2024-06-24,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,43,days,0,,vend-scraper-v2/bilinfo_weekly
+2024-06-24,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,9219,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2024-06-24,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9719,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2024-06-24,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,59700,listings,0,,vend-scraper-v2/bilinfo_weekly
 2024-06-24,weekly,DK,bilinfo.dk,mobility_cars,,,visits,688000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2024-07-01,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,43,days,0,,vend-scraper-v2/bilinfo_weekly
+2024-07-01,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,9237,cars_per_week,0,interpolated,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2024-07-01,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9637,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2024-07-01,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,59200,listings,0,,vend-scraper-v2/bilinfo_weekly
 2024-07-01,weekly,DK,bilinfo.dk,mobility_cars,,,visits,681000,visitors,0,,vend-scraper-v2/bilinfo_weekly
+2024-07-08,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,43.5,days,0,interpolated,vend-scraper-v2/bilinfo_weekly
+2024-07-08,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,9062,cars_per_week,0,interpolated,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2024-07-08,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9462,cars_per_week,0,interpolated,vend-market-data: supply_cars x 7 / avg_days_to_sell
+2024-07-08,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,58800,listings,0,interpolated,vend-scraper-v2/bilinfo_weekly
 2024-07-15,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,44,days,0,,vend-scraper-v2/bilinfo_weekly
+2024-07-15,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,9341,cars_per_week,0,interpolated,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2024-07-15,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9291,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2024-07-15,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,58400,listings,0,,vend-scraper-v2/bilinfo_weekly
 2024-07-15,weekly,DK,bilinfo.dk,mobility_cars,,,visits,668000,visitors,0,,vend-scraper-v2/bilinfo_weekly
+2024-07-22,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,44,days,0,interpolated,vend-scraper-v2/bilinfo_weekly
+2024-07-22,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,9349,cars_per_week,0,interpolated,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2024-07-22,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9299,cars_per_week,0,interpolated,vend-market-data: supply_cars x 7 / avg_days_to_sell
+2024-07-22,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,58450,listings,0,interpolated,vend-scraper-v2/bilinfo_weekly
 2024-07-29,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,44,days,0,,vend-scraper-v2/bilinfo_weekly
+2024-07-29,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,9407,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2024-07-29,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9307,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2024-07-29,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,58500,listings,0,,vend-scraper-v2/bilinfo_weekly
 2024-07-29,weekly,DK,bilinfo.dk,mobility_cars,,,visits,657000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2024-08-05,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,44,days,0,,vend-scraper-v2/bilinfo_weekly
+2024-08-05,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,9423,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2024-08-05,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9323,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2024-08-05,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,58600,listings,0,,vend-scraper-v2/bilinfo_weekly
 2024-08-05,weekly,DK,bilinfo.dk,mobility_cars,,,visits,703000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2024-08-12,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,44,days,0,,vend-scraper-v2/bilinfo_weekly
+2024-08-12,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,9539,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2024-08-12,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9339,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2024-08-12,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,58700,listings,0,,vend-scraper-v2/bilinfo_weekly
 2024-08-12,weekly,DK,bilinfo.dk,mobility_cars,,,visits,688000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2024-08-19,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,44,days,0,,vend-scraper-v2/bilinfo_weekly
+2024-08-19,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,9470,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2024-08-19,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9370,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2024-08-19,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,58900,listings,0,,vend-scraper-v2/bilinfo_weekly
 2024-08-19,weekly,DK,bilinfo.dk,mobility_cars,,,visits,502000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2024-08-26,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,44,days,0,,vend-scraper-v2/bilinfo_weekly
+2024-08-26,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,9586,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2024-08-26,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9386,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2024-08-26,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,59000,listings,0,,vend-scraper-v2/bilinfo_weekly
 2024-08-26,weekly,DK,bilinfo.dk,mobility_cars,,,visits,499000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2024-09-02,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,44,days,0,,vend-scraper-v2/bilinfo_weekly
+2024-09-02,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,9618,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2024-09-02,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9418,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2024-09-02,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,59200,listings,0,,vend-scraper-v2/bilinfo_weekly
 2024-09-02,weekly,DK,bilinfo.dk,mobility_cars,,,visits,481000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2024-09-09,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,44,days,0,,vend-scraper-v2/bilinfo_weekly
+2024-09-09,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,9450,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2024-09-09,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9450,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2024-09-09,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,59400,listings,0,,vend-scraper-v2/bilinfo_weekly
 2024-09-09,weekly,DK,bilinfo.dk,mobility_cars,,,visits,499000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2024-09-16,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,43,days,0,,vend-scraper-v2/bilinfo_weekly
+2024-09-16,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,9870,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2024-09-16,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9670,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2024-09-16,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,59400,listings,0,,vend-scraper-v2/bilinfo_weekly
 2024-09-16,weekly,DK,bilinfo.dk,mobility_cars,,,visits,485000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2024-09-23,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,43,days,0,,vend-scraper-v2/bilinfo_weekly
+2024-09-23,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,9702,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2024-09-23,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9702,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2024-09-23,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,59600,listings,0,,vend-scraper-v2/bilinfo_weekly
 2024-09-23,weekly,DK,bilinfo.dk,mobility_cars,,,visits,492000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2024-09-30,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,43,days,0,,vend-scraper-v2/bilinfo_weekly
+2024-09-30,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,9702,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2024-09-30,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9702,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2024-09-30,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,59600,listings,0,,vend-scraper-v2/bilinfo_weekly
 2024-09-30,weekly,DK,bilinfo.dk,mobility_cars,,,visits,478000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2024-10-07,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,43,days,0,,vend-scraper-v2/bilinfo_weekly
+2024-10-07,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,9402,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2024-10-07,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9702,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2024-10-07,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,59600,listings,0,,vend-scraper-v2/bilinfo_weekly
 2024-10-07,weekly,DK,bilinfo.dk,mobility_cars,,,visits,485000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2024-10-14,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,43,days,0,,vend-scraper-v2/bilinfo_weekly
+2024-10-14,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,9353,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2024-10-14,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9653,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2024-10-14,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,59300,listings,0,,vend-scraper-v2/bilinfo_weekly
 2024-10-14,weekly,DK,bilinfo.dk,mobility_cars,,,visits,485000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2024-10-21,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,43,days,0,,vend-scraper-v2/bilinfo_weekly
+2024-10-21,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,9205,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2024-10-21,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9605,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2024-10-21,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,59000,listings,0,,vend-scraper-v2/bilinfo_weekly
 2024-10-21,weekly,DK,bilinfo.dk,mobility_cars,,,visits,481000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2024-10-28,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,43,days,0,,vend-scraper-v2/bilinfo_weekly
+2024-10-28,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,9240,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2024-10-28,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9540,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2024-10-28,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,58600,listings,0,,vend-scraper-v2/bilinfo_weekly
 2024-10-28,weekly,DK,bilinfo.dk,mobility_cars,,,visits,456000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2024-11-04,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,43,days,0,,vend-scraper-v2/bilinfo_weekly
+2024-11-04,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,9191,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2024-11-04,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9491,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2024-11-04,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,58300,listings,0,,vend-scraper-v2/bilinfo_weekly
 2024-11-04,weekly,DK,bilinfo.dk,mobility_cars,,,visits,465000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2024-11-11,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,43,days,0,,vend-scraper-v2/bilinfo_weekly
+2024-11-11,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,9442,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2024-11-11,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9442,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2024-11-11,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,58000,listings,0,,vend-scraper-v2/bilinfo_weekly
 2024-11-11,weekly,DK,bilinfo.dk,mobility_cars,,,visits,461000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2024-11-18,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,43,days,0,,vend-scraper-v2/bilinfo_weekly
+2024-11-18,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,9642,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2024-11-18,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9442,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2024-11-18,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,58000,listings,0,,vend-scraper-v2/bilinfo_weekly
 2024-11-18,weekly,DK,bilinfo.dk,mobility_cars,,,visits,431000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2024-11-25,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,43,days,0,,vend-scraper-v2/bilinfo_weekly
+2024-11-25,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,9474,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2024-11-25,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9474,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2024-11-25,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,58200,listings,0,,vend-scraper-v2/bilinfo_weekly
 2024-11-25,weekly,DK,bilinfo.dk,mobility_cars,,,visits,429000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2024-12-02,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,43,days,0,,vend-scraper-v2/bilinfo_weekly
+2024-12-02,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,9674,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2024-12-02,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9474,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2024-12-02,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,58200,listings,0,,vend-scraper-v2/bilinfo_weekly
 2024-12-02,weekly,DK,bilinfo.dk,mobility_cars,,,visits,435000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2024-12-09,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,43,days,0,,vend-scraper-v2/bilinfo_weekly
+2024-12-09,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,9257,cars_per_week,0,interpolated,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2024-12-09,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9507,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2024-12-09,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,58400,listings,0,,vend-scraper-v2/bilinfo_weekly
 2024-12-09,weekly,DK,bilinfo.dk,mobility_cars,,,visits,452000,visitors,0,,vend-scraper-v2/bilinfo_weekly
+2024-12-16,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,43,days,0,interpolated,vend-scraper-v2/bilinfo_weekly
+2024-12-16,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,9216,cars_per_week,0,interpolated,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2024-12-16,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9466,cars_per_week,0,interpolated,vend-market-data: supply_cars x 7 / avg_days_to_sell
+2024-12-16,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,58150,listings,0,interpolated,vend-scraper-v2/bilinfo_weekly
+2024-12-23,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,43,days,0,interpolated,vend-scraper-v2/bilinfo_weekly
+2024-12-23,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,9176,cars_per_week,0,interpolated,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2024-12-23,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9426,cars_per_week,0,interpolated,vend-market-data: supply_cars x 7 / avg_days_to_sell
+2024-12-23,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,57900,listings,0,interpolated,vend-scraper-v2/bilinfo_weekly
+2024-12-30,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,43,days,0,interpolated,vend-scraper-v2/bilinfo_weekly
+2024-12-30,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,9135,cars_per_week,0,interpolated,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2024-12-30,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9385,cars_per_week,0,interpolated,vend-market-data: supply_cars x 7 / avg_days_to_sell
+2024-12-30,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,57650,listings,0,interpolated,vend-scraper-v2/bilinfo_weekly
 2025-01-06,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,43,days,0,,vend-scraper-v2/bilinfo_weekly
+2025-01-06,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,9144,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2025-01-06,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9344,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2025-01-06,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,57400,listings,0,,vend-scraper-v2/bilinfo_weekly
 2025-01-06,weekly,DK,bilinfo.dk,mobility_cars,,,visits,502000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2025-01-13,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,43,days,0,,vend-scraper-v2/bilinfo_weekly
+2025-01-13,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,9112,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2025-01-13,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9312,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2025-01-13,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,57200,listings,0,,vend-scraper-v2/bilinfo_weekly
 2025-01-13,weekly,DK,bilinfo.dk,mobility_cars,,,visits,495000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2025-01-20,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,43,days,0,,vend-scraper-v2/bilinfo_weekly
+2025-01-20,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,8879,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2025-01-20,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9279,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2025-01-20,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,57000,listings,0,,vend-scraper-v2/bilinfo_weekly
 2025-01-20,weekly,DK,bilinfo.dk,mobility_cars,,,visits,497000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2025-01-27,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,43,days,0,,vend-scraper-v2/bilinfo_weekly
+2025-01-27,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,8814,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2025-01-27,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9214,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2025-01-27,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,56600,listings,0,,vend-scraper-v2/bilinfo_weekly
 2025-01-27,weekly,DK,bilinfo.dk,mobility_cars,,,visits,491000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2025-02-03,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,43,days,0,,vend-scraper-v2/bilinfo_weekly
+2025-02-03,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,8149,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2025-02-03,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9149,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2025-02-03,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,56200,listings,0,,vend-scraper-v2/bilinfo_weekly
 2025-02-03,weekly,DK,bilinfo.dk,mobility_cars,,,visits,485000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2025-02-10,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,42,days,0,,vend-scraper-v2/bilinfo_weekly
+2025-02-10,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,9200,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2025-02-10,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9200,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2025-02-10,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,55200,listings,0,,vend-scraper-v2/bilinfo_weekly
 2025-02-10,weekly,DK,bilinfo.dk,mobility_cars,,,visits,491000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2025-02-17,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,42,days,0,,vend-scraper-v2/bilinfo_weekly
+2025-02-17,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,9900,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2025-02-17,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9200,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2025-02-17,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,55200,listings,0,,vend-scraper-v2/bilinfo_weekly
 2025-02-17,weekly,DK,bilinfo.dk,mobility_cars,,,visits,482000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2025-02-24,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,42,days,0,,vend-scraper-v2/bilinfo_weekly
+2025-02-24,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,9617,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2025-02-24,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9317,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2025-02-24,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,55900,listings,0,,vend-scraper-v2/bilinfo_weekly
 2025-02-24,weekly,DK,bilinfo.dk,mobility_cars,,,visits,477000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2025-03-03,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,42,days,0,,vend-scraper-v2/bilinfo_weekly
+2025-03-03,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,10367,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2025-03-03,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9367,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2025-03-03,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,56200,listings,0,,vend-scraper-v2/bilinfo_weekly
 2025-03-03,weekly,DK,bilinfo.dk,mobility_cars,,,visits,488000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2025-03-10,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,42,days,0,,vend-scraper-v2/bilinfo_weekly
+2025-03-10,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,9833,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2025-03-10,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9533,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2025-03-10,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,57200,listings,0,,vend-scraper-v2/bilinfo_weekly
 2025-03-10,weekly,DK,bilinfo.dk,mobility_cars,,,visits,505000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2025-03-17,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,42,days,0,,vend-scraper-v2/bilinfo_weekly
+2025-03-17,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,10183,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2025-03-17,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9583,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2025-03-17,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,57500,listings,0,,vend-scraper-v2/bilinfo_weekly
 2025-03-17,weekly,DK,bilinfo.dk,mobility_cars,,,visits,521000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2025-03-24,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,42,days,0,,vend-scraper-v2/bilinfo_weekly
+2025-03-24,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,9783,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2025-03-24,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9683,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2025-03-24,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,58100,listings,0,,vend-scraper-v2/bilinfo_weekly
 2025-03-24,weekly,DK,bilinfo.dk,mobility_cars,,,visits,509000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2025-03-31,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,42,days,0,,vend-scraper-v2/bilinfo_weekly
+2025-03-31,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,9700,cars_per_week,0,interpolated,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2025-03-31,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9700,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2025-03-31,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,58200,listings,0,,vend-scraper-v2/bilinfo_weekly
 2025-03-31,weekly,DK,bilinfo.dk,mobility_cars,,,visits,478000,visitors,0,,vend-scraper-v2/bilinfo_weekly
+2025-04-07,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,42,days,0,interpolated,vend-scraper-v2/bilinfo_weekly
+2025-04-07,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,9700,cars_per_week,0,interpolated,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2025-04-07,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9700,cars_per_week,0,interpolated,vend-market-data: supply_cars x 7 / avg_days_to_sell
+2025-04-07,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,58200,listings,0,interpolated,vend-scraper-v2/bilinfo_weekly
 2025-04-14,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,42,days,0,,vend-scraper-v2/bilinfo_weekly
+2025-04-14,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,9500,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2025-04-14,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9700,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2025-04-14,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,58200,listings,0,,vend-scraper-v2/bilinfo_weekly
 2025-04-14,weekly,DK,bilinfo.dk,mobility_cars,,,visits,476000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2025-04-21,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,42,days,0,,vend-scraper-v2/bilinfo_weekly
+2025-04-21,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,9467,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2025-04-21,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9667,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2025-04-21,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,58000,listings,0,,vend-scraper-v2/bilinfo_weekly
 2025-04-21,weekly,DK,bilinfo.dk,mobility_cars,,,visits,478000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2025-04-28,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,42,days,0,,vend-scraper-v2/bilinfo_weekly
+2025-04-28,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,9033,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2025-04-28,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9633,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2025-04-28,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,57800,listings,0,,vend-scraper-v2/bilinfo_weekly
 2025-04-28,weekly,DK,bilinfo.dk,mobility_cars,,,visits,469000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2025-05-05,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,42,days,0,,vend-scraper-v2/bilinfo_weekly
+2025-05-05,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,9333,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2025-05-05,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9533,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2025-05-05,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,57200,listings,0,,vend-scraper-v2/bilinfo_weekly
 2025-05-05,weekly,DK,bilinfo.dk,mobility_cars,,,visits,475000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2025-05-12,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,42,days,0,,vend-scraper-v2/bilinfo_weekly
+2025-05-12,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,9500,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2025-05-12,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9500,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2025-05-12,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,57000,listings,0,,vend-scraper-v2/bilinfo_weekly
 2025-05-12,weekly,DK,bilinfo.dk,mobility_cars,,,visits,479000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2025-05-19,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,42,days,0,,vend-scraper-v2/bilinfo_weekly
+2025-05-19,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,8900,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2025-05-19,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9500,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2025-05-19,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,57000,listings,0,,vend-scraper-v2/bilinfo_weekly
 2025-05-19,weekly,DK,bilinfo.dk,mobility_cars,,,visits,482000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2025-05-26,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,42,days,0,,vend-scraper-v2/bilinfo_weekly
+2025-05-26,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,8800,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2025-05-26,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9400,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2025-05-26,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,56400,listings,0,,vend-scraper-v2/bilinfo_weekly
 2025-05-26,weekly,DK,bilinfo.dk,mobility_cars,,,visits,475000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2025-06-02,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,42,days,0,,vend-scraper-v2/bilinfo_weekly
+2025-06-02,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,8800,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2025-06-02,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9300,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2025-06-02,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,55800,listings,0,,vend-scraper-v2/bilinfo_weekly
 2025-06-02,weekly,DK,bilinfo.dk,mobility_cars,,,visits,461000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2025-06-09,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,42,days,0,,vend-scraper-v2/bilinfo_weekly
+2025-06-09,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,9717,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2025-06-09,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9217,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2025-06-09,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,55300,listings,0,,vend-scraper-v2/bilinfo_weekly
 2025-06-09,weekly,DK,bilinfo.dk,mobility_cars,,,visits,439000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2025-06-16,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,42,days,0,,vend-scraper-v2/bilinfo_weekly
+2025-06-16,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,9300,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2025-06-16,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9300,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2025-06-16,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,55800,listings,0,,vend-scraper-v2/bilinfo_weekly
 2025-06-16,weekly,DK,bilinfo.dk,mobility_cars,,,visits,437000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2025-06-23,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,42,days,0,,vend-scraper-v2/bilinfo_weekly
+2025-06-23,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,8971,cars_per_week,0,interpolated,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2025-06-23,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9300,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2025-06-23,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,55800,listings,0,,vend-scraper-v2/bilinfo_weekly
 2025-06-23,weekly,DK,bilinfo.dk,mobility_cars,,,visits,441000,visitors,0,,vend-scraper-v2/bilinfo_weekly
+2025-06-30,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,42,days,0,interpolated,vend-scraper-v2/bilinfo_weekly
+2025-06-30,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,8917,cars_per_week,0,interpolated,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2025-06-30,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9245,cars_per_week,0,interpolated,vend-market-data: supply_cars x 7 / avg_days_to_sell
+2025-06-30,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,55471,listings,0,interpolated,vend-scraper-v2/bilinfo_weekly
+2025-07-07,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,42,days,0,interpolated,vend-scraper-v2/bilinfo_weekly
+2025-07-07,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,8862,cars_per_week,0,interpolated,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2025-07-07,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9190,cars_per_week,0,interpolated,vend-market-data: supply_cars x 7 / avg_days_to_sell
+2025-07-07,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,55143,listings,0,interpolated,vend-scraper-v2/bilinfo_weekly
+2025-07-14,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,42,days,0,interpolated,vend-scraper-v2/bilinfo_weekly
+2025-07-14,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,8807,cars_per_week,0,interpolated,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2025-07-14,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9136,cars_per_week,0,interpolated,vend-market-data: supply_cars x 7 / avg_days_to_sell
+2025-07-14,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,54814,listings,0,interpolated,vend-scraper-v2/bilinfo_weekly
+2025-07-21,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,42,days,0,interpolated,vend-scraper-v2/bilinfo_weekly
+2025-07-21,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,8752,cars_per_week,0,interpolated,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2025-07-21,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9081,cars_per_week,0,interpolated,vend-market-data: supply_cars x 7 / avg_days_to_sell
+2025-07-21,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,54486,listings,0,interpolated,vend-scraper-v2/bilinfo_weekly
+2025-07-28,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,42,days,0,interpolated,vend-scraper-v2/bilinfo_weekly
+2025-07-28,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,8698,cars_per_week,0,interpolated,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2025-07-28,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9026,cars_per_week,0,interpolated,vend-market-data: supply_cars x 7 / avg_days_to_sell
+2025-07-28,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,54157,listings,0,interpolated,vend-scraper-v2/bilinfo_weekly
+2025-08-04,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,42,days,0,interpolated,vend-scraper-v2/bilinfo_weekly
+2025-08-04,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,8643,cars_per_week,0,interpolated,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2025-08-04,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,8971,cars_per_week,0,interpolated,vend-market-data: supply_cars x 7 / avg_days_to_sell
+2025-08-04,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,53829,listings,0,interpolated,vend-scraper-v2/bilinfo_weekly
 2025-08-11,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,42,days,0,,vend-scraper-v2/bilinfo_weekly
+2025-08-11,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,8917,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2025-08-11,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,8917,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2025-08-11,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,53500,listings,0,,vend-scraper-v2/bilinfo_weekly
 2025-08-11,weekly,DK,bilinfo.dk,mobility_cars,,,visits,465000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2025-08-18,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,41,days,0,,vend-scraper-v2/bilinfo_weekly
+2025-08-18,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,9134,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2025-08-18,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9134,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2025-08-18,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,53500,listings,0,,vend-scraper-v2/bilinfo_weekly
 2025-08-18,weekly,DK,bilinfo.dk,mobility_cars,,,visits,477000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2025-08-25,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,41,days,0,,vend-scraper-v2/bilinfo_weekly
+2025-08-25,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,9434,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2025-08-25,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9134,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2025-08-25,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,53500,listings,0,,vend-scraper-v2/bilinfo_weekly
 2025-08-25,weekly,DK,bilinfo.dk,mobility_cars,,,visits,451000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2025-09-01,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,41,days,0,,vend-scraper-v2/bilinfo_weekly
+2025-09-01,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,8385,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2025-09-01,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9185,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2025-09-01,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,53800,listings,0,,vend-scraper-v2/bilinfo_weekly
 2025-09-01,weekly,DK,bilinfo.dk,mobility_cars,,,visits,462000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2025-09-08,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,41,days,0,,vend-scraper-v2/bilinfo_weekly
+2025-09-08,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,10149,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2025-09-08,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9049,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2025-09-08,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,53000,listings,0,,vend-scraper-v2/bilinfo_weekly
 2025-09-08,weekly,DK,bilinfo.dk,mobility_cars,,,visits,455000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2025-09-15,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,41,days,0,,vend-scraper-v2/bilinfo_weekly
+2025-09-15,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,8937,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2025-09-15,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9237,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2025-09-15,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,54100,listings,0,,vend-scraper-v2/bilinfo_weekly
 2025-09-15,weekly,DK,bilinfo.dk,mobility_cars,,,visits,442000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2025-09-22,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,41,days,0,,vend-scraper-v2/bilinfo_weekly
+2025-09-22,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,9485,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2025-09-22,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9185,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2025-09-22,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,53800,listings,0,,vend-scraper-v2/bilinfo_weekly
 2025-09-22,weekly,DK,bilinfo.dk,mobility_cars,,,visits,435000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2025-09-29,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,41,days,0,,vend-scraper-v2/bilinfo_weekly
+2025-09-29,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,9437,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2025-09-29,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9237,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2025-09-29,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,54100,listings,0,,vend-scraper-v2/bilinfo_weekly
 2025-09-29,weekly,DK,bilinfo.dk,mobility_cars,,,visits,412000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2025-10-06,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,41,days,0,,vend-scraper-v2/bilinfo_weekly
+2025-10-06,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,9271,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2025-10-06,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9271,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2025-10-06,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,54300,listings,0,,vend-scraper-v2/bilinfo_weekly
 2025-10-06,weekly,DK,bilinfo.dk,mobility_cars,,,visits,415000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2025-10-13,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,41,days,0,,vend-scraper-v2/bilinfo_weekly
+2025-10-13,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,8771,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2025-10-13,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9271,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2025-10-13,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,54300,listings,0,,vend-scraper-v2/bilinfo_weekly
 2025-10-13,weekly,DK,bilinfo.dk,mobility_cars,,,visits,402000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2025-10-20,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,41,days,0,,vend-scraper-v2/bilinfo_weekly
+2025-10-20,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,8885,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2025-10-20,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9185,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2025-10-20,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,53800,listings,0,,vend-scraper-v2/bilinfo_weekly
 2025-10-20,weekly,DK,bilinfo.dk,mobility_cars,,,visits,415000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2025-10-27,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,41,days,0,,vend-scraper-v2/bilinfo_weekly
+2025-10-27,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,9734,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2025-10-27,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9134,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2025-10-27,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,53500,listings,0,,vend-scraper-v2/bilinfo_weekly
 2025-10-27,weekly,DK,bilinfo.dk,mobility_cars,,,visits,415000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2025-11-03,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,41,days,0,,vend-scraper-v2/bilinfo_weekly
+2025-11-03,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,9537,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2025-11-03,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9237,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2025-11-03,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,54100,listings,0,,vend-scraper-v2/bilinfo_weekly
 2025-11-03,weekly,DK,bilinfo.dk,mobility_cars,,,visits,417000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2025-11-10,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,41,days,0,,vend-scraper-v2/bilinfo_weekly
+2025-11-10,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,9788,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2025-11-10,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9288,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2025-11-10,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,54400,listings,0,,vend-scraper-v2/bilinfo_weekly
 2025-11-10,weekly,DK,bilinfo.dk,mobility_cars,,,visits,415000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2025-11-17,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,41,days,0,,vend-scraper-v2/bilinfo_weekly
+2025-11-17,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,9873,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2025-11-17,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9373,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2025-11-17,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,54900,listings,0,,vend-scraper-v2/bilinfo_weekly
 2025-11-17,weekly,DK,bilinfo.dk,mobility_cars,,,visits,408000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2025-11-24,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,41,days,0,,vend-scraper-v2/bilinfo_weekly
+2025-11-24,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,9859,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2025-11-24,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9459,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2025-11-24,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,55400,listings,0,,vend-scraper-v2/bilinfo_weekly
 2025-11-24,weekly,DK,bilinfo.dk,mobility_cars,,,visits,412000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2025-12-01,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,41,days,0,,vend-scraper-v2/bilinfo_weekly
+2025-12-01,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,9927,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2025-12-01,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9527,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2025-12-01,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,55800,listings,0,,vend-scraper-v2/bilinfo_weekly
 2025-12-01,weekly,DK,bilinfo.dk,mobility_cars,,,visits,409000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2025-12-08,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,41,days,0,,vend-scraper-v2/bilinfo_weekly
+2025-12-08,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,9995,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2025-12-08,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9595,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2025-12-08,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,56200,listings,0,,vend-scraper-v2/bilinfo_weekly
 2025-12-08,weekly,DK,bilinfo.dk,mobility_cars,,,visits,399000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2025-12-15,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,42,days,0,,vend-scraper-v2/bilinfo_weekly
+2025-12-15,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,8433,cars_per_week,0,interpolated,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2025-12-15,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9433,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2025-12-15,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,56600,listings,0,,vend-scraper-v2/bilinfo_weekly
 2025-12-15,weekly,DK,bilinfo.dk,mobility_cars,,,visits,401000,visitors,0,,vend-scraper-v2/bilinfo_weekly
+2025-12-22,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,42,days,0,interpolated,vend-scraper-v2/bilinfo_weekly
+2025-12-22,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,8267,cars_per_week,0,interpolated,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2025-12-22,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9267,cars_per_week,0,interpolated,vend-market-data: supply_cars x 7 / avg_days_to_sell
+2025-12-22,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,55600,listings,0,interpolated,vend-scraper-v2/bilinfo_weekly
 2025-12-29,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,42,days,0,,vend-scraper-v2/bilinfo_weekly
+2025-12-29,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,8500,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2025-12-29,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,9100,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2025-12-29,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,54600,listings,0,,vend-scraper-v2/bilinfo_weekly
 2025-12-29,weekly,DK,bilinfo.dk,mobility_cars,,,visits,405000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2026-01-05,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,43,days,0,,vend-scraper-v2/bilinfo_weekly
+2026-01-05,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,8991,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2026-01-05,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,8791,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2026-01-05,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,54000,listings,0,,vend-scraper-v2/bilinfo_weekly
 2026-01-05,weekly,DK,bilinfo.dk,mobility_cars,,,visits,408000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2026-01-12,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,43,days,0,,vend-scraper-v2/bilinfo_weekly
+2026-01-12,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,8423,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2026-01-12,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,8823,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2026-01-12,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,54200,listings,0,,vend-scraper-v2/bilinfo_weekly
 2026-01-12,weekly,DK,bilinfo.dk,mobility_cars,,,visits,411000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2026-01-19,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,43,days,0,,vend-scraper-v2/bilinfo_weekly
+2026-01-19,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,8158,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2026-01-19,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,8758,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2026-01-19,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,53800,listings,0,,vend-scraper-v2/bilinfo_weekly
 2026-01-19,weekly,DK,bilinfo.dk,mobility_cars,,,visits,417000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2026-01-26,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,43,days,0,,vend-scraper-v2/bilinfo_weekly
+2026-01-26,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,8460,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2026-01-26,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,8660,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2026-01-26,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,53200,listings,0,,vend-scraper-v2/bilinfo_weekly
 2026-01-26,weekly,DK,bilinfo.dk,mobility_cars,,,visits,416000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2026-02-02,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,43,days,0,,vend-scraper-v2/bilinfo_weekly
+2026-02-02,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,8428,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2026-02-02,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,8628,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2026-02-02,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,53000,listings,0,,vend-scraper-v2/bilinfo_weekly
 2026-02-02,weekly,DK,bilinfo.dk,mobility_cars,,,visits,414000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2026-02-09,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,43,days,0,,vend-scraper-v2/bilinfo_weekly
+2026-02-09,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,8795,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2026-02-09,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,8595,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2026-02-09,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,52800,listings,0,,vend-scraper-v2/bilinfo_weekly
 2026-02-09,weekly,DK,bilinfo.dk,mobility_cars,,,visits,410000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2026-02-16,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,43,days,0,,vend-scraper-v2/bilinfo_weekly
+2026-02-16,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,8028,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2026-02-16,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,8628,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2026-02-16,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,53000,listings,0,,vend-scraper-v2/bilinfo_weekly
 2026-02-16,weekly,DK,bilinfo.dk,mobility_cars,,,visits,417000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2026-02-23,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,43,days,0,,vend-scraper-v2/bilinfo_weekly
+2026-02-23,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,7930,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2026-02-23,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,8530,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2026-02-23,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,52400,listings,0,,vend-scraper-v2/bilinfo_weekly
 2026-02-23,weekly,DK,bilinfo.dk,mobility_cars,,,visits,421000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2026-03-02,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,43,days,0,,vend-scraper-v2/bilinfo_weekly
+2026-03-02,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,7833,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2026-03-02,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,8433,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2026-03-02,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,51800,listings,0,,vend-scraper-v2/bilinfo_weekly
 2026-03-02,weekly,DK,bilinfo.dk,mobility_cars,,,visits,425000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2026-03-09,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,43,days,0,,vend-scraper-v2/bilinfo_weekly
+2026-03-09,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,8135,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2026-03-09,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,8335,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2026-03-09,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,51200,listings,0,,vend-scraper-v2/bilinfo_weekly
 2026-03-09,weekly,DK,bilinfo.dk,mobility_cars,,,visits,422000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2026-03-13,daily,DK,bilbasen.dk,mobility_cars,dealer,,listings,48931.6,listings,0,,vend-scraper-v2/daily_filtered
@@ -555,6 +961,8 @@ date,grain,country,site,vertical,segment,package,metric,value,unit,is_sample,qua
 2026-03-15,daily,NO,finn.no,real_estate_homes,,,listings,17145,listings,0,,vend-scraper-v2/daily_filtered
 2026-03-15,daily,NO,finn.no,real_estate_homes,,,new_listings,304,listings,0,,vend-scraper-v2/daily_filtered
 2026-03-16,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,43,days,0,,vend-scraper-v2/bilinfo_weekly
+2026-03-16,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,7852,cars_per_week,0,interpolated,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2026-03-16,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,8302,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2026-03-16,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,51000,listings,0,,vend-scraper-v2/bilinfo_weekly
 2026-03-16,weekly,DK,bilinfo.dk,mobility_cars,,,visits,427000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2026-03-16,daily,SE,blocket.se,mobility_cars,dealer,,listings,121519,listings,0,,vend-scraper-v2/daily_filtered
@@ -665,6 +1073,10 @@ date,grain,country,site,vertical,segment,package,metric,value,unit,is_sample,qua
 2026-03-22,daily,NO,finn.no,real_estate_homes,,,new_listings,92,listings,0,,vend-scraper-v2/daily_filtered
 2026-03-23,daily,DK,bilbasen.dk,mobility_cars,dealer,,listings,47326,listings,0,,vend-scraper-v2/daily_filtered
 2026-03-23,daily,DK,bilbasen.dk,mobility_cars,private,,listings,2977,listings,0,,vend-scraper-v2/daily_filtered
+2026-03-23,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,42.5,days,0,interpolated,vend-scraper-v2/bilinfo_weekly
+2026-03-23,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,7876,cars_per_week,0,interpolated,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2026-03-23,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,8326,cars_per_week,0,interpolated,vend-market-data: supply_cars x 7 / avg_days_to_sell
+2026-03-23,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,50550,listings,0,interpolated,vend-scraper-v2/bilinfo_weekly
 2026-03-23,daily,SE,blocket.se,mobility_cars,dealer,,listings,121287,listings,0,,vend-scraper-v2/daily_filtered
 2026-03-23,daily,SE,blocket.se,mobility_cars,dealer,,new_listings,4658,listings,0,,vend-scraper-v2/daily_filtered
 2026-03-23,daily,SE,blocket.se,mobility_cars,private,,listings,16365,listings,0,,vend-scraper-v2/daily_filtered
@@ -778,6 +1190,8 @@ date,grain,country,site,vertical,segment,package,metric,value,unit,is_sample,qua
 2026-03-30,daily,DK,bilbasen.dk,mobility_cars,dealer,,listings,46362,listings,0,,vend-scraper-v2/daily_filtered
 2026-03-30,daily,DK,bilbasen.dk,mobility_cars,private,,listings,3106,listings,0,,vend-scraper-v2/daily_filtered
 2026-03-30,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,42,days,0,,vend-scraper-v2/bilinfo_weekly
+2026-03-30,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,7750,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2026-03-30,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,8350,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2026-03-30,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,50100,listings,0,,vend-scraper-v2/bilinfo_weekly
 2026-03-30,weekly,DK,bilinfo.dk,mobility_cars,,,visits,425000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2026-03-30,daily,SE,blocket.se,mobility_cars,dealer,,listings,119919,listings,0,,vend-scraper-v2/daily_filtered
@@ -891,6 +1305,8 @@ date,grain,country,site,vertical,segment,package,metric,value,unit,is_sample,qua
 2026-04-06,daily,DK,bilbasen.dk,mobility_cars,dealer,,listings,45331,listings,0,,vend-scraper-v2/daily_filtered
 2026-04-06,daily,DK,bilbasen.dk,mobility_cars,private,,listings,3401,listings,0,,vend-scraper-v2/daily_filtered
 2026-04-06,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,42,days,0,,vend-scraper-v2/bilinfo_weekly
+2026-04-06,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,7750,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2026-04-06,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,8250,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2026-04-06,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,49500,listings,0,,vend-scraper-v2/bilinfo_weekly
 2026-04-06,weekly,DK,bilinfo.dk,mobility_cars,,,visits,412000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2026-04-06,daily,SE,blocket.se,mobility_cars,dealer,,listings,119577,listings,0,,vend-scraper-v2/daily_filtered
@@ -1006,6 +1422,8 @@ date,grain,country,site,vertical,segment,package,metric,value,unit,is_sample,qua
 2026-04-13,daily,DK,bilbasen.dk,mobility_cars,dealer,,listings,44136,listings,0,,vend-scraper-v2/daily_filtered
 2026-04-13,daily,DK,bilbasen.dk,mobility_cars,private,,listings,3492,listings,0,,vend-scraper-v2/daily_filtered
 2026-04-13,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,42,days,0,,vend-scraper-v2/bilinfo_weekly
+2026-04-13,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,7967,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2026-04-13,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,8167,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2026-04-13,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,49000,listings,0,,vend-scraper-v2/bilinfo_weekly
 2026-04-13,weekly,DK,bilinfo.dk,mobility_cars,,,visits,418000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2026-04-13,daily,SE,blocket.se,mobility_cars,dealer,,listings,118547,listings,0,,vend-scraper-v2/daily_filtered
@@ -1121,6 +1539,8 @@ date,grain,country,site,vertical,segment,package,metric,value,unit,is_sample,qua
 2026-04-20,daily,DK,bilbasen.dk,mobility_cars,dealer,,listings,43666,listings,0,,vend-scraper-v2/daily_filtered
 2026-04-20,daily,DK,bilbasen.dk,mobility_cars,private,,listings,3468,listings,0,,vend-scraper-v2/daily_filtered
 2026-04-20,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,42,days,0,,vend-scraper-v2/bilinfo_weekly
+2026-04-20,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,7733,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2026-04-20,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,8133,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2026-04-20,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,48800,listings,0,,vend-scraper-v2/bilinfo_weekly
 2026-04-20,weekly,DK,bilinfo.dk,mobility_cars,,,visits,421000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2026-04-20,daily,SE,blocket.se,mobility_cars,dealer,,listings,118554,listings,0,,vend-scraper-v2/daily_filtered
@@ -1256,6 +1676,8 @@ date,grain,country,site,vertical,segment,package,metric,value,unit,is_sample,qua
 2026-04-27,daily,DK,bilbasen.dk,mobility_cars,dealer,,listings,43310,listings,0,,vend-scraper-v2/daily_filtered
 2026-04-27,daily,DK,bilbasen.dk,mobility_cars,private,,listings,3436,listings,0,,vend-scraper-v2/daily_filtered
 2026-04-27,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,42,days,0,,vend-scraper-v2/bilinfo_weekly
+2026-04-27,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,7767,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2026-04-27,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,8067,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2026-04-27,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,48400,listings,0,,vend-scraper-v2/bilinfo_weekly
 2026-04-27,weekly,DK,bilinfo.dk,mobility_cars,,,visits,419000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2026-04-27,daily,SE,blocket.se,mobility_cars,dealer,,listings,118168,listings,0,,vend-scraper-v2/daily_filtered
@@ -1411,6 +1833,8 @@ date,grain,country,site,vertical,segment,package,metric,value,unit,is_sample,qua
 2026-05-04,daily,DK,bilhandel.dk,mobility_cars,dealer,,listings,23558,listings,0,,vend-scraper-v2/daily_filtered
 2026-05-04,daily,DK,bilhandel.dk,mobility_cars,private,,listings,1775,listings,0,,vend-scraper-v2/daily_filtered
 2026-05-04,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,41,days,0,,vend-scraper-v2/bilinfo_weekly
+2026-05-04,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,7912,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2026-05-04,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,8212,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2026-05-04,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,48100,listings,0,,vend-scraper-v2/bilinfo_weekly
 2026-05-04,weekly,DK,bilinfo.dk,mobility_cars,,,visits,427000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2026-05-04,daily,DK,biltorvet.dk,mobility_cars,dealer,,listings,39027,listings,0,,vend-scraper-v2/daily_filtered
@@ -1582,6 +2006,8 @@ date,grain,country,site,vertical,segment,package,metric,value,unit,is_sample,qua
 2026-05-11,daily,DK,bilhandel.dk,mobility_cars,dealer,,listings,23667,listings,0,,vend-scraper-v2/daily_filtered
 2026-05-11,daily,DK,bilhandel.dk,mobility_cars,private,,listings,1832,listings,0,,vend-scraper-v2/daily_filtered
 2026-05-11,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,41,days,0,,vend-scraper-v2/bilinfo_weekly
+2026-05-11,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,7961,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2026-05-11,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,8161,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2026-05-11,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,47800,listings,0,,vend-scraper-v2/bilinfo_weekly
 2026-05-11,weekly,DK,bilinfo.dk,mobility_cars,,,visits,422000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2026-05-11,daily,DK,biltorvet.dk,mobility_cars,dealer,,listings,39059,listings,0,,vend-scraper-v2/daily_filtered
@@ -1807,6 +2233,8 @@ date,grain,country,site,vertical,segment,package,metric,value,unit,is_sample,qua
 2026-05-18,daily,DK,bilhandel.dk,mobility_cars,dealer,,listings,23244.5,listings,0,,vend-scraper-v2/daily_filtered
 2026-05-18,daily,DK,bilhandel.dk,mobility_cars,private,,listings,1935.5,listings,0,,vend-scraper-v2/daily_filtered
 2026-05-18,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,41,days,0,,vend-scraper-v2/bilinfo_weekly
+2026-05-18,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,7927,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2026-05-18,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,8127,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2026-05-18,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,47600,listings,0,,vend-scraper-v2/bilinfo_weekly
 2026-05-18,weekly,DK,bilinfo.dk,mobility_cars,,,visits,418000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2026-05-18,daily,DK,biltorvet.dk,mobility_cars,dealer,,listings,38980,listings,0,,vend-scraper-v2/daily_filtered
@@ -2099,6 +2527,8 @@ date,grain,country,site,vertical,segment,package,metric,value,unit,is_sample,qua
 2026-05-25,daily,DK,bilhandel.dk,mobility_cars,dealer,,listings,23392,listings,0,,vend-scraper-v2/daily_filtered
 2026-05-25,daily,DK,bilhandel.dk,mobility_cars,private,,listings,1960,listings,0,,vend-scraper-v2/daily_filtered
 2026-05-25,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,41,days,0,,vend-scraper-v2/bilinfo_weekly
+2026-05-25,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,7893,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2026-05-25,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,8093,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2026-05-25,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,47400,listings,0,,vend-scraper-v2/bilinfo_weekly
 2026-05-25,weekly,DK,bilinfo.dk,mobility_cars,,,visits,425000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2026-05-25,daily,DK,biltorvet.dk,mobility_cars,dealer,,listings,39177,listings,0,,vend-scraper-v2/daily_filtered
@@ -2393,6 +2823,8 @@ date,grain,country,site,vertical,segment,package,metric,value,unit,is_sample,qua
 2026-06-01,daily,DK,bilhandel.dk,mobility_cars,dealer,,listings,23267,listings,0,,vend-scraper-v2/daily_filtered
 2026-06-01,daily,DK,bilhandel.dk,mobility_cars,private,,listings,1965,listings,0,,vend-scraper-v2/daily_filtered
 2026-06-01,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,41,days,0,,vend-scraper-v2/bilinfo_weekly
+2026-06-01,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,8259,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2026-06-01,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,8059,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2026-06-01,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,47200,listings,0,,vend-scraper-v2/bilinfo_weekly
 2026-06-01,weekly,DK,bilinfo.dk,mobility_cars,,,visits,419000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2026-06-01,daily,DK,biltorvet.dk,mobility_cars,dealer,,listings,39141,listings,0,,vend-scraper-v2/daily_filtered
@@ -2703,6 +3135,8 @@ date,grain,country,site,vertical,segment,package,metric,value,unit,is_sample,qua
 2026-06-08,daily,DK,bilhandel.dk,mobility_cars,dealer,,listings,23549,listings,0,,vend-scraper-v2/daily_filtered
 2026-06-08,daily,DK,bilhandel.dk,mobility_cars,private,,listings,1978,listings,0,,vend-scraper-v2/daily_filtered
 2026-06-08,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,56,days,0,,vend-scraper-v2/bilinfo_weekly
+2026-06-08,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,6125,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2026-06-08,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,5925,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2026-06-08,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,47400,listings,0,,vend-scraper-v2/bilinfo_weekly
 2026-06-08,weekly,DK,bilinfo.dk,mobility_cars,,,visits,427000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2026-06-08,daily,DK,biltorvet.dk,mobility_cars,dealer,,listings,38915,listings,0,,vend-scraper-v2/daily_filtered
@@ -3011,6 +3445,8 @@ date,grain,country,site,vertical,segment,package,metric,value,unit,is_sample,qua
 2026-06-15,daily,DK,bilhandel.dk,mobility_cars,dealer,,listings,24178,listings,0,,vend-scraper-v2/daily_filtered
 2026-06-15,daily,DK,bilhandel.dk,mobility_cars,private,,listings,1991,listings,0,,vend-scraper-v2/daily_filtered
 2026-06-15,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,56,days,0,,vend-scraper-v2/bilinfo_weekly
+2026-06-15,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,6550,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2026-06-15,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,5950,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2026-06-15,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,47600,listings,0,,vend-scraper-v2/bilinfo_weekly
 2026-06-15,weekly,DK,bilinfo.dk,mobility_cars,,,visits,421000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2026-06-15,daily,DK,biltorvet.dk,mobility_cars,dealer,,listings,39231,listings,0,,vend-scraper-v2/daily_filtered
@@ -3320,6 +3756,8 @@ date,grain,country,site,vertical,segment,package,metric,value,unit,is_sample,qua
 2026-06-22,daily,DK,bilhandel.dk,mobility_cars,dealer,,listings,24846,listings,0,,vend-scraper-v2/daily_filtered
 2026-06-22,daily,DK,bilhandel.dk,mobility_cars,private,,listings,1995,listings,0,,vend-scraper-v2/daily_filtered
 2026-06-22,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,56,days,0,,vend-scraper-v2/bilinfo_weekly
+2026-06-22,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,6458,cars_per_week,0,interpolated,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2026-06-22,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,6025,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2026-06-22,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,48200,listings,0,,vend-scraper-v2/bilinfo_weekly
 2026-06-22,weekly,DK,bilinfo.dk,mobility_cars,,,visits,426000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2026-06-22,daily,DK,biltorvet.dk,mobility_cars,dealer,,listings,39967,listings,0,,vend-scraper-v2/daily_filtered
@@ -3622,6 +4060,10 @@ date,grain,country,site,vertical,segment,package,metric,value,unit,is_sample,qua
 2026-06-29,daily,DK,bilbasen.dk,mobility_cars,private,,listings,3486,listings,0,,vend-scraper-v2/daily_filtered
 2026-06-29,daily,DK,bilhandel.dk,mobility_cars,dealer,,listings,25426,listings,0,,vend-scraper-v2/daily_filtered
 2026-06-29,daily,DK,bilhandel.dk,mobility_cars,private,,listings,2007,listings,0,,vend-scraper-v2/daily_filtered
+2026-06-29,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,56,days,0,interpolated,vend-scraper-v2/bilinfo_weekly
+2026-06-29,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,6512,cars_per_week,0,interpolated,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2026-06-29,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,6079,cars_per_week,0,interpolated,vend-market-data: supply_cars x 7 / avg_days_to_sell
+2026-06-29,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,48633,listings,0,interpolated,vend-scraper-v2/bilinfo_weekly
 2026-06-29,daily,DK,biltorvet.dk,mobility_cars,dealer,,listings,40928,listings,0,,vend-scraper-v2/daily_filtered
 2026-06-29,daily,DK,biltorvet.dk,mobility_cars,private,,listings,1504,listings,0,,vend-scraper-v2/daily_filtered
 2026-06-29,daily,SE,blocket.se,mobility_cars,dealer,,listings,123185,listings,0,,vend-scraper-v2/daily_filtered
@@ -3922,6 +4364,10 @@ date,grain,country,site,vertical,segment,package,metric,value,unit,is_sample,qua
 2026-07-06,daily,DK,bilbasen.dk,mobility_cars,private,,listings,3394,listings,0,,vend-scraper-v2/daily_filtered
 2026-07-06,daily,DK,bilhandel.dk,mobility_cars,dealer,,listings,25063,listings,0,,vend-scraper-v2/daily_filtered
 2026-07-06,daily,DK,bilhandel.dk,mobility_cars,private,,listings,2011,listings,0,,vend-scraper-v2/daily_filtered
+2026-07-06,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,56,days,0,interpolated,vend-scraper-v2/bilinfo_weekly
+2026-07-06,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,6567,cars_per_week,0,interpolated,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2026-07-06,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,6133,cars_per_week,0,interpolated,vend-market-data: supply_cars x 7 / avg_days_to_sell
+2026-07-06,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,49067,listings,0,interpolated,vend-scraper-v2/bilinfo_weekly
 2026-07-06,daily,DK,biltorvet.dk,mobility_cars,dealer,,listings,41999,listings,0,,vend-scraper-v2/daily_filtered
 2026-07-06,daily,DK,biltorvet.dk,mobility_cars,private,,listings,1497,listings,0,,vend-scraper-v2/daily_filtered
 2026-07-06,daily,SE,blocket.se,mobility_cars,dealer,,listings,122047,listings,0,,vend-scraper-v2/daily_filtered
@@ -4223,6 +4669,8 @@ date,grain,country,site,vertical,segment,package,metric,value,unit,is_sample,qua
 2026-07-13,daily,DK,bilhandel.dk,mobility_cars,dealer,,listings,25369,listings,0,,vend-scraper-v2/daily_filtered
 2026-07-13,daily,DK,bilhandel.dk,mobility_cars,private,,listings,1881,listings,0,,vend-scraper-v2/daily_filtered
 2026-07-13,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,56,days,0,,vend-scraper-v2/bilinfo_weekly
+2026-07-13,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,6188,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2026-07-13,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,6188,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2026-07-13,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,49500,listings,0,,vend-scraper-v2/bilinfo_weekly
 2026-07-13,weekly,DK,bilinfo.dk,mobility_cars,,,visits,422000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2026-07-13,daily,DK,biltorvet.dk,mobility_cars,dealer,,listings,42601,listings,0,,vend-scraper-v2/daily_filtered
@@ -4526,6 +4974,8 @@ date,grain,country,site,vertical,segment,package,metric,value,unit,is_sample,qua
 2026-07-20,daily,DK,bilhandel.dk,mobility_cars,dealer,,listings,25418,listings,0,,vend-scraper-v2/daily_filtered
 2026-07-20,daily,DK,bilhandel.dk,mobility_cars,private,,listings,1866,listings,0,,vend-scraper-v2/daily_filtered
 2026-07-20,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,56,days,0,,vend-scraper-v2/bilinfo_weekly
+2026-07-20,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,6188,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2026-07-20,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,6188,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2026-07-20,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,49500,listings,0,,vend-scraper-v2/bilinfo_weekly
 2026-07-20,weekly,DK,bilinfo.dk,mobility_cars,,,visits,407000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2026-07-20,daily,DK,biltorvet.dk,mobility_cars,dealer,,listings,42523,listings,0,,vend-scraper-v2/daily_filtered
@@ -4829,6 +5279,8 @@ date,grain,country,site,vertical,segment,package,metric,value,unit,is_sample,qua
 2026-07-27,daily,DK,bilhandel.dk,mobility_cars,dealer,,listings,25353,listings,0,,vend-scraper-v2/daily_filtered
 2026-07-27,daily,DK,bilhandel.dk,mobility_cars,private,,listings,1859,listings,0,,vend-scraper-v2/daily_filtered
 2026-07-27,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,56,days,0,,vend-scraper-v2/bilinfo_weekly
+2026-07-27,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,6488,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2026-07-27,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,6188,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2026-07-27,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,49500,listings,0,,vend-scraper-v2/bilinfo_weekly
 2026-07-27,weekly,DK,bilinfo.dk,mobility_cars,,,visits,419000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2026-07-27,daily,DK,biltorvet.dk,mobility_cars,dealer,,listings,42554,listings,0,,vend-scraper-v2/daily_filtered
@@ -5132,6 +5584,8 @@ date,grain,country,site,vertical,segment,package,metric,value,unit,is_sample,qua
 2026-08-03,daily,DK,bilhandel.dk,mobility_cars,dealer,,listings,24863,listings,0,,vend-scraper-v2/daily_filtered
 2026-08-03,daily,DK,bilhandel.dk,mobility_cars,private,,listings,1933,listings,0,,vend-scraper-v2/daily_filtered
 2026-08-03,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,56,days,0,,vend-scraper-v2/bilinfo_weekly
+2026-08-03,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,7125,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2026-08-03,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,6225,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2026-08-03,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,49800,listings,0,,vend-scraper-v2/bilinfo_weekly
 2026-08-03,weekly,DK,bilinfo.dk,mobility_cars,,,visits,437000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2026-08-03,daily,DK,biltorvet.dk,mobility_cars,dealer,,listings,42103,listings,0,,vend-scraper-v2/daily_filtered
@@ -5435,6 +5889,8 @@ date,grain,country,site,vertical,segment,package,metric,value,unit,is_sample,qua
 2026-08-10,daily,DK,bilhandel.dk,mobility_cars,dealer,,listings,24839,listings,0,,vend-scraper-v2/daily_filtered
 2026-08-10,daily,DK,bilhandel.dk,mobility_cars,private,,listings,2035,listings,0,,vend-scraper-v2/daily_filtered
 2026-08-10,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,56,days,0,,vend-scraper-v2/bilinfo_weekly
+2026-08-10,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,6538,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2026-08-10,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,6338,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2026-08-10,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,50700,listings,0,,vend-scraper-v2/bilinfo_weekly
 2026-08-10,weekly,DK,bilinfo.dk,mobility_cars,,,visits,435000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2026-08-10,daily,DK,biltorvet.dk,mobility_cars,dealer,,listings,42037,listings,0,,vend-scraper-v2/daily_filtered
@@ -5740,6 +6196,8 @@ date,grain,country,site,vertical,segment,package,metric,value,unit,is_sample,qua
 2026-08-17,daily,DK,bilhandel.dk,mobility_cars,dealer,,listings,25254,listings,0,,vend-scraper-v2/daily_filtered
 2026-08-17,daily,DK,bilhandel.dk,mobility_cars,private,,listings,2069,listings,0,,vend-scraper-v2/daily_filtered
 2026-08-17,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,56,days,0,,vend-scraper-v2/bilinfo_weekly
+2026-08-17,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,6662,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2026-08-17,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,6362,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2026-08-17,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,50900,listings,0,,vend-scraper-v2/bilinfo_weekly
 2026-08-17,weekly,DK,bilinfo.dk,mobility_cars,,,visits,441000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2026-08-17,daily,DK,biltorvet.dk,mobility_cars,dealer,,listings,42346,listings,0,,vend-scraper-v2/daily_filtered
@@ -6064,6 +6522,8 @@ date,grain,country,site,vertical,segment,package,metric,value,unit,is_sample,qua
 2026-08-24,daily,DK,bilhandel.dk,mobility_cars,dealer,,listings,25749,listings,0,,vend-scraper-v2/daily_filtered
 2026-08-24,daily,DK,bilhandel.dk,mobility_cars,private,,listings,2075,listings,0,,vend-scraper-v2/daily_filtered
 2026-08-24,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,56,days,0,,vend-scraper-v2/bilinfo_weekly
+2026-08-24,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,6600,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2026-08-24,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,6400,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2026-08-24,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,51200,listings,0,,vend-scraper-v2/bilinfo_weekly
 2026-08-24,weekly,DK,bilinfo.dk,mobility_cars,,,visits,436000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2026-08-24,daily,DK,biltorvet.dk,mobility_cars,dealer,,listings,42833,listings,0,,vend-scraper-v2/daily_filtered
@@ -6388,6 +6848,8 @@ date,grain,country,site,vertical,segment,package,metric,value,unit,is_sample,qua
 2026-08-31,daily,DK,bilhandel.dk,mobility_cars,dealer,,listings,25624,listings,0,,vend-scraper-v2/daily_filtered
 2026-08-31,daily,DK,bilhandel.dk,mobility_cars,private,,listings,2084,listings,0,,vend-scraper-v2/daily_filtered
 2026-08-31,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,56,days,0,,vend-scraper-v2/bilinfo_weekly
+2026-08-31,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,6625,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2026-08-31,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,6425,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2026-08-31,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,51400,listings,0,,vend-scraper-v2/bilinfo_weekly
 2026-08-31,weekly,DK,bilinfo.dk,mobility_cars,,,visits,427000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2026-08-31,daily,DK,biltorvet.dk,mobility_cars,dealer,,listings,43392,listings,0,,vend-scraper-v2/daily_filtered
@@ -6714,6 +7176,8 @@ date,grain,country,site,vertical,segment,package,metric,value,unit,is_sample,qua
 2026-09-07,daily,DK,bilhandel.dk,mobility_cars,dealer,,listings,25656,listings,0,,vend-scraper-v2/daily_filtered
 2026-09-07,daily,DK,bilhandel.dk,mobility_cars,private,,listings,2095,listings,0,,vend-scraper-v2/daily_filtered
 2026-09-07,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,57,days,0,,vend-scraper-v2/bilinfo_weekly
+2026-09-07,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,6537,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2026-09-07,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,6337,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2026-09-07,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,51600,listings,0,,vend-scraper-v2/bilinfo_weekly
 2026-09-07,weekly,DK,bilinfo.dk,mobility_cars,,,visits,418000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2026-09-07,daily,DK,biltorvet.dk,mobility_cars,dealer,,listings,43475,listings,0,,vend-scraper-v2/daily_filtered
@@ -7038,6 +7502,8 @@ date,grain,country,site,vertical,segment,package,metric,value,unit,is_sample,qua
 2026-09-14,daily,DK,bilhandel.dk,mobility_cars,dealer,,listings,26210,listings,0,,vend-scraper-v2/daily_filtered
 2026-09-14,daily,DK,bilhandel.dk,mobility_cars,private,,listings,2117,listings,0,,vend-scraper-v2/daily_filtered
 2026-09-14,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,57,days,0,,vend-scraper-v2/bilinfo_weekly
+2026-09-14,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,6161,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2026-09-14,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,6361,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2026-09-14,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,51800,listings,0,,vend-scraper-v2/bilinfo_weekly
 2026-09-14,weekly,DK,bilinfo.dk,mobility_cars,,,visits,426000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2026-09-14,daily,DK,biltorvet.dk,mobility_cars,dealer,,listings,43770,listings,0,,vend-scraper-v2/daily_filtered
@@ -7359,6 +7825,8 @@ date,grain,country,site,vertical,segment,package,metric,value,unit,is_sample,qua
 2026-09-21,daily,DK,bilhandel.dk,mobility_cars,dealer,,listings,26362,listings,0,,vend-scraper-v2/daily_filtered
 2026-09-21,daily,DK,bilhandel.dk,mobility_cars,private,,listings,2160,listings,0,,vend-scraper-v2/daily_filtered
 2026-09-21,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,57,days,0,,vend-scraper-v2/bilinfo_weekly
+2026-09-21,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,6137,cars_per_week,0,,vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold
+2026-09-21,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,6337,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2026-09-21,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,51600,listings,0,,vend-scraper-v2/bilinfo_weekly
 2026-09-21,weekly,DK,bilinfo.dk,mobility_cars,,,visits,422000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2026-09-21,daily,DK,biltorvet.dk,mobility_cars,dealer,,listings,43859,listings,0,,vend-scraper-v2/daily_filtered
@@ -7680,6 +8148,7 @@ date,grain,country,site,vertical,segment,package,metric,value,unit,is_sample,qua
 2026-09-28,daily,DK,bilhandel.dk,mobility_cars,dealer,,listings,26252,listings,0,,vend-scraper-v2/daily_filtered
 2026-09-28,daily,DK,bilhandel.dk,mobility_cars,private,,listings,2172,listings,0,,vend-scraper-v2/daily_filtered
 2026-09-28,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,57,days,0,,vend-scraper-v2/bilinfo_weekly
+2026-09-28,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,6312,cars_per_week,0,,vend-market-data: supply_cars x 7 / avg_days_to_sell
 2026-09-28,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,51400,listings,0,,vend-scraper-v2/bilinfo_weekly
 2026-09-28,weekly,DK,bilinfo.dk,mobility_cars,,,visits,419000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2026-09-28,daily,DK,biltorvet.dk,mobility_cars,dealer,,listings,43863,listings,0,,vend-scraper-v2/daily_filtered

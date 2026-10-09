@@ -118,15 +118,71 @@ def daily_series(src: Path) -> list[dict]:
     return out
 
 
+def interpolate_weekly(known: dict[date, float], first: date, last: date) -> dict[date, tuple]:
+    """Every Monday from first to last -> (value, interpolated?). A missing week is
+    filled on the straight line between its nearest known neighbours, by date.
+    Nothing is extrapolated past the first or last known week."""
+    pts = sorted(known)
+    out, j = {}, 0
+    w = first
+    while w <= last:
+        if w in known:
+            out[w] = (known[w], False)
+        else:
+            while pts[j + 1] < w:
+                j += 1
+            a, b = pts[j], pts[j + 1]
+            t = (w - a).days / (b - a).days
+            out[w] = (known[a] + t * (known[b] - known[a]), True)
+        w += timedelta(days=7)
+    return out
+
+
 def bilinfo(src: Path) -> list[dict]:
-    out = []
+    """bilinfo.dk weekly market report (the Bilbasen dealer market), plus implied flows.
+
+    Stock and days-to-sell are interpolated across weeks with no report (holiday
+    breaks; the longest is 6 weeks in summer 2025) and flagged `interpolated`.
+    Visits are left as reported.
+
+    Implied flows, per week w (Little's law, then the stock identity):
+        implied_cars_sold  = stock_w * 7 / days_to_sell_w
+        implied_cars_added = stock_{w+1} - stock_w + implied_cars_sold
+    stock_w is read as the stock at the start of week w and stock_{w+1} as its
+    end. The latest week has no end stock yet, so it carries sold but not added.
+    A flow is flagged `interpolated` when any input to it was.
+    """
+    src_tag = "vend-scraper-v2/bilinfo_weekly"
+    out, stock, days = [], {}, {}
     for r in read_csv(src / "vend-scraper-v2/data/bilinfo_weekly.csv"):
-        for metric, unit in (("visits", "visitors"), ("supply_cars", "listings"),
-                             ("avg_days_to_sell", "days")):
-            v = num(r[metric])
-            if v is not None:
-                out.append(row(r["week_start_date"], "weekly", "bilinfo.dk", "mobility_cars",
-                               "", metric, v, unit, "vend-scraper-v2/bilinfo_weekly"))
+        w = date.fromisoformat(r["week_start_date"])
+        v = num(r["visits"])
+        if v is not None:
+            out.append(row(w.isoformat(), "weekly", "bilinfo.dk", "mobility_cars", "",
+                           "visits", v, "visitors", src_tag))
+        if num(r["supply_cars"]) is not None:
+            stock[w] = num(r["supply_cars"])
+        if num(r["avg_days_to_sell"]) is not None:
+            days[w] = num(r["avg_days_to_sell"])
+    if not stock or not days:
+        return out
+    first, last = max(min(stock), min(days)), min(max(stock), max(days))
+    S = interpolate_weekly(stock, first, last)
+    D = interpolate_weekly(days, first, last)
+    flag = lambda *xs: "interpolated" if any(x[1] for x in xs) else ""
+    for w in sorted(S):
+        args = (w.isoformat(), "weekly", "bilinfo.dk", "mobility_cars", "")
+        out.append(row(*args, "supply_cars", round(S[w][0]), "listings", src_tag, flag=flag(S[w])))
+        out.append(row(*args, "avg_days_to_sell", round(D[w][0], 1), "days", src_tag, flag=flag(D[w])))
+        sold = S[w][0] * 7 / D[w][0]
+        out.append(row(*args, "implied_cars_sold", round(sold), "cars_per_week",
+                       "vend-market-data: supply_cars x 7 / avg_days_to_sell", flag=flag(S[w], D[w])))
+        nxt = w + timedelta(days=7)
+        if nxt in S:
+            out.append(row(*args, "implied_cars_added", round(S[nxt][0] - S[w][0] + sold),
+                           "cars_per_week",
+                           "vend-market-data: next week's supply_cars - supply_cars + implied_cars_sold",
+                           flag=flag(S[w], S[nxt], D[w])))
     return out
 
 
@@ -339,6 +395,24 @@ def package_table(listings: list[dict]) -> list[str]:
     return lines
 
 
+def bilinfo_table(listings: list[dict], weeks: int = 6) -> list[str]:
+    """Latest weeks of the Danish dealer market from the bilinfo report."""
+    by_week: dict[str, dict] = defaultdict(dict)
+    interp: dict[str, bool] = defaultdict(bool)
+    for r in listings:
+        if r["site"] == "bilinfo.dk":
+            by_week[r["date"]][r["metric"]] = float(r["value"])
+            interp[r["date"]] |= r["quality_flag"] == "interpolated"
+    lines = ["| week | stock | days to sell | implied sold | implied added |",
+             "|---|---:|---:|---:|---:|"]
+    for w in sorted(by_week)[-weeks:]:
+        m = by_week[w]
+        mark = " *" if interp[w] else ""
+        lines.append(f"| {w}{mark} | {_n(m.get('supply_cars'))} | {_n(m.get('avg_days_to_sell'))} | "
+                     f"{_n(m.get('implied_cars_sold'))} | {_n(m.get('implied_cars_added'))} |")
+    return lines
+
+
 def build_digest(listings, price_changes, articles, events, as_of: date, now: datetime) -> str:
     since30 = (as_of - timedelta(days=30)).isoformat()
     out = ["# Vend market digest", "",
@@ -367,6 +441,12 @@ def build_digest(listings, price_changes, articles, events, as_of: date, now: da
     out += ["## Package mix", "",
             "Shares in %. Car packages are a 10% sample of dealer listings; finn homes is a",
             "full crawl of used homes.", "", *package_table(listings), ""]
+
+    out += ["## Danish dealer market (bilinfo, weekly)", "",
+            "Cars per week. Implied sold = stock x 7 / days to sell; implied added = next",
+            "week's stock - stock + sold. The latest week has no added figure until the next",
+            "report. Days to sell is reported in whole days, so one day moves sold by ~2%.",
+            "* = a week with no report, interpolated.", "", *bilinfo_table(listings), ""]
 
     recent = [c for c in price_changes if c["observed_date"] >= since30 and not c.get("quality_flag")]
     out += ["## Price changes, last 30 days", ""]

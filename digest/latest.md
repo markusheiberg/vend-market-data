@@ -1,6 +1,6 @@
 # Vend market digest
 
-Generated 2026-10-09 12:17 UTC. Data up to **2026-10-08**.
+Generated 2026-10-09 12:21 UTC. Data up to **2026-10-08**.
 Read `CATALOG.md` for what each series means and `events.csv` before trusting a jump.
 
 ## Series with no value today
@@ -55,6 +55,22 @@ full crawl of used homes.
 | blocket.se | mobility_cars | 2026-09-28 | basis 67.2 / pluss 2.6 / premium 30.2 | basis 64.3 / pluss 5.1 / premium 30.6 |
 | finn.no | mobility_cars | 2026-09-28 | basis 34.5 / pluss 25.3 / premium 40.2 | basis 32.3 / pluss 26.5 / premium 41.2 |
 | finn.no | real_estate_homes | 2026-10-04 | large 62.7 / medium 34.3 / small 3.0 | large 61.7 / medium 35.4 / small 2.9 |
+
+## Danish dealer market (bilinfo, weekly)
+
+Cars per week. Implied sold = stock x 7 / days to sell; implied added = next
+week's stock - stock + sold. The latest week has no added figure until the next
+report. Days to sell is reported in whole days, so one day moves sold by ~2%.
+* = a week with no report, interpolated.
+
+| week | stock | days to sell | implied sold | implied added |
+|---|---:|---:|---:|---:|
+| 2026-08-24 | 51 200 | 56 | 6 400 | 6 600 |
+| 2026-08-31 | 51 400 | 56 | 6 425 | 6 625 |
+| 2026-09-07 | 51 600 | 57 | 6 337 | 6 537 |
+| 2026-09-14 | 51 800 | 57 | 6 361 | 6 161 |
+| 2026-09-21 | 51 600 | 57 | 6 337 | 6 137 |
+| 2026-09-28 | 51 400 | 57 | 6 312 |  |
 
 ## Price changes, last 30 days
 

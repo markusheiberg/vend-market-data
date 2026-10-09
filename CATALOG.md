@@ -29,9 +29,9 @@ own. **Read `digest/latest.md` first, then `events.csv` before trusting any jump
 | `package` | package name for package metrics, else blank |
 | `metric` | see below |
 | `value` | the number |
-| `unit` | `listings`, `pct`, `sampled_listings`, `fraction`, `visitors`, `days` |
+| `unit` | `listings`, `pct`, `sampled_listings`, `fraction`, `visitors`, `days`, `cars_per_week` |
 | `is_sample` | `1` when the value comes from a sample and is not a market total |
-| `quality_flag` | blank = clean. `outlier` = upstream filter blanked it, raw value kept. `manual` = typed in. `exclude:E##` = covered by an exclude event |
+| `quality_flag` | blank = clean. `interpolated` = no report that week, filled on a straight line (bilinfo only; fine for trends). `outlier` = upstream filter blanked it, raw value kept. `manual` = typed in. `exclude:E##` = covered by an exclude event |
 | `source` | source repo and file |
 
 Metrics:
@@ -44,11 +44,13 @@ Metrics:
 | `package_sample_count` | finn.no, blocket.se cars (dealer) | sampled listings per package. **A sample, not a market count** |
 | `package_count` | finn.no used homes | listings per package, full crawl |
 | `sample_fraction` | finn.no, blocket.se cars (dealer) | share of listings the car package scrape classified that week: 0.05 until 2026-07-20, 0.10 since. Compare `package_sample_count` only between weeks with the same value |
-| `visits`, `supply_cars`, `avg_days_to_sell` | bilinfo.dk | bilinfo's weekly Danish market report |
+| `visits`, `supply_cars`, `avg_days_to_sell` | bilinfo.dk | bilinfo's weekly report on the Danish dealer market (Bilbasen). Stock and days to sell are filled across weeks with no report by straight-line interpolation, flagged `interpolated`; visits are not |
+| `implied_cars_sold` | bilinfo.dk | estimate, cars per week: `supply_cars` × 7 / `avg_days_to_sell` (stock turns over once per days-to-sell) |
+| `implied_cars_added` | bilinfo.dk | estimate, cars per week: next week's `supply_cars` − this week's + `implied_cars_sold` (stock only changes by what comes in minus what goes out). Missing for the latest week until the next report |
 
 ## Rules that are easy to get wrong
 
-- **For trends, filter `quality_flag` to blank.** Keep `outlier` rows if a series
+- **For trends, keep `quality_flag` blank or `interpolated`.** Keep `outlier` rows if a series
   is trending: the upstream filter compares against the all-time mean, so a
   steady seasonal move eventually gets blanked (see E16).
 - **finn.no `real_estate_homes` is USED homes only, on purpose.** It is the revenue
@@ -59,6 +61,10 @@ Metrics:
   the sample went from 5% to 10% (E07). Use `package_share` for trends.
 - **Package names differ by vertical.** Cars: premium / pluss / basis. Homes:
   large / medium / small (finn's Stor / Medium / Liten).
+- **bilinfo's implied sold and added are estimates.** Days to sell is reported in
+  whole days, so a one-day change moves implied sold by about 2%; read them as a
+  trend over several weeks, not week to week. Both assume the stock figure is the
+  stock at the start of the week.
 - **Weekly dates are Mondays.** A run on Sunday 2026-10-04 is dated 2026-09-28.
   finn homes package rows are the exception: they carry the run date.
 - **Prices are in the site's own currency** (`currency` column) despite the

@@ -102,6 +102,33 @@ class BuildTest(unittest.TestCase):
         # weekly package rows pass through
         self.assertTrue(any(r["metric"] == "package_share" for r in weekly))
 
+    def test_bilinfo_interpolation_and_implied_flows(self):
+        _write(self.src / "vend-scraper-v2/data/bilinfo_weekly.csv",
+               "week_start_date,report_year,report_week,year_week,visits,supply_cars,avg_days_to_sell,report_date,publish_lag_days",
+               ["2026-08-03,2026,32,2026-W32,437000,49000,56,2026-08-11,8",
+                # 2026-08-10 and 08-17 have no report
+                "2026-08-24,2026,35,2026-W35,436000,52000,59,2026-09-01,8",
+                "2026-08-31,2026,36,2026-W36,427000,52700,59,2026-09-08,8"])
+        rows = self._build()
+        b = {(r["date"], r["metric"]): r for r in rows if r["site"] == "bilinfo.dk"}
+        # straight line from 49000 to 52000 over three weeks
+        self.assertEqual(b[("2026-08-10", "supply_cars")]["value"], "50000")
+        self.assertEqual(b[("2026-08-17", "supply_cars")]["value"], "51000")
+        self.assertEqual(b[("2026-08-10", "supply_cars")]["quality_flag"], "interpolated")
+        self.assertEqual(b[("2026-08-10", "avg_days_to_sell")]["value"], "57")
+        self.assertNotIn(("2026-08-10", "visits"), b)              # visits are not filled
+        # sold = 52000 * 7 / 59 = 6169.5; added = 52700 - 52000 + sold = 6869.5
+        self.assertEqual(b[("2026-08-24", "implied_cars_sold")]["value"], "6169")
+        self.assertEqual(b[("2026-08-24", "implied_cars_added")]["value"], "6869")
+        self.assertEqual(b[("2026-08-24", "implied_cars_sold")]["quality_flag"], "")
+        # a flow that uses an interpolated input says so
+        self.assertEqual(b[("2026-08-17", "implied_cars_added")]["quality_flag"], "interpolated")
+        # the latest week has no end stock yet
+        self.assertIn(("2026-08-31", "implied_cars_sold"), b)
+        self.assertNotIn(("2026-08-31", "implied_cars_added"), b)
+        digest = (self.out / "digest/latest.md").read_text()
+        self.assertIn("| 2026-08-10 * | 50 000 | 57 |", digest)
+
     def test_same_day_runs_keep_later(self):
         rows = self._build()
         large = [r for r in rows if r["metric"] == "package_count" and r["package"] == "large"]
