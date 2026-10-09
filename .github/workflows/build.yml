@@ -1,0 +1,76 @@
+name: Build consolidated data
+
+# Clones the four scraper repos and rebuilds facts/, reference/ and digest/.
+# See CATALOG.md.
+#
+# 05:15 UTC: after vend-scraper-v2's nightly export (scheduled 23:00 UTC, often
+# delayed to ~03:00) and the Monday exports of the two package repos.
+#
+# Needs one secret, SOURCES_TOKEN: a fine-grained personal access token with
+# read-only "Contents" on vend-scraper-v2, finn-mobility-packages,
+# finn-bolig-packages and vend-price-monitor. GITHUB_TOKEN cannot read other
+# private repos.
+
+on:
+  schedule:
+    - cron: "15 5 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "build.py"
+      - "events.csv"
+      - ".github/workflows/build.yml"
+
+concurrency:
+  group: build
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Clone source repos
+        env:
+          TOKEN: ${{ secrets.SOURCES_TOKEN }}
+        run: |
+          [[ -n "$TOKEN" ]] || { echo "::error::SOURCES_TOKEN secret is not set (see the header of this file)"; exit 1; }
+          for repo in vend-scraper-v2 finn-mobility-packages finn-bolig-packages vend-price-monitor; do
+            git clone --depth 1 --quiet \
+              "https://x-access-token:${TOKEN}@github.com/markusheiberg/${repo}.git" "sources/${repo}" \
+              || echo "::warning::could not clone ${repo}; building without it"
+          done
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Test
+        run: python -m unittest discover -s tests -q
+
+      - name: Build
+        run: |
+          python build.py --sources sources --out .
+          cat digest/latest.md >> "$GITHUB_STEP_SUMMARY"
+
+      # Commit only from main; a branch run just shows what would change.
+      - name: Commit
+        if: github.ref == 'refs/heads/main'
+        run: |
+          git add facts/ reference/ digest/
+          if git diff --cached --quiet; then echo "No changes."; exit 0; fi
+          git -c user.name="github-actions[bot]" \
+              -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
+              commit -m "chore(data): rebuild consolidated data [skip ci]"
+          git pull --rebase origin main
+          git push origin HEAD:main
+
+      - name: Diff (branch run, not committed)
+        if: github.ref != 'refs/heads/main'
+        run: git status --short

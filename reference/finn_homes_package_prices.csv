@@ -1,0 +1,121 @@
+year,geo_zone,zone_description,package,package_label,package_discount_pct,price_band,band_min_mnok,band_max_mnok,price_nok_ex_vat
+2026,1,Deler av Nord-Norge,large,Stor,23,LAV,0,0.5,3401
+2026,1,Deler av Nord-Norge,large,Stor,23,UNDER,0.5,1.5,3826
+2026,1,Deler av Nord-Norge,large,Stor,23,VANLIG,1.5,3,4251
+2026,1,Deler av Nord-Norge,large,Stor,23,OVER,3,4,4676
+2026,1,Deler av Nord-Norge,large,Stor,23,HOY,4,,5101
+2026,1,Deler av Nord-Norge,medium,Medium,10,LAV,0,0.5,2532
+2026,1,Deler av Nord-Norge,medium,Medium,10,UNDER,0.5,1.5,2848
+2026,1,Deler av Nord-Norge,medium,Medium,10,VANLIG,1.5,3,3165
+2026,1,Deler av Nord-Norge,medium,Medium,10,OVER,3,4,3481
+2026,1,Deler av Nord-Norge,medium,Medium,10,HOY,4,,3798
+2026,1,Deler av Nord-Norge,small,Liten,0,LAV,0,0.5,1862
+2026,1,Deler av Nord-Norge,small,Liten,0,UNDER,0.5,1.5,2095
+2026,1,Deler av Nord-Norge,small,Liten,0,VANLIG,1.5,3,2327
+2026,1,Deler av Nord-Norge,small,Liten,0,OVER,3,4,2560
+2026,1,Deler av Nord-Norge,small,Liten,0,HOY,4,,2793
+2026,2,Mindre byer og steder,large,Stor,23,LAV,0,1,4114
+2026,2,Mindre byer og steder,large,Stor,23,UNDER,1,2,4628
+2026,2,Mindre byer og steder,large,Stor,23,VANLIG,2,3.5,5143
+2026,2,Mindre byer og steder,large,Stor,23,OVER,3.5,4.5,5657
+2026,2,Mindre byer og steder,large,Stor,23,HOY,4.5,,6171
+2026,2,Mindre byer og steder,medium,Medium,10,LAV,0,1,3063
+2026,2,Mindre byer og steder,medium,Medium,10,UNDER,1,2,3446
+2026,2,Mindre byer og steder,medium,Medium,10,VANLIG,2,3.5,3828
+2026,2,Mindre byer og steder,medium,Medium,10,OVER,3.5,4.5,4211
+2026,2,Mindre byer og steder,medium,Medium,10,HOY,4.5,,4594
+2026,2,Mindre byer og steder,small,Liten,0,LAV,0,1,2252
+2026,2,Mindre byer og steder,small,Liten,0,UNDER,1,2,2534
+2026,2,Mindre byer og steder,small,Liten,0,VANLIG,2,3.5,2815
+2026,2,Mindre byer og steder,small,Liten,0,OVER,3.5,4.5,3097
+2026,2,Mindre byer og steder,small,Liten,0,HOY,4.5,,3378
+2026,3,Større byer og Østlandet,large,Stor,23,LAV,0,1.5,4827
+2026,3,Større byer og Østlandet,large,Stor,23,UNDER,1.5,2.5,5431
+2026,3,Større byer og Østlandet,large,Stor,23,VANLIG,2.5,4,6034
+2026,3,Større byer og Østlandet,large,Stor,23,OVER,4,5,6637
+2026,3,Større byer og Østlandet,large,Stor,23,HOY,5,,7241
+2026,3,Større byer og Østlandet,medium,Medium,10,LAV,0,1.5,3594
+2026,3,Større byer og Østlandet,medium,Medium,10,UNDER,1.5,2.5,4043
+2026,3,Større byer og Østlandet,medium,Medium,10,VANLIG,2.5,4,4492
+2026,3,Større byer og Østlandet,medium,Medium,10,OVER,4,5,4941
+2026,3,Større byer og Østlandet,medium,Medium,10,HOY,5,,5390
+2026,3,Større byer og Østlandet,small,Liten,0,LAV,0,1.5,2643
+2026,3,Større byer og Østlandet,small,Liten,0,UNDER,1.5,2.5,2973
+2026,3,Større byer og Østlandet,small,Liten,0,VANLIG,2.5,4,3303
+2026,3,Større byer og Østlandet,small,Liten,0,OVER,4,5,3634
+2026,3,Større byer og Østlandet,small,Liten,0,HOY,5,,3964
+2026,4,"Oslo, Asker og Bærum",large,Stor,23,LAV,0,2,5485
+2026,4,"Oslo, Asker og Bærum",large,Stor,23,UNDER,2,3,6171
+2026,4,"Oslo, Asker og Bærum",large,Stor,23,VANLIG,3,6,6857
+2026,4,"Oslo, Asker og Bærum",large,Stor,23,OVER,6,8,7543
+2026,4,"Oslo, Asker og Bærum",large,Stor,23,HOY,8,,8228
+2026,4,"Oslo, Asker og Bærum",medium,Medium,10,LAV,0,2,4084
+2026,4,"Oslo, Asker og Bærum",medium,Medium,10,UNDER,2,3,4594
+2026,4,"Oslo, Asker og Bærum",medium,Medium,10,VANLIG,3,6,5105
+2026,4,"Oslo, Asker og Bærum",medium,Medium,10,OVER,6,8,5615
+2026,4,"Oslo, Asker og Bærum",medium,Medium,10,HOY,8,,6126
+2026,4,"Oslo, Asker og Bærum",small,Liten,0,LAV,0,2,3003
+2026,4,"Oslo, Asker og Bærum",small,Liten,0,UNDER,2,3,3378
+2026,4,"Oslo, Asker og Bærum",small,Liten,0,VANLIG,3,6,3754
+2026,4,"Oslo, Asker og Bærum",small,Liten,0,OVER,6,8,4129
+2026,4,"Oslo, Asker og Bærum",small,Liten,0,HOY,8,,4505
+2027,1,Deler av Nord-Norge,large,Stor,25,LAV,0,0.5,3540
+2027,1,Deler av Nord-Norge,large,Stor,25,UNDER,0.5,1.5,3983
+2027,1,Deler av Nord-Norge,large,Stor,25,VANLIG,1.5,3,4425
+2027,1,Deler av Nord-Norge,large,Stor,25,OVER,3,4,4868
+2027,1,Deler av Nord-Norge,large,Stor,25,HOY,4,,5310
+2027,1,Deler av Nord-Norge,medium,Medium,5,LAV,0,0.5,3040
+2027,1,Deler av Nord-Norge,medium,Medium,5,UNDER,0.5,1.5,3420
+2027,1,Deler av Nord-Norge,medium,Medium,5,VANLIG,1.5,3,3800
+2027,1,Deler av Nord-Norge,medium,Medium,5,OVER,3,4,4180
+2027,1,Deler av Nord-Norge,medium,Medium,5,HOY,4,,4560
+2027,1,Deler av Nord-Norge,small,Liten,0,LAV,0,0.5,2160
+2027,1,Deler av Nord-Norge,small,Liten,0,UNDER,0.5,1.5,2430
+2027,1,Deler av Nord-Norge,small,Liten,0,VANLIG,1.5,3,2700
+2027,1,Deler av Nord-Norge,small,Liten,0,OVER,3,4,2970
+2027,1,Deler av Nord-Norge,small,Liten,0,HOY,4,,3240
+2027,2,Mindre byer og steder,large,Stor,25,LAV,0,1,4260
+2027,2,Mindre byer og steder,large,Stor,25,UNDER,1,2,4793
+2027,2,Mindre byer og steder,large,Stor,25,VANLIG,2,3.5,5325
+2027,2,Mindre byer og steder,large,Stor,25,OVER,3.5,4.5,5858
+2027,2,Mindre byer og steder,large,Stor,25,HOY,4.5,,6390
+2027,2,Mindre byer og steder,medium,Medium,5,LAV,0,1,3724
+2027,2,Mindre byer og steder,medium,Medium,5,UNDER,1,2,4190
+2027,2,Mindre byer og steder,medium,Medium,5,VANLIG,2,3.5,4655
+2027,2,Mindre byer og steder,medium,Medium,5,OVER,3.5,4.5,5121
+2027,2,Mindre byer og steder,medium,Medium,5,HOY,4.5,,5586
+2027,2,Mindre byer og steder,small,Liten,0,LAV,0,1,2560
+2027,2,Mindre byer og steder,small,Liten,0,UNDER,1,2,2880
+2027,2,Mindre byer og steder,small,Liten,0,VANLIG,2,3.5,3200
+2027,2,Mindre byer og steder,small,Liten,0,OVER,3.5,4.5,3520
+2027,2,Mindre byer og steder,small,Liten,0,HOY,4.5,,3840
+2027,3,Større byer og Østlandet,large,Stor,25,LAV,0,1.5,5040
+2027,3,Større byer og Østlandet,large,Stor,25,UNDER,1.5,2.5,5670
+2027,3,Større byer og Østlandet,large,Stor,25,VANLIG,2.5,4,6300
+2027,3,Større byer og Østlandet,large,Stor,25,OVER,4,5,6930
+2027,3,Større byer og Østlandet,large,Stor,25,HOY,5,,7560
+2027,3,Større byer og Østlandet,medium,Medium,5,LAV,0,1.5,4332
+2027,3,Større byer og Østlandet,medium,Medium,5,UNDER,1.5,2.5,4874
+2027,3,Større byer og Østlandet,medium,Medium,5,VANLIG,2.5,4,5415
+2027,3,Større byer og Østlandet,medium,Medium,5,OVER,4,5,5957
+2027,3,Større byer og Østlandet,medium,Medium,5,HOY,5,,6498
+2027,3,Større byer og Østlandet,small,Liten,0,LAV,0,1.5,3040
+2027,3,Større byer og Østlandet,small,Liten,0,UNDER,1.5,2.5,3420
+2027,3,Større byer og Østlandet,small,Liten,0,VANLIG,2.5,4,3800
+2027,3,Større byer og Østlandet,small,Liten,0,OVER,4,5,4180
+2027,3,Større byer og Østlandet,small,Liten,0,HOY,5,,4560
+2027,4,"Oslo, Asker og Bærum",large,Stor,25,LAV,0,2,5700
+2027,4,"Oslo, Asker og Bærum",large,Stor,25,UNDER,2,3,6413
+2027,4,"Oslo, Asker og Bærum",large,Stor,25,VANLIG,3,6,7125
+2027,4,"Oslo, Asker og Bærum",large,Stor,25,OVER,6,8,7838
+2027,4,"Oslo, Asker og Bærum",large,Stor,25,HOY,8,,8550
+2027,4,"Oslo, Asker og Bærum",medium,Medium,5,LAV,0,2,4940
+2027,4,"Oslo, Asker og Bærum",medium,Medium,5,UNDER,2,3,5558
+2027,4,"Oslo, Asker og Bærum",medium,Medium,5,VANLIG,3,6,6175
+2027,4,"Oslo, Asker og Bærum",medium,Medium,5,OVER,6,8,6793
+2027,4,"Oslo, Asker og Bærum",medium,Medium,5,HOY,8,,7410
+2027,4,"Oslo, Asker og Bærum",small,Liten,0,LAV,0,2,3440
+2027,4,"Oslo, Asker og Bærum",small,Liten,0,UNDER,2,3,3870
+2027,4,"Oslo, Asker og Bærum",small,Liten,0,VANLIG,3,6,4300
+2027,4,"Oslo, Asker og Bærum",small,Liten,0,OVER,6,8,4730
+2027,4,"Oslo, Asker og Bærum",small,Liten,0,HOY,8,,5160

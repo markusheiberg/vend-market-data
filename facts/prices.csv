@@ -1,0 +1,250 @@
+observed_date,country,site,vertical,currency,event,source,year,category,subcategory,package,geo,unit_range,price_from_nok,price_to_nok,price_per_month_nok,vat_included,quality_flag,observed_at,url
+2026-07-12,NO,finn.no,real_estate,NOK,new,finn,2026,brukt_bolig,Bolig til salgs,Liten pakke,Geo 1,,1862,2793,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/eiendom/prisoversikt
+2026-07-12,NO,finn.no,real_estate,NOK,new,finn,2026,brukt_bolig,Bolig til salgs,Liten pakke,Geo 2,,2252,3378,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/eiendom/prisoversikt
+2026-07-12,NO,finn.no,real_estate,NOK,new,finn,2026,brukt_bolig,Bolig til salgs,Liten pakke,Geo 3,,2643,3964,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/eiendom/prisoversikt
+2026-07-12,NO,finn.no,real_estate,NOK,new,finn,2026,brukt_bolig,Bolig til salgs,Liten pakke,Geo 4,,3003,4505,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/eiendom/prisoversikt
+2026-07-12,NO,finn.no,real_estate,NOK,new,finn,2026,brukt_bolig,Bolig til salgs,Medium pakke,Geo 1,,2813,4220,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/eiendom/prisoversikt
+2026-07-12,NO,finn.no,real_estate,NOK,new,finn,2026,brukt_bolig,Bolig til salgs,Medium pakke,Geo 2,,3403,5105,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/eiendom/prisoversikt
+2026-07-12,NO,finn.no,real_estate,NOK,new,finn,2026,brukt_bolig,Bolig til salgs,Medium pakke,Geo 3,,3993,5989,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/eiendom/prisoversikt
+2026-07-12,NO,finn.no,real_estate,NOK,new,finn,2026,brukt_bolig,Bolig til salgs,Medium pakke,Geo 4,,4537,6806,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/eiendom/prisoversikt
+2026-07-12,NO,finn.no,real_estate,NOK,new,finn,2026,brukt_bolig,Bolig til salgs,Stor pakke,Geo 1,,4417,6625,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/eiendom/prisoversikt
+2026-07-12,NO,finn.no,real_estate,NOK,new,finn,2026,brukt_bolig,Bolig til salgs,Stor pakke,Geo 2,,5343,8015,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/eiendom/prisoversikt
+2026-07-12,NO,finn.no,real_estate,NOK,new,finn,2026,brukt_bolig,Bolig til salgs,Stor pakke,Geo 3,,6269,9404,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/eiendom/prisoversikt
+2026-07-12,NO,finn.no,real_estate,NOK,new,finn,2026,brukt_bolig,Bolig til salgs,Stor pakke,Geo 4,,7124,10686,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/eiendom/prisoversikt
+2026-07-12,NO,finn.no,real_estate,NOK,new,finn,2026,brukt_bolig,Fritidsbolig til salgs,Liten pakke,Geo 1,,2327,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/eiendom/prisoversikt
+2026-07-12,NO,finn.no,real_estate,NOK,new,finn,2026,brukt_bolig,Fritidsbolig til salgs,Liten pakke,Geo 3,,3303,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/eiendom/prisoversikt
+2026-07-12,NO,finn.no,real_estate,NOK,new,finn,2026,brukt_bolig,Fritidsbolig til salgs,Medium pakke,Geo 1,,3517,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/eiendom/prisoversikt
+2026-07-12,NO,finn.no,real_estate,NOK,new,finn,2026,brukt_bolig,Fritidsbolig til salgs,Medium pakke,Geo 3,,4991,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/eiendom/prisoversikt
+2026-07-12,NO,finn.no,real_estate,NOK,new,finn,2026,brukt_bolig,Fritidsbolig til salgs,Stor pakke,Geo 1,,5521,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/eiendom/prisoversikt
+2026-07-12,NO,finn.no,real_estate,NOK,new,finn,2026,brukt_bolig,Fritidsbolig til salgs,Stor pakke,Geo 3,,7836,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/eiendom/prisoversikt
+2026-07-12,NO,finn.no,real_estate,NOK,new,finn,2026,brukt_bolig,Bolig til leie,Basis,,,409,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/eiendom/prisoversikt
+2026-07-12,NO,finn.no,real_estate,NOK,new,finn,2026,brukt_bolig,Bolig til leie,Proff,,,779,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/eiendom/prisoversikt
+2026-07-12,NO,finn.no,real_estate,NOK,new,finn,2026,tomt,Boligtomter,Liten pakke,Geo 1,,1862,2793,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/eiendom/prisoversikt
+2026-07-12,NO,finn.no,real_estate,NOK,new,finn,2026,tomt,Boligtomter,Liten pakke,Geo 2,,2252,3378,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/eiendom/prisoversikt
+2026-07-12,NO,finn.no,real_estate,NOK,new,finn,2026,tomt,Boligtomter,Liten pakke,Geo 3,,2643,3964,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/eiendom/prisoversikt
+2026-07-12,NO,finn.no,real_estate,NOK,new,finn,2026,tomt,Boligtomter,Liten pakke,Geo 4,,3003,4505,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/eiendom/prisoversikt
+2026-07-12,NO,finn.no,real_estate,NOK,new,finn,2026,tomt,Boligtomter,Medium pakke,Geo 1,,2813,4220,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/eiendom/prisoversikt
+2026-07-12,NO,finn.no,real_estate,NOK,new,finn,2026,tomt,Boligtomter,Medium pakke,Geo 2,,3403,5105,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/eiendom/prisoversikt
+2026-07-12,NO,finn.no,real_estate,NOK,new,finn,2026,tomt,Boligtomter,Medium pakke,Geo 3,,3993,5989,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/eiendom/prisoversikt
+2026-07-12,NO,finn.no,real_estate,NOK,new,finn,2026,tomt,Boligtomter,Medium pakke,Geo 4,,4537,6806,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/eiendom/prisoversikt
+2026-07-12,NO,finn.no,real_estate,NOK,new,finn,2026,tomt,Fritidstomter,Liten pakke,Geo 1,,2327,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/eiendom/prisoversikt
+2026-07-12,NO,finn.no,real_estate,NOK,new,finn,2026,tomt,Fritidstomter,Liten pakke,Geo 3,,3303,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/eiendom/prisoversikt
+2026-07-12,NO,finn.no,real_estate,NOK,new,finn,2026,tomt,Fritidstomter,Medium pakke,Geo 1,,3517,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/eiendom/prisoversikt
+2026-07-12,NO,finn.no,real_estate,NOK,new,finn,2026,tomt,Fritidstomter,Medium pakke,Geo 3,,4991,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/eiendom/prisoversikt
+2026-07-12,NO,finn.no,real_estate,NOK,new,finn,2026,nybygg,Nybygg: Kommer for salg,Medium pakke,Geo 1,,,,3808,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/eiendom/prisoversikt
+2026-07-12,NO,finn.no,real_estate,NOK,new,finn,2026,nybygg,Nybygg: Kommer for salg,Medium pakke,Geo 2,,,,4607,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/eiendom/prisoversikt
+2026-07-12,NO,finn.no,real_estate,NOK,new,finn,2026,nybygg,Nybygg: Kommer for salg,Medium pakke,Geo 3,,,,5405,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/eiendom/prisoversikt
+2026-07-12,NO,finn.no,real_estate,NOK,new,finn,2026,nybygg,Nybygg: Kommer for salg,Medium pakke,Geo 4,,,,6142,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/eiendom/prisoversikt
+2026-07-12,NO,finn.no,real_estate,NOK,new,finn,2026,nybygg,Nybygg: Kommer for salg,Stor tillegg,Geo 1,,,,2285,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/eiendom/prisoversikt
+2026-07-12,NO,finn.no,real_estate,NOK,new,finn,2026,nybygg,Nybygg: Kommer for salg,Stor tillegg,Geo 2,,,,2765,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/eiendom/prisoversikt
+2026-07-12,NO,finn.no,real_estate,NOK,new,finn,2026,nybygg,Nybygg: Kommer for salg,Stor tillegg,Geo 3,,,,3245,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/eiendom/prisoversikt
+2026-07-12,NO,finn.no,real_estate,NOK,new,finn,2026,nybygg,Nybygg: Kommer for salg,Stor tillegg,Geo 4,,,,3685,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/eiendom/prisoversikt
+2026-07-12,NO,finn.no,real_estate,NOK,new,finn,2026,nybygg,Nybygg: Prosjekt,Medium pakke,Geo 1,1—4,,,2219,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/eiendom/prisoversikt
+2026-07-12,NO,finn.no,real_estate,NOK,new,finn,2026,nybygg,Nybygg: Prosjekt,Medium pakke,Geo 1,5—10,,,2774,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/eiendom/prisoversikt
+2026-07-12,NO,finn.no,real_estate,NOK,new,finn,2026,nybygg,Nybygg: Prosjekt,Medium pakke,Geo 1,11—20,,,3329,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/eiendom/prisoversikt
+2026-07-12,NO,finn.no,real_estate,NOK,new,finn,2026,nybygg,Nybygg: Prosjekt,Medium pakke,Geo 1,21+,,,3697,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/eiendom/prisoversikt
+2026-07-12,NO,finn.no,real_estate,NOK,new,finn,2026,nybygg,Nybygg: Prosjekt,Medium pakke,Geo 2,1—4,,,2685,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/eiendom/prisoversikt
+2026-07-12,NO,finn.no,real_estate,NOK,new,finn,2026,nybygg,Nybygg: Prosjekt,Medium pakke,Geo 2,5—10,,,3356,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/eiendom/prisoversikt
+2026-07-12,NO,finn.no,real_estate,NOK,new,finn,2026,nybygg,Nybygg: Prosjekt,Medium pakke,Geo 2,11—20,,,4027,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/eiendom/prisoversikt
+2026-07-12,NO,finn.no,real_estate,NOK,new,finn,2026,nybygg,Nybygg: Prosjekt,Medium pakke,Geo 2,21+,,,4473,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/eiendom/prisoversikt
+2026-07-12,NO,finn.no,real_estate,NOK,new,finn,2026,nybygg,Nybygg: Prosjekt,Medium pakke,Geo 3,1—4,,,3150,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/eiendom/prisoversikt
+2026-07-12,NO,finn.no,real_estate,NOK,new,finn,2026,nybygg,Nybygg: Prosjekt,Medium pakke,Geo 3,5—10,,,3938,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/eiendom/prisoversikt
+2026-07-12,NO,finn.no,real_estate,NOK,new,finn,2026,nybygg,Nybygg: Prosjekt,Medium pakke,Geo 3,11—20,,,4725,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/eiendom/prisoversikt
+2026-07-12,NO,finn.no,real_estate,NOK,new,finn,2026,nybygg,Nybygg: Prosjekt,Medium pakke,Geo 3,21+,,,5248,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/eiendom/prisoversikt
+2026-07-12,NO,finn.no,real_estate,NOK,new,finn,2026,nybygg,Nybygg: Prosjekt,Medium pakke,Geo 4,1—4,,,3580,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/eiendom/prisoversikt
+2026-07-12,NO,finn.no,real_estate,NOK,new,finn,2026,nybygg,Nybygg: Prosjekt,Medium pakke,Geo 4,5—10,,,4475,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/eiendom/prisoversikt
+2026-07-12,NO,finn.no,real_estate,NOK,new,finn,2026,nybygg,Nybygg: Prosjekt,Medium pakke,Geo 4,11—20,,,5369,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/eiendom/prisoversikt
+2026-07-12,NO,finn.no,real_estate,NOK,new,finn,2026,nybygg,Nybygg: Prosjekt,Medium pakke,Geo 4,21+,,,5964,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/eiendom/prisoversikt
+2026-07-12,NO,finn.no,real_estate,NOK,new,finn,2026,nybygg,Nybygg: Prosjekt,Stor tillegg,Geo 1,,,,1805,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/eiendom/prisoversikt
+2026-07-12,NO,finn.no,real_estate,NOK,new,finn,2026,nybygg,Nybygg: Prosjekt,Stor tillegg,Geo 2,,,,2180,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/eiendom/prisoversikt
+2026-07-12,NO,finn.no,real_estate,NOK,new,finn,2026,nybygg,Nybygg: Prosjekt,Stor tillegg,Geo 3,,,,2560,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/eiendom/prisoversikt
+2026-07-12,NO,finn.no,real_estate,NOK,new,finn,2026,nybygg,Nybygg: Prosjekt,Stor tillegg,Geo 4,,,,2910,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/eiendom/prisoversikt
+2026-07-12,NO,finn.no,real_estate,NOK,new,finn,2026,nybygg,Nybygg: Enkeltannonse,Medium pakke,Geo 1,,,,1109,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/eiendom/prisoversikt
+2026-07-12,NO,finn.no,real_estate,NOK,new,finn,2026,nybygg,Nybygg: Enkeltannonse,Medium pakke,Geo 2,,,,1342,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/eiendom/prisoversikt
+2026-07-12,NO,finn.no,real_estate,NOK,new,finn,2026,nybygg,Nybygg: Enkeltannonse,Medium pakke,Geo 3,,,,1575,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/eiendom/prisoversikt
+2026-07-12,NO,finn.no,real_estate,NOK,new,finn,2026,nybygg,Nybygg: Enkeltannonse,Medium pakke,Geo 4,,,,1790,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/eiendom/prisoversikt
+2026-07-12,NO,finn.no,real_estate,NOK,new,finn,2026,nybygg,Nybygg: Enkeltannonse,Stor tillegg,Geo 1,,,,665,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/eiendom/prisoversikt
+2026-07-12,NO,finn.no,real_estate,NOK,new,finn,2026,nybygg,Nybygg: Enkeltannonse,Stor tillegg,Geo 2,,,,805,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/eiendom/prisoversikt
+2026-07-12,NO,finn.no,real_estate,NOK,new,finn,2026,nybygg,Nybygg: Enkeltannonse,Stor tillegg,Geo 3,,,,945,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/eiendom/prisoversikt
+2026-07-12,NO,finn.no,real_estate,NOK,new,finn,2026,nybygg,Nybygg: Enkeltannonse,Stor tillegg,Geo 4,,,,1075,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/eiendom/prisoversikt
+2026-07-12,NO,finn.no,real_estate,NOK,new,finn,2026,nybygg,Nybygg: Fritidsprosjekt,Medium pakke,Geo 1,1—4,,,2684,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/eiendom/prisoversikt
+2026-07-12,NO,finn.no,real_estate,NOK,new,finn,2026,nybygg,Nybygg: Fritidsprosjekt,Medium pakke,Geo 1,5—10,,,3355,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/eiendom/prisoversikt
+2026-07-12,NO,finn.no,real_estate,NOK,new,finn,2026,nybygg,Nybygg: Fritidsprosjekt,Medium pakke,Geo 1,11—20,,,4026,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/eiendom/prisoversikt
+2026-07-12,NO,finn.no,real_estate,NOK,new,finn,2026,nybygg,Nybygg: Fritidsprosjekt,Medium pakke,Geo 1,21+,,,4472,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/eiendom/prisoversikt
+2026-07-12,NO,finn.no,real_estate,NOK,new,finn,2026,nybygg,Nybygg: Fritidsprosjekt,Medium pakke,Geo 3,1—4,,,3579,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/eiendom/prisoversikt
+2026-07-12,NO,finn.no,real_estate,NOK,new,finn,2026,nybygg,Nybygg: Fritidsprosjekt,Medium pakke,Geo 3,5—10,,,4474,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/eiendom/prisoversikt
+2026-07-12,NO,finn.no,real_estate,NOK,new,finn,2026,nybygg,Nybygg: Fritidsprosjekt,Medium pakke,Geo 3,11—20,,,5369,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/eiendom/prisoversikt
+2026-07-12,NO,finn.no,real_estate,NOK,new,finn,2026,nybygg,Nybygg: Fritidsprosjekt,Medium pakke,Geo 3,21+,,,5963,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/eiendom/prisoversikt
+2026-07-12,NO,finn.no,real_estate,NOK,new,finn,2026,nybygg,Nybygg: Fritidsprosjekt,Stor tillegg,Geo 1,,,,2180,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/eiendom/prisoversikt
+2026-07-12,NO,finn.no,real_estate,NOK,new,finn,2026,nybygg,Nybygg: Fritidsprosjekt,Stor tillegg,Geo 3,,,,2910,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/eiendom/prisoversikt
+2026-07-12,NO,finn.no,real_estate,NOK,new,finn,2026,naering,"Næringseiendom (salg, leie, tomter)",Proff,Geo 1,,,,1200,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/eiendom/prisoversikt
+2026-07-12,NO,finn.no,real_estate,NOK,new,finn,2026,naering,"Næringseiendom (salg, leie, tomter)",Proff,Geo 2,,,,1400,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/eiendom/prisoversikt
+2026-07-12,NO,finn.no,real_estate,NOK,new,finn,2026,naering,"Næringseiendom (salg, leie, tomter)",Proff,Geo 3,,,,1600,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/eiendom/prisoversikt
+2026-07-12,NO,finn.no,real_estate,NOK,new,finn,2026,naering,"Næringseiendom (salg, leie, tomter)",Proff,Geo 4,,,,1800,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/eiendom/prisoversikt
+2026-07-12,NO,finn.no,real_estate,NOK,new,finn,2026,utland,Bolig i utlandet,Pris Proff,,1—10,2360,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/eiendom/prisoversikt
+2026-07-12,NO,finn.no,real_estate,NOK,new,finn,2026,utland,Bolig i utlandet,Pris Proff,,11—50,1636,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/eiendom/prisoversikt
+2026-07-12,NO,finn.no,real_estate,NOK,new,finn,2026,utland,Bolig i utlandet,Pris Proff,,51—100,1319,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/eiendom/prisoversikt
+2026-07-12,NO,finn.no,real_estate,NOK,new,finn,2026,utland,Bolig i utlandet,Pris Proff,,101—250,821,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/eiendom/prisoversikt
+2026-07-12,NO,finn.no,real_estate,NOK,new,finn,2026,utland,Bolig i utlandet,Pris Proff,,250—499,726,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/eiendom/prisoversikt
+2026-07-12,NO,finn.no,real_estate,NOK,new,finn,2026,utland,Bolig i utlandet,Pris Proff,,500+,571,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/eiendom/prisoversikt
+2026-07-12,NO,finn.no,mobility_cars,NOK,new,finn_cars,2026,bil,bilannonser,Basis,,0-30,737,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/bedriftskunde/motor/priser/priser-bilannonsering
+2026-07-12,NO,finn.no,mobility_cars,NOK,new,finn_cars,2026,bil,bilannonser,Basis,,31-200,615,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/bedriftskunde/motor/priser/priser-bilannonsering
+2026-07-12,NO,finn.no,mobility_cars,NOK,new,finn_cars,2026,bil,bilannonser,Basis,,201-500,572,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/bedriftskunde/motor/priser/priser-bilannonsering
+2026-07-12,NO,finn.no,mobility_cars,NOK,new,finn_cars,2026,bil,bilannonser,Basis,,501-1500,501,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/bedriftskunde/motor/priser/priser-bilannonsering
+2026-07-12,NO,finn.no,mobility_cars,NOK,new,finn_cars,2026,bil,bilannonser,Basis,,1501-5000,401,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/bedriftskunde/motor/priser/priser-bilannonsering
+2026-07-12,NO,finn.no,mobility_cars,NOK,new,finn_cars,2026,bil,bilannonser,Basis,,5001-12000,301,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/bedriftskunde/motor/priser/priser-bilannonsering
+2026-07-12,NO,finn.no,mobility_cars,NOK,new,finn_cars,2026,bil,bilannonser,Basis,,12001-15000,215,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/bedriftskunde/motor/priser/priser-bilannonsering
+2026-07-12,NO,finn.no,mobility_cars,NOK,new,finn_cars,2026,bil,bilannonser,Basis,,15001-30000,157,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/bedriftskunde/motor/priser/priser-bilannonsering
+2026-07-12,NO,finn.no,mobility_cars,NOK,new,finn_cars,2026,bil,bilannonser,Pluss,,0-30,884,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/bedriftskunde/motor/priser/priser-bilannonsering
+2026-07-12,NO,finn.no,mobility_cars,NOK,new,finn_cars,2026,bil,bilannonser,Pluss,,31-200,738,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/bedriftskunde/motor/priser/priser-bilannonsering
+2026-07-12,NO,finn.no,mobility_cars,NOK,new,finn_cars,2026,bil,bilannonser,Pluss,,201-500,687,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/bedriftskunde/motor/priser/priser-bilannonsering
+2026-07-12,NO,finn.no,mobility_cars,NOK,new,finn_cars,2026,bil,bilannonser,Pluss,,501-1500,601,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/bedriftskunde/motor/priser/priser-bilannonsering
+2026-07-12,NO,finn.no,mobility_cars,NOK,new,finn_cars,2026,bil,bilannonser,Pluss,,1501-5000,481,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/bedriftskunde/motor/priser/priser-bilannonsering
+2026-07-12,NO,finn.no,mobility_cars,NOK,new,finn_cars,2026,bil,bilannonser,Pluss,,5001-12000,360,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/bedriftskunde/motor/priser/priser-bilannonsering
+2026-07-12,NO,finn.no,mobility_cars,NOK,new,finn_cars,2026,bil,bilannonser,Pluss,,12001-15000,257,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/bedriftskunde/motor/priser/priser-bilannonsering
+2026-07-12,NO,finn.no,mobility_cars,NOK,new,finn_cars,2026,bil,bilannonser,Pluss,,15001-30000,189,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/bedriftskunde/motor/priser/priser-bilannonsering
+2026-07-12,NO,finn.no,mobility_cars,NOK,new,finn_cars,2026,bil,bilannonser,Premium,,0-30,988,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/bedriftskunde/motor/priser/priser-bilannonsering
+2026-07-12,NO,finn.no,mobility_cars,NOK,new,finn_cars,2026,bil,bilannonser,Premium,,31-200,825,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/bedriftskunde/motor/priser/priser-bilannonsering
+2026-07-12,NO,finn.no,mobility_cars,NOK,new,finn_cars,2026,bil,bilannonser,Premium,,201-500,767,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/bedriftskunde/motor/priser/priser-bilannonsering
+2026-07-12,NO,finn.no,mobility_cars,NOK,new,finn_cars,2026,bil,bilannonser,Premium,,501-1500,671,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/bedriftskunde/motor/priser/priser-bilannonsering
+2026-07-12,NO,finn.no,mobility_cars,NOK,new,finn_cars,2026,bil,bilannonser,Premium,,1501-5000,537,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/bedriftskunde/motor/priser/priser-bilannonsering
+2026-07-12,NO,finn.no,mobility_cars,NOK,new,finn_cars,2026,bil,bilannonser,Premium,,5001-12000,403,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/bedriftskunde/motor/priser/priser-bilannonsering
+2026-07-12,NO,finn.no,mobility_cars,NOK,new,finn_cars,2026,bil,bilannonser,Premium,,12001-15000,288,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/bedriftskunde/motor/priser/priser-bilannonsering
+2026-07-12,NO,finn.no,mobility_cars,NOK,new,finn_cars,2026,bil,bilannonser,Premium,,15001-30000,211,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/bedriftskunde/motor/priser/priser-bilannonsering
+2026-07-12,NO,finn.no,mobility_other,NOK,new,finn_other_mobility,2026,mobility,Campingvogn og bobil,,,0 - 30,434,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/bedriftskunde/motor/priser/priser-subvertikaler
+2026-07-12,NO,finn.no,mobility_other,NOK,new,finn_other_mobility,2026,mobility,Campingvogn og bobil,,,31 - 200,353,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/bedriftskunde/motor/priser/priser-subvertikaler
+2026-07-12,NO,finn.no,mobility_other,NOK,new,finn_other_mobility,2026,mobility,Campingvogn og bobil,,,201 - 500,314,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/bedriftskunde/motor/priser/priser-subvertikaler
+2026-07-12,NO,finn.no,mobility_other,NOK,new,finn_other_mobility,2026,mobility,Campingvogn og bobil,,,501 - 1 500,254,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/bedriftskunde/motor/priser/priser-subvertikaler
+2026-07-12,NO,finn.no,mobility_other,NOK,new,finn_other_mobility,2026,mobility,Campingvogn og bobil,,,1 500+,196,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/bedriftskunde/motor/priser/priser-subvertikaler
+2026-07-12,NO,finn.no,mobility_other,NOK,new,finn_other_mobility,2026,mobility,"Båter til salgs, nye båter til salgs og båter ønskes",,,0 - 30,592,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/bedriftskunde/motor/priser/priser-subvertikaler
+2026-07-12,NO,finn.no,mobility_other,NOK,new,finn_other_mobility,2026,mobility,"Båter til salgs, nye båter til salgs og båter ønskes",,,31 - 200,517,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/bedriftskunde/motor/priser/priser-subvertikaler
+2026-07-12,NO,finn.no,mobility_other,NOK,new,finn_other_mobility,2026,mobility,"Båter til salgs, nye båter til salgs og båter ønskes",,,201 - 500,490,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/bedriftskunde/motor/priser/priser-subvertikaler
+2026-07-12,NO,finn.no,mobility_other,NOK,new,finn_other_mobility,2026,mobility,"Båter til salgs, nye båter til salgs og båter ønskes",,,500+,436,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/bedriftskunde/motor/priser/priser-subvertikaler
+2026-07-12,NO,finn.no,mobility_other,NOK,new,finn_other_mobility,2026,mobility,Båtmotorer og deler,,,0+,297,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/bedriftskunde/motor/priser/priser-subvertikaler
+2026-07-12,NO,finn.no,mobility_other,NOK,new,finn_other_mobility,2026,mobility,"ATV, snøscooter, moped og MC",,,0 - 30,297,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/bedriftskunde/motor/priser/priser-subvertikaler
+2026-07-12,NO,finn.no,mobility_other,NOK,new,finn_other_mobility,2026,mobility,"ATV, snøscooter, moped og MC",,,31 - 200,210,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/bedriftskunde/motor/priser/priser-subvertikaler
+2026-07-12,NO,finn.no,mobility_other,NOK,new,finn_other_mobility,2026,mobility,"ATV, snøscooter, moped og MC",,,201 - 500,187,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/bedriftskunde/motor/priser/priser-subvertikaler
+2026-07-12,NO,finn.no,mobility_other,NOK,new,finn_other_mobility,2026,mobility,"ATV, snøscooter, moped og MC",,,501 - 1 500,152,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/bedriftskunde/motor/priser/priser-subvertikaler
+2026-07-12,NO,finn.no,mobility_other,NOK,new,finn_other_mobility,2026,mobility,"ATV, snøscooter, moped og MC",,,1 500+,116,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/bedriftskunde/motor/priser/priser-subvertikaler
+2026-07-12,NO,finn.no,mobility_other,NOK,new,finn_other_mobility,2026,mobility,Traktor,,,0 - 30,434,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/bedriftskunde/motor/priser/priser-subvertikaler
+2026-07-12,NO,finn.no,mobility_other,NOK,new,finn_other_mobility,2026,mobility,Traktor,,,31 - 200,353,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/bedriftskunde/motor/priser/priser-subvertikaler
+2026-07-12,NO,finn.no,mobility_other,NOK,new,finn_other_mobility,2026,mobility,Traktor,,,201 - 500,314,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/bedriftskunde/motor/priser/priser-subvertikaler
+2026-07-12,NO,finn.no,mobility_other,NOK,new,finn_other_mobility,2026,mobility,Traktor,,,501 - 1 500,254,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/bedriftskunde/motor/priser/priser-subvertikaler
+2026-07-12,NO,finn.no,mobility_other,NOK,new,finn_other_mobility,2026,mobility,Traktor,,,1 500+,196,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/bedriftskunde/motor/priser/priser-subvertikaler
+2026-07-12,NO,finn.no,mobility_other,NOK,new,finn_other_mobility,2026,mobility,Buss og minibuss,,,0 - 30,434,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/bedriftskunde/motor/priser/priser-subvertikaler
+2026-07-12,NO,finn.no,mobility_other,NOK,new,finn_other_mobility,2026,mobility,Buss og minibuss,,,31 - 200,353,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/bedriftskunde/motor/priser/priser-subvertikaler
+2026-07-12,NO,finn.no,mobility_other,NOK,new,finn_other_mobility,2026,mobility,Buss og minibuss,,,201 - 500,314,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/bedriftskunde/motor/priser/priser-subvertikaler
+2026-07-12,NO,finn.no,mobility_other,NOK,new,finn_other_mobility,2026,mobility,Buss og minibuss,,,501 - 1 500,254,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/bedriftskunde/motor/priser/priser-subvertikaler
+2026-07-12,NO,finn.no,mobility_other,NOK,new,finn_other_mobility,2026,mobility,Buss og minibuss,,,1 500+,196,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/bedriftskunde/motor/priser/priser-subvertikaler
+2026-07-12,NO,finn.no,mobility_other,NOK,new,finn_other_mobility,2026,mobility,Bygg og anlegg,,,0 - 30,384,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/bedriftskunde/motor/priser/priser-subvertikaler
+2026-07-12,NO,finn.no,mobility_other,NOK,new,finn_other_mobility,2026,mobility,Bygg og anlegg,,,31 - 200,281,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/bedriftskunde/motor/priser/priser-subvertikaler
+2026-07-12,NO,finn.no,mobility_other,NOK,new,finn_other_mobility,2026,mobility,Bygg og anlegg,,,201 - 500,250,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/bedriftskunde/motor/priser/priser-subvertikaler
+2026-07-12,NO,finn.no,mobility_other,NOK,new,finn_other_mobility,2026,mobility,Bygg og anlegg,,,501 - 1 500,204,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/bedriftskunde/motor/priser/priser-subvertikaler
+2026-07-12,NO,finn.no,mobility_other,NOK,new,finn_other_mobility,2026,mobility,Bygg og anlegg,,,1 501 - 5 000,156,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/bedriftskunde/motor/priser/priser-subvertikaler
+2026-07-12,NO,finn.no,mobility_other,NOK,new,finn_other_mobility,2026,mobility,Bygg og anlegg,,,5 000+,120,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/bedriftskunde/motor/priser/priser-subvertikaler
+2026-07-12,NO,finn.no,mobility_other,NOK,new,finn_other_mobility,2026,mobility,Tresker,,,0 - 30,384,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/bedriftskunde/motor/priser/priser-subvertikaler
+2026-07-12,NO,finn.no,mobility_other,NOK,new,finn_other_mobility,2026,mobility,Tresker,,,31 - 200,281,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/bedriftskunde/motor/priser/priser-subvertikaler
+2026-07-12,NO,finn.no,mobility_other,NOK,new,finn_other_mobility,2026,mobility,Tresker,,,201 - 500,250,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/bedriftskunde/motor/priser/priser-subvertikaler
+2026-07-12,NO,finn.no,mobility_other,NOK,new,finn_other_mobility,2026,mobility,Tresker,,,501 - 1500,204,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/bedriftskunde/motor/priser/priser-subvertikaler
+2026-07-12,NO,finn.no,mobility_other,NOK,new,finn_other_mobility,2026,mobility,Tresker,,,1501 - 5 000,156,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/bedriftskunde/motor/priser/priser-subvertikaler
+2026-07-12,NO,finn.no,mobility_other,NOK,new,finn_other_mobility,2026,mobility,Tresker,,,5 000+,120,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/bedriftskunde/motor/priser/priser-subvertikaler
+2026-07-12,NO,finn.no,mobility_other,NOK,new,finn_other_mobility,2026,mobility,Lastebil og henger,,,0 - 30,434,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/bedriftskunde/motor/priser/priser-subvertikaler
+2026-07-12,NO,finn.no,mobility_other,NOK,new,finn_other_mobility,2026,mobility,Lastebil og henger,,,31 - 200,353,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/bedriftskunde/motor/priser/priser-subvertikaler
+2026-07-12,NO,finn.no,mobility_other,NOK,new,finn_other_mobility,2026,mobility,Lastebil og henger,,,201 - 500,314,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/bedriftskunde/motor/priser/priser-subvertikaler
+2026-07-12,NO,finn.no,mobility_other,NOK,new,finn_other_mobility,2026,mobility,Lastebil og henger,,,501 - 1 500,254,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/bedriftskunde/motor/priser/priser-subvertikaler
+2026-07-12,NO,finn.no,mobility_other,NOK,new,finn_other_mobility,2026,mobility,Lastebil og henger,,,1 500+,196,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/bedriftskunde/motor/priser/priser-subvertikaler
+2026-07-12,NO,finn.no,mobility_other,NOK,new,finn_other_mobility,2026,mobility,Redskap,,,0 - 30,384,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/bedriftskunde/motor/priser/priser-subvertikaler
+2026-07-12,NO,finn.no,mobility_other,NOK,new,finn_other_mobility,2026,mobility,Redskap,,,31 - 200,281,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/bedriftskunde/motor/priser/priser-subvertikaler
+2026-07-12,NO,finn.no,mobility_other,NOK,new,finn_other_mobility,2026,mobility,Redskap,,,201 - 500,250,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/bedriftskunde/motor/priser/priser-subvertikaler
+2026-07-12,NO,finn.no,mobility_other,NOK,new,finn_other_mobility,2026,mobility,Redskap,,,501 - 1 500,204,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/bedriftskunde/motor/priser/priser-subvertikaler
+2026-07-12,NO,finn.no,mobility_other,NOK,new,finn_other_mobility,2026,mobility,Redskap,,,1501 - 5 000,156,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/bedriftskunde/motor/priser/priser-subvertikaler
+2026-07-12,NO,finn.no,mobility_other,NOK,new,finn_other_mobility,2026,mobility,Redskap,,,5 000+,120,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/bedriftskunde/motor/priser/priser-subvertikaler
+2026-07-12,NO,finn.no,jobs,NOK,new,finn_jobb,2026,jobb,Heltid- og lederstilling,Kategori 1,,,10400,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/jobb/prisoversikt
+2026-07-12,NO,finn.no,jobs,NOK,new,finn_jobb,2026,jobb,Heltid- og lederstilling,Kategori 2,,,10900,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/jobb/prisoversikt
+2026-07-12,NO,finn.no,jobs,NOK,new,finn_jobb,2026,jobb,Heltid- og lederstilling,Kategori 3,,,13600,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/jobb/prisoversikt
+2026-07-12,NO,finn.no,jobs,NOK,new,finn_jobb,2026,jobb,Heltid- og lederstilling,Kategori 4,,,14800,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/jobb/prisoversikt
+2026-07-12,NO,finn.no,jobs,NOK,new,finn_jobb,2026,jobb,Deltidstilling,Kategori 1,,,8320,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/jobb/prisoversikt
+2026-07-12,NO,finn.no,jobs,NOK,new,finn_jobb,2026,jobb,Deltidstilling,Kategori 2,,,8720,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/jobb/prisoversikt
+2026-07-12,NO,finn.no,jobs,NOK,new,finn_jobb,2026,jobb,Deltidstilling,Kategori 3,,,10880,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/jobb/prisoversikt
+2026-07-12,NO,finn.no,jobs,NOK,new,finn_jobb,2026,jobb,Deltidstilling,Kategori 4,,,11840,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.finn.no/jobb/prisoversikt
+2026-07-12,SE,blocket.se,mobility_cars,SEK,new,blocket_cars,2026,bil,bilannonser,Bas,,1 - 50,612,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.blocket.se/for-foretag/fordon/priser
+2026-07-12,SE,blocket.se,mobility_cars,SEK,new,blocket_cars,2026,bil,bilannonser,Plus,,1 - 50,740,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.blocket.se/for-foretag/fordon/priser
+2026-07-12,SE,blocket.se,mobility_cars,SEK,new,blocket_cars,2026,bil,bilannonser,Premium,,1 - 50,842,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.blocket.se/for-foretag/fordon/priser
+2026-07-12,SE,blocket.se,mobility_cars,SEK,new,blocket_cars,2026,bil,bilannonser,Bas,,51 - 200,600,611.69,,0,,2026-07-12T04:00:12.852964+00:00,https://www.blocket.se/for-foretag/fordon/priser
+2026-07-12,SE,blocket.se,mobility_cars,SEK,new,blocket_cars,2026,bil,bilannonser,Plus,,51 - 200,725.45,739.63,,0,,2026-07-12T04:00:12.852964+00:00,https://www.blocket.se/for-foretag/fordon/priser
+2026-07-12,SE,blocket.se,mobility_cars,SEK,new,blocket_cars,2026,bil,bilannonser,Premium,,51 - 200,825.5,841.57,,0,,2026-07-12T04:00:12.852964+00:00,https://www.blocket.se/for-foretag/fordon/priser
+2026-07-12,SE,blocket.se,mobility_cars,SEK,new,blocket_cars,2026,bil,bilannonser,Bas,,201 - 500,511.2,599.26,,0,,2026-07-12T04:00:12.852964+00:00,https://www.blocket.se/for-foretag/fordon/priser
+2026-07-12,SE,blocket.se,mobility_cars,SEK,new,blocket_cars,2026,bil,bilannonser,Plus,,201 - 500,618.5,724.83,,0,,2026-07-12T04:00:12.852964+00:00,https://www.blocket.se/for-foretag/fordon/priser
+2026-07-12,SE,blocket.se,mobility_cars,SEK,new,blocket_cars,2026,bil,bilannonser,Premium,,201 - 500,703.4,824.49,,0,,2026-07-12T04:00:12.852964+00:00,https://www.blocket.se/for-foretag/fordon/priser
+2026-07-12,SE,blocket.se,mobility_cars,SEK,new,blocket_cars,2026,bil,bilannonser,Bas,,501 - 1000,446.6,510.94,,0,,2026-07-12T04:00:12.852964+00:00,https://www.blocket.se/for-foretag/fordon/priser
+2026-07-12,SE,blocket.se,mobility_cars,SEK,new,blocket_cars,2026,bil,bilannonser,Plus,,501 - 1000,539.75,618.19,,0,,2026-07-12T04:00:12.852964+00:00,https://www.blocket.se/for-foretag/fordon/priser
+2026-07-12,SE,blocket.se,mobility_cars,SEK,new,blocket_cars,2026,bil,bilannonser,Premium,,501 - 1000,614.2,703.04,,0,,2026-07-12T04:00:12.852964+00:00,https://www.blocket.se/for-foretag/fordon/priser
+2026-07-12,SE,blocket.se,mobility_cars,SEK,new,blocket_cars,2026,bil,bilannonser,Bas,,1001 - 5000,358.12,446.49,,0,,2026-07-12T04:00:12.852964+00:00,https://www.blocket.se/for-foretag/fordon/priser
+2026-07-12,SE,blocket.se,mobility_cars,SEK,new,blocket_cars,2026,bil,bilannonser,Plus,,1001 - 5000,432.75,539.62,,0,,2026-07-12T04:00:12.852964+00:00,https://www.blocket.se/for-foretag/fordon/priser
+2026-07-12,SE,blocket.se,mobility_cars,SEK,new,blocket_cars,2026,bil,bilannonser,Premium,,1001 - 5000,492.44,614.05,,0,,2026-07-12T04:00:12.852964+00:00,https://www.blocket.se/for-foretag/fordon/priser
+2026-07-12,SE,blocket.se,mobility_cars,SEK,new,blocket_cars,2026,bil,bilannonser,Bas,,5 001 - 10 000,287.06,358.09,,0,,2026-07-12T04:00:12.852964+00:00,https://www.blocket.se/for-foretag/fordon/priser
+2026-07-12,SE,blocket.se,mobility_cars,SEK,new,blocket_cars,2026,bil,bilannonser,Plus,,5 001 - 10 000,346.88,432.72,,0,,2026-07-12T04:00:12.852964+00:00,https://www.blocket.se/for-foretag/fordon/priser
+2026-07-12,SE,blocket.se,mobility_cars,SEK,new,blocket_cars,2026,bil,bilannonser,Premium,,5 001 - 10 000,394.72,492.4,,0,,2026-07-12T04:00:12.852964+00:00,https://www.blocket.se/for-foretag/fordon/priser
+2026-07-12,SE,blocket.se,mobility_cars,SEK,new,blocket_cars,2026,bil,bilannonser,Bas,,10 001 - 20 000,248.53,287.05,,0,,2026-07-12T04:00:12.852964+00:00,https://www.blocket.se/for-foretag/fordon/priser
+2026-07-12,SE,blocket.se,mobility_cars,SEK,new,blocket_cars,2026,bil,bilannonser,Plus,,10 001 - 20 000,300.44,346.87,,0,,2026-07-12T04:00:12.852964+00:00,https://www.blocket.se/for-foretag/fordon/priser
+2026-07-12,SE,blocket.se,mobility_cars,SEK,new,blocket_cars,2026,bil,bilannonser,Premium,,10 001 - 20 000,341.86,394.71,,0,,2026-07-12T04:00:12.852964+00:00,https://www.blocket.se/for-foretag/fordon/priser
+2026-07-12,SE,blocket.se,mobility_cars,SEK,new,blocket_cars,2026,bil,bilannonser,Bas,,20 001 - 40 000,226.77,248.53,,0,,2026-07-12T04:00:12.852964+00:00,https://www.blocket.se/for-foretag/fordon/priser
+2026-07-12,SE,blocket.se,mobility_cars,SEK,new,blocket_cars,2026,bil,bilannonser,Plus,,20 001 - 40 000,274.22,300.43,,0,,2026-07-12T04:00:12.852964+00:00,https://www.blocket.se/for-foretag/fordon/priser
+2026-07-12,SE,blocket.se,mobility_cars,SEK,new,blocket_cars,2026,bil,bilannonser,Premium,,20 001 - 40 000,311.93,341.86,,0,,2026-07-12T04:00:12.852964+00:00,https://www.blocket.se/for-foretag/fordon/priser
+2026-07-12,SE,blocket.se,mobility_cars,SEK,new,blocket_cars,2026,bil,bilannonser,Bas,,40 001 - 60 000,217.51,226.76,,0,,2026-07-12T04:00:12.852964+00:00,https://www.blocket.se/for-foretag/fordon/priser
+2026-07-12,SE,blocket.se,mobility_cars,SEK,new,blocket_cars,2026,bil,bilannonser,Plus,,40 001 - 60 000,263.15,274.22,,0,,2026-07-12T04:00:12.852964+00:00,https://www.blocket.se/for-foretag/fordon/priser
+2026-07-12,SE,blocket.se,mobility_cars,SEK,new,blocket_cars,2026,bil,bilannonser,Premium,,40 001 - 60 000,299.29,311.93,,0,,2026-07-12T04:00:12.852964+00:00,https://www.blocket.se/for-foretag/fordon/priser
+2026-07-12,SE,blocket.se,mobility_cars,SEK,new,blocket_cars,2026,bil,bilannonser,Bas,,60 001 - 80 000,211.38,217.51,,0,,2026-07-12T04:00:12.852964+00:00,https://www.blocket.se/for-foretag/fordon/priser
+2026-07-12,SE,blocket.se,mobility_cars,SEK,new,blocket_cars,2026,bil,bilannonser,Plus,,60 001 - 80 000,255.61,263.15,,0,,2026-07-12T04:00:12.852964+00:00,https://www.blocket.se/for-foretag/fordon/priser
+2026-07-12,SE,blocket.se,mobility_cars,SEK,new,blocket_cars,2026,bil,bilannonser,Premium,,60 001 - 80 000,290.97,299.29,,0,,2026-07-12T04:00:12.852964+00:00,https://www.blocket.se/for-foretag/fordon/priser
+2026-07-12,SE,blocket.se,mobility_cars,SEK,new,blocket_cars,2026,bil,bilannonser,Bas,,80 001 - 100 000,202.31,211.38,,0,,2026-07-12T04:00:12.852964+00:00,https://www.blocket.se/for-foretag/fordon/priser
+2026-07-12,SE,blocket.se,mobility_cars,SEK,new,blocket_cars,2026,bil,bilannonser,Plus,,80 001 - 100 000,244.49,255.61,,0,,2026-07-12T04:00:12.852964+00:00,https://www.blocket.se/for-foretag/fordon/priser
+2026-07-12,SE,blocket.se,mobility_cars,SEK,new,blocket_cars,2026,bil,bilannonser,Premium,,80 001 - 100 000,278.37,290.96,,0,,2026-07-12T04:00:12.852964+00:00,https://www.blocket.se/for-foretag/fordon/priser
+2026-07-12,SE,blocket.se,mobility_cars,SEK,new,blocket_cars,2026,bil,bilannonser,Bas,,Fler än 100 000,202.31,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.blocket.se/for-foretag/fordon/priser
+2026-07-12,SE,blocket.se,mobility_cars,SEK,new,blocket_cars,2026,bil,bilannonser,Plus,,Fler än 100 000,244.49,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.blocket.se/for-foretag/fordon/priser
+2026-07-12,SE,blocket.se,mobility_cars,SEK,new,blocket_cars,2026,bil,bilannonser,Premium,,Fler än 100 000,287.37,,,0,,2026-07-12T04:00:12.852964+00:00,https://www.blocket.se/for-foretag/fordon/priser
+2026-07-12,SE,blocket.se,private_listings,SEK,new,blocket_private,2026,Bil,Bil,,,,249,,,0,,2026-07-12T04:00:12.852964+00:00,https://blocket.zendesk.com/hc/sv/articles/22877545778962
+2026-07-12,SE,blocket.se,private_listings,SEK,new,blocket_private,2026,Bil,Bildelar och tillbehör,,,,89,,,0,,2026-07-12T04:00:12.852964+00:00,https://blocket.zendesk.com/hc/sv/articles/22877545778962
+2026-07-12,SE,blocket.se,private_listings,SEK,new,blocket_private,2026,Bil,A-traktorer,,,,209,,,0,,2026-07-12T04:00:12.852964+00:00,https://blocket.zendesk.com/hc/sv/articles/22877545778962
+2026-07-12,SE,blocket.se,private_listings,SEK,new,blocket_private,2026,Bil,Släp och trailer,,,,169,,,0,,2026-07-12T04:00:12.852964+00:00,https://blocket.zendesk.com/hc/sv/articles/22877545778962
+2026-07-12,SE,blocket.se,private_listings,SEK,new,blocket_private,2026,Bil,Husvagnar,,,,249,,,0,,2026-07-12T04:00:12.852964+00:00,https://blocket.zendesk.com/hc/sv/articles/22877545778962
+2026-07-12,SE,blocket.se,private_listings,SEK,new,blocket_private,2026,Bil,Husbilar,,,,249,,,0,,2026-07-12T04:00:12.852964+00:00,https://blocket.zendesk.com/hc/sv/articles/22877545778962
+2026-07-12,SE,blocket.se,private_listings,SEK,new,blocket_private,2026,Bil,Husvagns- och husbilsdelar,,,,89,,,0,,2026-07-12T04:00:12.852964+00:00,https://blocket.zendesk.com/hc/sv/articles/22877545778962
+2026-07-12,SE,blocket.se,private_listings,SEK,new,blocket_private,2026,Båt,Båt,,,,249,,,0,,2026-07-12T04:00:12.852964+00:00,https://blocket.zendesk.com/hc/sv/articles/22877545778962
+2026-07-12,SE,blocket.se,private_listings,SEK,new,blocket_private,2026,Båt,Båtplats och förvaring,,,,139,,,0,,2026-07-12T04:00:12.852964+00:00,https://blocket.zendesk.com/hc/sv/articles/22877545778962
+2026-07-12,SE,blocket.se,private_listings,SEK,new,blocket_private,2026,Båt,Båttrailer & båtvagn,,,,169,,,0,,2026-07-12T04:00:12.852964+00:00,https://blocket.zendesk.com/hc/sv/articles/22877545778962
+2026-07-12,SE,blocket.se,private_listings,SEK,new,blocket_private,2026,Båt,Båtmotor,,,,139,,,0,,2026-07-12T04:00:12.852964+00:00,https://blocket.zendesk.com/hc/sv/articles/22877545778962
+2026-07-12,SE,blocket.se,private_listings,SEK,new,blocket_private,2026,Båt,Båtdelar och tillbehör,,,,89,,,0,,2026-07-12T04:00:12.852964+00:00,https://blocket.zendesk.com/hc/sv/articles/22877545778962
+2026-07-12,SE,blocket.se,private_listings,SEK,new,blocket_private,2026,MC,Motorcykel,,,,209,,,0,,2026-07-12T04:00:12.852964+00:00,https://blocket.zendesk.com/hc/sv/articles/22877545778962
+2026-07-12,SE,blocket.se,private_listings,SEK,new,blocket_private,2026,MC,Mopeder & mopedbilar,,,,209,,,0,,2026-07-12T04:00:12.852964+00:00,https://blocket.zendesk.com/hc/sv/articles/22877545778962
+2026-07-12,SE,blocket.se,private_listings,SEK,new,blocket_private,2026,MC,MC-utrustning och reservdelar,,,,89,,,0,,2026-07-12T04:00:12.852964+00:00,https://blocket.zendesk.com/hc/sv/articles/22877545778962
+2026-07-12,SE,blocket.se,private_listings,SEK,new,blocket_private,2026,MC,ATV:er,,,,209,,,0,,2026-07-12T04:00:12.852964+00:00,https://blocket.zendesk.com/hc/sv/articles/22877545778962
+2026-07-12,SE,blocket.se,private_listings,SEK,new,blocket_private,2026,MC,ATV-reservdelar,,,,89,,,0,,2026-07-12T04:00:12.852964+00:00,https://blocket.zendesk.com/hc/sv/articles/22877545778962
+2026-07-12,SE,blocket.se,private_listings,SEK,new,blocket_private,2026,MC,MC- och ATV-släp,,,,169,,,0,,2026-07-12T04:00:12.852964+00:00,https://blocket.zendesk.com/hc/sv/articles/22877545778962
+2026-07-12,SE,blocket.se,private_listings,SEK,new,blocket_private,2026,MC,Snöskotrar,,,,209,,,0,,2026-07-12T04:00:12.852964+00:00,https://blocket.zendesk.com/hc/sv/articles/22877545778962
+2026-07-12,SE,blocket.se,private_listings,SEK,new,blocket_private,2026,Entreprenad- och lantbruksmaskiner,Traktor,,,,209,,,0,,2026-07-12T04:00:12.852964+00:00,https://blocket.zendesk.com/hc/sv/articles/22877545778962
+2026-07-12,SE,blocket.se,private_listings,SEK,new,blocket_private,2026,Entreprenad- och lantbruksmaskiner,Skördetröskor,,,,209,,,0,,2026-07-12T04:00:12.852964+00:00,https://blocket.zendesk.com/hc/sv/articles/22877545778962
+2026-07-12,SE,blocket.se,private_listings,SEK,new,blocket_private,2026,Entreprenad- och lantbruksmaskiner,Lastbil och släpvagn,,,,249,,,0,,2026-07-12T04:00:12.852964+00:00,https://blocket.zendesk.com/hc/sv/articles/22877545778962
+2026-07-12,SE,blocket.se,private_listings,SEK,new,blocket_private,2026,Entreprenad- och lantbruksmaskiner,Buss,,,,249,,,0,,2026-07-12T04:00:12.852964+00:00,https://blocket.zendesk.com/hc/sv/articles/22877545778962
+2026-07-12,SE,blocket.se,private_listings,SEK,new,blocket_private,2026,Entreprenad- och lantbruksmaskiner,Skogs- och lantbruksmaskiner,,,,209,,,0,,2026-07-12T04:00:12.852964+00:00,https://blocket.zendesk.com/hc/sv/articles/22877545778962
+2026-07-12,SE,blocket.se,private_listings,SEK,new,blocket_private,2026,Entreprenad- och lantbruksmaskiner,Entreprenad och anläggning,,,,249,,,0,,2026-07-12T04:00:12.852964+00:00,https://blocket.zendesk.com/hc/sv/articles/22877545778962
+2026-07-12,SE,blocket.se,private_listings,SEK,new,blocket_private,2026,Affärsverksamhet,Alla underkategorier,,,,139,,,0,,2026-07-12T04:00:12.852964+00:00,https://blocket.zendesk.com/hc/sv/articles/22877545778962
+2026-07-12,DK,bilbasen.dk,mobility_cars,DKK,new,bilbasen,2026,bil,bilannonser,Discount,,,599,,,0,,2026-07-12T04:00:12.852964+00:00,https://bilinfo.dk/annoncering/bilbasen
+2026-07-12,DK,bilbasen.dk,mobility_cars,DKK,new,bilbasen,2026,bil,bilannonser,Standard,,,799,,,0,,2026-07-12T04:00:12.852964+00:00,https://bilinfo.dk/annoncering/bilbasen
+2026-07-12,DK,bilbasen.dk,mobility_cars,DKK,new,bilbasen,2026,bil,bilannonser,Plus,,,1299,,,0,,2026-07-12T04:00:12.852964+00:00,https://bilinfo.dk/annoncering/bilbasen
+2026-10-02,NO,finn.no,jobs,NOK,changed,finn_jobb,2026,jobb,Heltid- og lederstilling,Kategori 1,,,10000,,,0,exclude:E15,2026-10-02T04:00:39.825989+00:00,https://www.finn.no/jobb/prisoversikt
+2026-10-02,NO,finn.no,jobs,NOK,changed,finn_jobb,2026,jobb,Heltid- og lederstilling,Kategori 2,,,10000,,,0,exclude:E15,2026-10-02T04:00:39.825989+00:00,https://www.finn.no/jobb/prisoversikt
+2026-10-02,NO,finn.no,jobs,NOK,changed,finn_jobb,2026,jobb,Heltid- og lederstilling,Kategori 3,,,10000,,,0,exclude:E15,2026-10-02T04:00:39.825989+00:00,https://www.finn.no/jobb/prisoversikt
+2026-10-02,NO,finn.no,jobs,NOK,changed,finn_jobb,2026,jobb,Heltid- og lederstilling,Kategori 4,,,10000,,,0,exclude:E15,2026-10-02T04:00:39.825989+00:00,https://www.finn.no/jobb/prisoversikt
+2026-10-02,NO,finn.no,jobs,NOK,changed,finn_jobb,2026,jobb,Deltidstilling,Kategori 1,,,10000,,,0,exclude:E15,2026-10-02T04:00:39.825989+00:00,https://www.finn.no/jobb/prisoversikt
+2026-10-02,NO,finn.no,jobs,NOK,changed,finn_jobb,2026,jobb,Deltidstilling,Kategori 2,,,10000,,,0,exclude:E15,2026-10-02T04:00:39.825989+00:00,https://www.finn.no/jobb/prisoversikt
+2026-10-02,NO,finn.no,jobs,NOK,changed,finn_jobb,2026,jobb,Deltidstilling,Kategori 3,,,10000,,,0,exclude:E15,2026-10-02T04:00:39.825989+00:00,https://www.finn.no/jobb/prisoversikt
+2026-10-02,NO,finn.no,jobs,NOK,changed,finn_jobb,2026,jobb,Deltidstilling,Kategori 4,,,10000,,,0,exclude:E15,2026-10-02T04:00:39.825989+00:00,https://www.finn.no/jobb/prisoversikt
+2026-10-03,NO,finn.no,jobs,NOK,changed,finn_jobb,2026,jobb,Heltid- og lederstilling,Kategori 1,,,10400,,,0,exclude:E15,2026-10-03T04:00:16.333313+00:00,https://www.finn.no/jobb/prisoversikt
+2026-10-03,NO,finn.no,jobs,NOK,changed,finn_jobb,2026,jobb,Heltid- og lederstilling,Kategori 2,,,10900,,,0,exclude:E15,2026-10-03T04:00:16.333313+00:00,https://www.finn.no/jobb/prisoversikt
+2026-10-03,NO,finn.no,jobs,NOK,changed,finn_jobb,2026,jobb,Heltid- og lederstilling,Kategori 3,,,13600,,,0,exclude:E15,2026-10-03T04:00:16.333313+00:00,https://www.finn.no/jobb/prisoversikt
+2026-10-03,NO,finn.no,jobs,NOK,changed,finn_jobb,2026,jobb,Heltid- og lederstilling,Kategori 4,,,14800,,,0,exclude:E15,2026-10-03T04:00:16.333313+00:00,https://www.finn.no/jobb/prisoversikt
+2026-10-03,NO,finn.no,jobs,NOK,changed,finn_jobb,2026,jobb,Deltidstilling,Kategori 1,,,8320,,,0,exclude:E15,2026-10-03T04:00:16.333313+00:00,https://www.finn.no/jobb/prisoversikt
+2026-10-03,NO,finn.no,jobs,NOK,changed,finn_jobb,2026,jobb,Deltidstilling,Kategori 2,,,8720,,,0,exclude:E15,2026-10-03T04:00:16.333313+00:00,https://www.finn.no/jobb/prisoversikt
+2026-10-03,NO,finn.no,jobs,NOK,changed,finn_jobb,2026,jobb,Deltidstilling,Kategori 3,,,10880,,,0,exclude:E15,2026-10-03T04:00:16.333313+00:00,https://www.finn.no/jobb/prisoversikt
+2026-10-03,NO,finn.no,jobs,NOK,changed,finn_jobb,2026,jobb,Deltidstilling,Kategori 4,,,11840,,,0,exclude:E15,2026-10-03T04:00:16.333313+00:00,https://www.finn.no/jobb/prisoversikt
