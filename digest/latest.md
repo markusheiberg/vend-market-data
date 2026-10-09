@@ -1,14 +1,7 @@
 # Vend market digest
 
-Generated 2026-10-09 11:04 UTC. Data up to **2026-10-08**.
+Generated 2026-10-09 11:06 UTC. Data up to **2026-10-08**.
 Read `CATALOG.md` for what each series means and `events.csv` before trusting a jump.
-
-## ⚠️ Missing inputs
-
-- `sources/vend-price-monitor/data/price_history.csv`
-- `sources/vend-price-monitor/data/price_changes.csv`
-- `sources/vend-price-monitor/data/articles.csv`
-- `sources/vend-price-monitor/data/price_list_latest.csv`
 
 ## Series with no value today
 
@@ -78,7 +71,8 @@ None (excluding glitches listed in `events.csv`).
 
 ## Price-related news, last 30 days
 
-None.
+- 2026-09-08 · www.finn.no · [Pakker, priser og rabattstruktur for 2027](https://www.finn.no/bedriftskunde/aktuelt/finn-eiendom/pakker-priser-rabatt-2027)
+- 2026-10-01 · www.finn.no · [Tesla Model 3 og Rebil tok prisene i Årets bruktbil 2026!](https://www.finn.no/bedriftskunde/aktuelt/finn-motor/arets-bruktbil-2026)
 
 ## Data events touching the last 30 days
 

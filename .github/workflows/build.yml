@@ -41,10 +41,15 @@ jobs:
           TOKEN: ${{ secrets.SOURCES_TOKEN }}
         run: |
           [[ -n "$TOKEN" ]] || { echo "::error::SOURCES_TOKEN secret is not set (see the header of this file)"; exit 1; }
-          for repo in vend-scraper-v2 finn-mobility-packages finn-bolig-packages vend-price-monitor; do
-            git clone --depth 1 --quiet \
+          # Branch named explicitly: each repo's export commits to this branch, and
+          # vend-price-monitor's GitHub default branch is NOT main (a plain clone
+          # silently got an old branch with no data/).
+          for spec in vend-scraper-v2:main finn-mobility-packages:main \
+                      finn-bolig-packages:master vend-price-monitor:main; do
+            repo=${spec%%:*}; branch=${spec##*:}
+            git clone --depth 1 --quiet --branch "$branch" \
               "https://x-access-token:${TOKEN}@github.com/markusheiberg/${repo}.git" "sources/${repo}" \
-              || echo "::warning::could not clone ${repo}; building without it"
+              || echo "::warning::could not clone ${repo}@${branch}; keeping its previous data"
           done
 
       - uses: actions/setup-python@v5

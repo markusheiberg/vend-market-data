@@ -106,6 +106,22 @@ class BuildTest(unittest.TestCase):
         self.assertIn("Missing inputs", digest)          # absent files are reported, not fatal
         self.assertIn("| finn.no | mobility_cars | dealer | 1 037 |", digest)
 
+    def test_missing_input_keeps_previous_data(self):
+        self._build()
+        before_changes = _read(self.out / "facts/price_changes.csv")
+        self.assertEqual(len(before_changes), 2)
+        # upstream export disappears: previous rows must survive, with a warning
+        (self.src / "vend-price-monitor/data/price_changes.csv").unlink()
+        (self.src / "finn-mobility-packages/data/weekly_package_mix.csv").unlink()
+        rows = self._build()
+        self.assertEqual(len(_read(self.out / "facts/price_changes.csv")), 2)
+        kept = [r for r in rows if r["source"] == "finn-mobility-packages/weekly_package_mix"]
+        self.assertEqual(len(kept), 12)
+        self.assertTrue(all(r["quality_flag"] == "exclude:E02" for r in kept
+                            if r["site"] == "blocket.se"))
+        digest = (self.out / "digest/latest.md").read_text()
+        self.assertIn("weekly_package_mix.csv", digest.split("##")[1])
+
 
 if __name__ == "__main__":
     unittest.main()

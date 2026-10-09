@@ -58,9 +58,10 @@ LISTING_COLS = ["date", "grain", "country", "site", "vertical", "segment", "pack
 missing: list[str] = []
 
 
-def read_csv(path: Path) -> list[dict]:
+def read_csv(path: Path, required: bool = True) -> list[dict]:
     if not path.exists():
-        missing.append(str(path))
+        if required:
+            missing.append(str(path))
         return []
     with path.open(encoding="utf-8", newline="") as f:
         return list(csv.DictReader(f))
@@ -356,12 +357,30 @@ def build(src: Path, out: Path, now: Optional[datetime] = None) -> None:
     missing.clear()
     events = load_events(out / "events.csv")
 
-    listings = (daily_series(src) + bilinfo(src) + leboncoin(src)
-                + mobility_packages(src) + bolig_packages(src))
+    # A source whose input is missing keeps its rows from the previous build, so a
+    # broken upstream export shows up as a warning and stale data, never as data
+    # silently disappearing from facts/.
+    previous = read_csv(out / "facts/listings.csv", required=False)
+    listings = []
+    for loader, rel in ((daily_series, "vend-scraper-v2/data/daily_filtered.csv"),
+                        (bilinfo, "vend-scraper-v2/data/bilinfo_weekly.csv"),
+                        (leboncoin, "vend-scraper-v2/data/leboncoin_manual.csv"),
+                        (mobility_packages, "finn-mobility-packages/data/weekly_package_mix.csv"),
+                        (bolig_packages, "finn-bolig-packages/data/packages_history.csv")):
+        if (src / rel).exists():
+            listings += loader(src)
+        else:
+            missing.append(str(src / rel))
+            tag = rel.split("/")[0] + "/" + Path(rel).stem
+            listings += [r for r in previous if r["source"] == tag]
+    for r in listings:
+        r["quality_flag"] = "" if r["quality_flag"].startswith("exclude") else r["quality_flag"]
     apply_exclusions(listings, events)
     listings.sort(key=lambda r: (r["date"], r["site"], r["vertical"], r["segment"],
                                  r["package"], r["metric"]))
 
+    pm = src / "vend-price-monitor/data"
+    have_hist, have_changes = (pm / "price_history.csv").exists(), (pm / "price_changes.csv").exists()
     price_hist, price_changes = prices(src)
     for r in price_hist + price_changes:
         r["quality_flag"] = ""
@@ -372,18 +391,27 @@ def build(src: Path, out: Path, now: Optional[datetime] = None) -> None:
     articles = news(src)
 
     n = write_csv(out / "facts/listings.csv", LISTING_COLS, listings)
+    if not have_changes:
+        # Keep the previous file; the digest still reads it.
+        price_changes = [{**r, "quality_flag": r.get("quality_flag", "")}
+                         for r in read_csv(out / "facts/price_changes.csv", required=False)]
     hist_cols = ["observed_date", "country", "site", "vertical", "currency", "event", "source",
                  "year", "category", "subcategory", "package", "geo", "unit_range",
                  "price_from_nok", "price_to_nok", "price_per_month_nok", "vat_included",
                  "quality_flag", "observed_at", "url"]
-    write_csv(out / "facts/prices.csv", hist_cols, price_hist)
     chg_cols = ["observed_date", "country", "site", "vertical", "currency", "source", "year",
                 "category", "subcategory", "package", "geo", "unit_range", "field",
                 "old_value", "new_value", "change_pct", "quality_flag", "observed_at"]
-    write_csv(out / "facts/price_changes.csv", chg_cols, price_changes)
-    write_csv(out / "facts/news.csv",
-              ["seen_date", "site", "price_related", "title", "description", "url", "news_source",
-               "seen_at"], articles)
+    if have_hist:
+        write_csv(out / "facts/prices.csv", hist_cols, price_hist)
+    if have_changes:
+        write_csv(out / "facts/price_changes.csv", chg_cols, price_changes)
+    if (src / "vend-price-monitor/data/articles.csv").exists():
+        write_csv(out / "facts/news.csv",
+                  ["seen_date", "site", "price_related", "title", "description", "url",
+                   "news_source", "seen_at"], articles)
+    else:
+        articles = read_csv(out / "facts/news.csv", required=False)
 
     for rel, name in (("vend-price-monitor/data/price_list_latest.csv", "price_list_latest.csv"),
                       ("finn-bolig-packages/data/package_prices.csv", "finn_homes_package_prices.csv"),
