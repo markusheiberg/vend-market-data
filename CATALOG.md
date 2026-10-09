@@ -44,9 +44,10 @@ Metrics:
 | `package_sample_count` | finn.no, blocket.se cars (dealer) | sampled listings per package. **A sample, not a market count** |
 | `package_count` | finn.no used homes | listings per package, full crawl |
 | `sample_fraction` | finn.no, blocket.se cars (dealer) | share of listings the car package scrape classified that week: 0.05 until 2026-07-20, 0.10 since. Compare `package_sample_count` only between weeks with the same value |
-| `visits`, `supply_cars`, `avg_days_to_sell` | bilinfo.dk | bilinfo's weekly report on the Danish dealer market (Bilbasen). Stock and days to sell are filled across weeks with no report by straight-line interpolation, flagged `interpolated`; visits are not |
-| `implied_cars_sold` | bilinfo.dk | estimate, cars per week: `supply_cars` × 7 / `avg_days_to_sell` (stock turns over once per days-to-sell) |
-| `implied_cars_added` | bilinfo.dk | estimate, cars per week: next week's `supply_cars` − this week's + `implied_cars_sold` (stock only changes by what comes in minus what goes out). Missing for the latest week until the next report |
+| `visits`, `supply_cars`, `avg_days_to_sell` | bilinfo.dk | bilinfo's weekly report on the Danish dealer market (Bilbasen), as reported. `supply_cars` is filled across weeks with no report by straight-line interpolation, flagged `interpolated` |
+| `adj_days_to_sell` | bilinfo.dk | **use this, not `avg_days_to_sell`.** Days to sell on one basis: before 2026-06-08 bilinfo measured the top 50 models only, so those weeks are reported × 56/41 (rounded to 0.1); from the break it equals reported (E17). Same definition as the bilinfo workbook in vend-scraper-v2, read from it on every build. Interpolated across missing weeks |
+| `implied_cars_sold` | bilinfo.dk | estimate, cars per week: last week's `supply_cars` × 7 / this week's `adj_days_to_sell`. Really outflow (cars also leave unsold), so an upper bound on sales |
+| `implied_cars_added` | bilinfo.dk | estimate, cars per week: this week's `supply_cars` − last week's + `implied_cars_sold`. Matches the workbook's implied new listings × 7 to the car on every reported week |
 
 ## Rules that are easy to get wrong
 
@@ -61,10 +62,12 @@ Metrics:
   the sample went from 5% to 10% (E07). Use `package_share` for trends.
 - **Package names differ by vertical.** Cars: premium / pluss / basis. Homes:
   large / medium / small (finn's Stor / Medium / Liten).
+- **bilinfo days to sell changed definition on 2026-06-08** (41 → 56 in one week,
+  no market change). Use `adj_days_to_sell` for anything spanning June 2026; the
+  implied flows already do.
 - **bilinfo's implied sold and added are estimates.** Days to sell is reported in
   whole days, so a one-day change moves implied sold by about 2%; read them as a
-  trend over several weeks, not week to week. Both assume the stock figure is the
-  stock at the start of the week.
+  trend over several weeks, not week to week.
 - **Weekly dates are Mondays.** A run on Sunday 2026-10-04 is dated 2026-09-28.
   finn homes package rows are the exception: they carry the run date.
 - **Prices are in the site's own currency** (`currency` column) despite the

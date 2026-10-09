@@ -1,6 +1,6 @@
 # Vend market digest
 
-Generated 2026-10-09 12:21 UTC. Data up to **2026-10-08**.
+Generated 2026-10-09 12:28 UTC. Data up to **2026-10-08**.
 Read `CATALOG.md` for what each series means and `events.csv` before trusting a jump.
 
 ## Series with no value today
@@ -58,19 +58,20 @@ full crawl of used homes.
 
 ## Danish dealer market (bilinfo, weekly)
 
-Cars per week. Implied sold = stock x 7 / days to sell; implied added = next
-week's stock - stock + sold. The latest week has no added figure until the next
-report. Days to sell is reported in whole days, so one day moves sold by ~2%.
+Cars per week. Implied sold = last week's stock x 7 / adjusted days to sell;
+implied added = change in stock + sold. Adjusted days put the history on one
+basis across bilinfo's 2026-06-08 definition change (E17), as the bilinfo
+workbook does. Days are whole numbers, so one day moves sold by ~2%.
 * = a week with no report, interpolated.
 
-| week | stock | days to sell | implied sold | implied added |
+| week | stock | adj. days to sell | implied sold | implied added |
 |---|---:|---:|---:|---:|
-| 2026-08-24 | 51 200 | 56 | 6 400 | 6 600 |
-| 2026-08-31 | 51 400 | 56 | 6 425 | 6 625 |
-| 2026-09-07 | 51 600 | 57 | 6 337 | 6 537 |
-| 2026-09-14 | 51 800 | 57 | 6 361 | 6 161 |
-| 2026-09-21 | 51 600 | 57 | 6 337 | 6 137 |
-| 2026-09-28 | 51 400 | 57 | 6 312 |  |
+| 2026-08-24 | 51 200 | 56 | 6 362 | 6 662 |
+| 2026-08-31 | 51 400 | 56 | 6 400 | 6 600 |
+| 2026-09-07 | 51 600 | 57 | 6 312 | 6 512 |
+| 2026-09-14 | 51 800 | 57 | 6 337 | 6 537 |
+| 2026-09-21 | 51 600 | 57 | 6 361 | 6 161 |
+| 2026-09-28 | 51 400 | 57 | 6 337 | 6 137 |
 
 ## Price changes, last 30 days
 

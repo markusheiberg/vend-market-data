@@ -105,29 +105,36 @@ class BuildTest(unittest.TestCase):
     def test_bilinfo_interpolation_and_implied_flows(self):
         _write(self.src / "vend-scraper-v2/data/bilinfo_weekly.csv",
                "week_start_date,report_year,report_week,year_week,visits,supply_cars,avg_days_to_sell,report_date,publish_lag_days",
-               ["2026-08-03,2026,32,2026-W32,437000,49000,56,2026-08-11,8",
-                # 2026-08-10 and 08-17 have no report
-                "2026-08-24,2026,35,2026-W35,436000,52000,59,2026-09-01,8",
-                "2026-08-31,2026,36,2026-W36,427000,52700,59,2026-09-08,8"])
+               ["2026-05-18,2026,21,2026-W21,437000,49000,41,2026-05-26,8",
+                # 2026-05-25 and 06-01 have no report; 2026-06-08 is the basis break
+                "2026-06-08,2026,24,2026-W24,436000,52000,56,2026-06-16,8",
+                "2026-06-15,2026,25,2026-W25,427000,52700,59,2026-06-23,8"])
         rows = self._build()
         b = {(r["date"], r["metric"]): r for r in rows if r["site"] == "bilinfo.dk"}
-        # straight line from 49000 to 52000 over three weeks
-        self.assertEqual(b[("2026-08-10", "supply_cars")]["value"], "50000")
-        self.assertEqual(b[("2026-08-17", "supply_cars")]["value"], "51000")
-        self.assertEqual(b[("2026-08-10", "supply_cars")]["quality_flag"], "interpolated")
-        self.assertEqual(b[("2026-08-10", "avg_days_to_sell")]["value"], "57")
-        self.assertNotIn(("2026-08-10", "visits"), b)              # visits are not filled
-        # sold = 52000 * 7 / 59 = 6169.5; added = 52700 - 52000 + sold = 6869.5
-        self.assertEqual(b[("2026-08-24", "implied_cars_sold")]["value"], "6169")
-        self.assertEqual(b[("2026-08-24", "implied_cars_added")]["value"], "6869")
-        self.assertEqual(b[("2026-08-24", "implied_cars_sold")]["quality_flag"], "")
-        # a flow that uses an interpolated input says so
-        self.assertEqual(b[("2026-08-17", "implied_cars_added")]["quality_flag"], "interpolated")
-        # the latest week has no end stock yet
-        self.assertIn(("2026-08-31", "implied_cars_sold"), b)
-        self.assertNotIn(("2026-08-31", "implied_cars_added"), b)
+        # adjusted = reported x 56/41 before the break, reported from it
+        self.assertEqual(b[("2026-05-18", "adj_days_to_sell")]["value"], "56")
+        self.assertEqual(b[("2026-05-18", "avg_days_to_sell")]["value"], "41")
+        self.assertEqual(b[("2026-06-15", "adj_days_to_sell")]["value"], "59")
+        # stock and ADJUSTED days interpolated on a straight line; reported days not
+        self.assertEqual(b[("2026-05-25", "supply_cars")]["value"], "50000")
+        self.assertEqual(b[("2026-06-01", "supply_cars")]["value"], "51000")
+        self.assertEqual(b[("2026-06-01", "adj_days_to_sell")]["value"], "56")
+        self.assertEqual(b[("2026-06-01", "supply_cars")]["quality_flag"], "interpolated")
+        self.assertNotIn(("2026-06-01", "avg_days_to_sell"), b)
+        self.assertNotIn(("2026-06-01", "visits"), b)
+        # week 06-15: opening stock 52000, adjusted days 59
+        # sold = 52000 x 7 / 59 = 6169.5; added = 52700 - 52000 + sold = 6869.5
+        self.assertEqual(b[("2026-06-15", "implied_cars_sold")]["value"], "6169")
+        self.assertEqual(b[("2026-06-15", "implied_cars_added")]["value"], "6869")
+        self.assertEqual(b[("2026-06-15", "implied_cars_sold")]["quality_flag"], "")
+        # across the break: sold uses adjusted days, so no step from the definition
+        # change (reported 41 would give 49000 x 7 / 41 = 8366)
+        self.assertEqual(b[("2026-05-25", "implied_cars_sold")]["value"], "6125")
+        self.assertEqual(b[("2026-05-25", "implied_cars_sold")]["quality_flag"], "interpolated")
+        # the first week has no opening stock
+        self.assertNotIn(("2026-05-18", "implied_cars_sold"), b)
         digest = (self.out / "digest/latest.md").read_text()
-        self.assertIn("| 2026-08-10 * | 50 000 | 57 |", digest)
+        self.assertIn("| 2026-06-01 * | 51 000 | 56 |", digest)
 
     def test_same_day_runs_keep_later(self):
         rows = self._build()

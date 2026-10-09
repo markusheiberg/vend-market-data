@@ -138,34 +138,82 @@ def interpolate_weekly(known: dict[date, float], first: date, last: date) -> dic
     return out
 
 
+# The days-to-sell basis break, as defined in vend-scraper-v2's
+# build_bilinfo_workbook.py (the bilinfo Excel). Read from that file on every
+# build so the two can never disagree; these are only the fallback.
+DAYS_BASIS_BREAK = date(2026, 6, 8)
+DAYS_ADJ_FACTOR = 56 / 41
+
+
+def days_basis(src: Path) -> tuple[date, float]:
+    """(break date, factor) from the workbook source, else the pinned fallback."""
+    import re
+    p = src / "vend-scraper-v2/build_bilinfo_workbook.py"
+    if p.exists():
+        text = p.read_text(encoding="utf-8")
+        b = re.search(r"^DAYS_BASIS_BREAK = dt\.date\((\d+), (\d+), (\d+)\)", text, re.M)
+        f = re.search(r"^DAYS_ADJ_FACTOR = (\d+(?:\.\d+)?)\s*/\s*(\d+(?:\.\d+)?)", text, re.M)
+        if b and f:
+            return date(*map(int, b.groups())), float(f.group(1)) / float(f.group(2))
+    missing.append(f"{p} (DAYS_BASIS_BREAK / DAYS_ADJ_FACTOR; using 2026-06-08, 56/41)")
+    return DAYS_BASIS_BREAK, DAYS_ADJ_FACTOR
+
+
 def bilinfo(src: Path) -> list[dict]:
     """bilinfo.dk weekly market report (the Bilbasen dealer market), plus implied flows.
 
-    Stock and days-to-sell are interpolated across weeks with no report (holiday
-    breaks; the longest is 6 weeks in summer 2025) and flagged `interpolated`.
-    Visits are left as reported.
+    Days to sell changed basis on 2026-06-08: before it, bilinfo measured the top
+    50 models only, which sell faster, so reported days jumped 41 -> 56 in one
+    week with no market change. adj_days_to_sell puts the history on one basis
+    (reported x 56/41 before the break), exactly as the bilinfo workbook does, and
+    every derived flow uses it.
 
-    Implied flows, per week w (Little's law, then the stock identity):
-        implied_cars_sold  = stock_w * 7 / days_to_sell_w
-        implied_cars_added = stock_{w+1} - stock_w + implied_cars_sold
-    stock_w is read as the stock at the start of week w and stock_{w+1} as its
-    end. The latest week has no end stock yet, so it carries sold but not added.
+    Stock and ADJUSTED days are interpolated across weeks with no report (holiday
+    breaks) on a straight line by date, flagged `interpolated`. Reported days and
+    visits are left as reported.
+
+    Implied flows for week w, matching build_bilinfo_workbook.add_implied_flows
+    (opening stock = the previous week's, days = this week's adjusted):
+        implied_cars_sold  = stock_{w-1} x 7 / adj_days_to_sell_w     (outflow)
+        implied_cars_added = stock_w - stock_{w-1} + implied_cars_sold
+    "Sold" is really outflow: cars also leave unsold, so it bounds sales from above.
     A flow is flagged `interpolated` when any input to it was.
     """
     src_tag = "vend-scraper-v2/bilinfo_weekly"
-    out, stock, days = [], {}, {}
+    brk, factor = days_basis(src)
+    out, stock, adj = [], {}, {}
     for r in read_csv(src / "vend-scraper-v2/data/bilinfo_weekly.csv"):
         w = date.fromisoformat(r["week_start_date"])
-        v = num(r["visits"])
-        if v is not None:
-            out.append(row(w.isoformat(), "weekly", "bilinfo.dk", "mobility_cars", "",
-                           "visits", v, "visitors", src_tag))
+        args = (w.isoformat(), "weekly", "bilinfo.dk", "mobility_cars", "")
+        if num(r["visits"]) is not None:
+            out.append(row(*args, "visits", num(r["visits"]), "visitors", src_tag))
+        d = num(r["avg_days_to_sell"])
+        if d is not None:
+            out.append(row(*args, "avg_days_to_sell", d, "days", src_tag))
+            # rounded to 0.1 as the workbook does, so the flows match it exactly
+            adj[w] = round(d * factor, 1) if w < brk else d
         if num(r["supply_cars"]) is not None:
             stock[w] = num(r["supply_cars"])
-        if num(r["avg_days_to_sell"]) is not None:
-            days[w] = num(r["avg_days_to_sell"])
-    if not stock or not days:
+    if not stock or not adj:
         return out
+    first, last = max(min(stock), min(adj)), min(max(stock), max(adj))
+    S = interpolate_weekly(stock, first, last)
+    A = interpolate_weekly(adj, first, last)
+    flag = lambda *xs: "interpolated" if any(x[1] for x in xs) else ""
+    flows = "vend-market-data, as build_bilinfo_workbook.add_implied_flows"
+    for w in sorted(S):
+        args = (w.isoformat(), "weekly", "bilinfo.dk", "mobility_cars", "")
+        out.append(row(*args, "supply_cars", round(S[w][0]), "listings", src_tag, flag=flag(S[w])))
+        out.append(row(*args, "adj_days_to_sell", round(A[w][0], 1), "days",
+                       f"{src_tag}, x {factor:.4f} before {brk}", flag=flag(A[w])))
+        prev = w - timedelta(days=7)
+        if prev in S:
+            sold = S[prev][0] * 7 / A[w][0]
+            f = flag(S[prev], S[w], A[w])
+            out.append(row(*args, "implied_cars_sold", round(sold), "cars_per_week", flows, flag=f))
+            out.append(row(*args, "implied_cars_added", round(S[w][0] - S[prev][0] + sold),
+                           "cars_per_week", flows, flag=f))
+    return out
     first, last = max(min(stock), min(days)), min(max(stock), max(days))
     S = interpolate_weekly(stock, first, last)
     D = interpolate_weekly(days, first, last)
@@ -403,12 +451,12 @@ def bilinfo_table(listings: list[dict], weeks: int = 6) -> list[str]:
         if r["site"] == "bilinfo.dk":
             by_week[r["date"]][r["metric"]] = float(r["value"])
             interp[r["date"]] |= r["quality_flag"] == "interpolated"
-    lines = ["| week | stock | days to sell | implied sold | implied added |",
+    lines = ["| week | stock | adj. days to sell | implied sold | implied added |",
              "|---|---:|---:|---:|---:|"]
     for w in sorted(by_week)[-weeks:]:
         m = by_week[w]
         mark = " *" if interp[w] else ""
-        lines.append(f"| {w}{mark} | {_n(m.get('supply_cars'))} | {_n(m.get('avg_days_to_sell'))} | "
+        lines.append(f"| {w}{mark} | {_n(m.get('supply_cars'))} | {_n(m.get('adj_days_to_sell'))} | "
                      f"{_n(m.get('implied_cars_sold'))} | {_n(m.get('implied_cars_added'))} |")
     return lines
 
@@ -443,9 +491,10 @@ def build_digest(listings, price_changes, articles, events, as_of: date, now: da
             "full crawl of used homes.", "", *package_table(listings), ""]
 
     out += ["## Danish dealer market (bilinfo, weekly)", "",
-            "Cars per week. Implied sold = stock x 7 / days to sell; implied added = next",
-            "week's stock - stock + sold. The latest week has no added figure until the next",
-            "report. Days to sell is reported in whole days, so one day moves sold by ~2%.",
+            "Cars per week. Implied sold = last week's stock x 7 / adjusted days to sell;",
+            "implied added = change in stock + sold. Adjusted days put the history on one",
+            "basis across bilinfo's 2026-06-08 definition change (E17), as the bilinfo",
+            "workbook does. Days are whole numbers, so one day moves sold by ~2%.",
             "* = a week with no report, interpolated.", "", *bilinfo_table(listings), ""]
 
     recent = [c for c in price_changes if c["observed_date"] >= since30 and not c.get("quality_flag")]
