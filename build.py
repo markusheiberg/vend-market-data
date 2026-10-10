@@ -260,6 +260,49 @@ def mobility_packages(src: Path) -> list[dict]:
     return out
 
 
+# private_cars_se metric -> (fact metric, unit). The census writes more (price and
+# age distributions by band); those go to facts/private_cars_se.csv whole.
+PRIVATE_CARS_SCALARS = {
+    ("tradera", "median_price_sek"): ("median_price", "SEK"),
+    ("tradera", "p25_price_sek"): ("p25_price", "SEK"),
+    ("tradera", "p75_price_sek"): ("p75_price", "SEK"),
+    ("tradera", "median_age_published_days"): ("median_days_since_published", "days"),
+    ("blocket", "median_price_sek"): ("median_price", "SEK"),
+    ("blocket", "p25_price_sek"): ("p25_price", "SEK"),
+    ("blocket", "p75_price_sek"): ("p75_price", "SEK"),
+    # Blocket shows no publish date; this is the ID-sequence estimate (see CATALOG)
+    ("blocket", "median_age_published_id_estimate_days"): ("median_days_since_published", "days"),
+    ("blocket", "median_age_published_or_renewed_days"): ("median_days_since_renewed", "days"),
+}
+PRIVATE_CARS_SITE = {"tradera": "tradera.com", "blocket": "blocket.se"}
+PRIVATE_CARS_REL = "finn-mobility-packages/data/private_cars_se/history.csv"
+
+
+def private_cars_runs(src: Path) -> list[tuple[str, list[dict]]]:
+    """Census runs keyed by ISO week (Monday). Two runs in one week keep the later."""
+    by_run: dict[str, list[dict]] = defaultdict(list)
+    for r in read_csv(src / PRIVATE_CARS_REL):
+        by_run[r["run_timestamp"]].append(r)
+    weeks: dict[str, tuple[str, list[dict]]] = {}
+    for ts in sorted(by_run):
+        d = date.fromisoformat(ts[:10])
+        weeks[(d - timedelta(days=d.weekday())).isoformat()] = (ts, by_run[ts])
+    return [(monday, rows) for monday, (_, rows) in sorted(weeks.items())]
+
+
+def private_cars(src: Path) -> list[dict]:
+    """Tradera vs Blocket private car census: median price and listing age per week."""
+    out = []
+    for monday, rows in private_cars_runs(src):
+        for r in rows:
+            m = PRIVATE_CARS_SCALARS.get((r["site"], r["metric"]))
+            if m and r["value"] != "":
+                out.append(row(monday, "weekly", PRIVATE_CARS_SITE[r["site"]], "mobility_cars",
+                               "private", m[0], num(r["value"]), m[1],
+                               "finn-mobility-packages/history"))
+    return out
+
+
 def bolig_packages(src: Path) -> list[dict]:
     """finn used-home package mix: a full crawl, so counts are the real totals.
     Two runs on one date (2026-05-15 setup) keep the later one."""
@@ -539,7 +582,8 @@ def build(src: Path, out: Path, now: Optional[datetime] = None) -> None:
                         (bilinfo, "vend-scraper-v2/data/bilinfo_weekly.csv"),
                         (leboncoin, "vend-scraper-v2/data/leboncoin_manual.csv"),
                         (mobility_packages, "finn-mobility-packages/data/weekly_package_mix.csv"),
-                        (bolig_packages, "finn-bolig-packages/data/packages_history.csv")):
+                        (bolig_packages, "finn-bolig-packages/data/packages_history.csv"),
+                        (private_cars, PRIVATE_CARS_REL)):
         if (src / rel).exists():
             listings += loader(src)
         else:
@@ -586,6 +630,14 @@ def build(src: Path, out: Path, now: Optional[datetime] = None) -> None:
                    "news_source", "seen_at"], articles)
     else:
         articles = read_csv(out / "facts/news.csv", required=False)
+
+    if (src / PRIVATE_CARS_REL).exists():
+        write_csv(out / "facts/private_cars_se.csv",
+                  ["date", "country", "site", "segment", "metric", "band", "value", "run_timestamp"],
+                  ({"date": monday, "country": "SE", "site": PRIVATE_CARS_SITE.get(r["site"], r["site"]),
+                    "segment": "private", "metric": r["metric"], "band": r["band"],
+                    "value": fmt(num(r["value"])), "run_timestamp": r["run_timestamp"]}
+                   for monday, rows in private_cars_runs(src) for r in rows))
 
     for rel, name in (("vend-price-monitor/data/price_list_latest.csv", "price_list_latest.csv"),
                       ("finn-bolig-packages/data/package_prices.csv", "finn_homes_package_prices.csv"),

@@ -12,6 +12,7 @@ own. **Read `digest/latest.md` first, then `events.csv` before trusting any jump
 | `facts/listings_weekly.csv` | one row per series × ISO week × metric | the same at a weekly grain, ~39k tokens: **the file a Claude project holds**. Daily series = mean of clean days (stock needs 2, new listings 4, as the BigQuery `weekly_avg` view); weekly series pass through; dates are Mondays; `valid_days` says how many days fed the mean |
 | `facts/prices.csv` | one row per price-row state | price lists over time: `new`, `changed`, `removed` |
 | `facts/price_changes.csv` | one row per changed price field | old, new, % change |
+| `facts/private_cars_se.csv` | one row per weekly census × site × metric × band | Tradera vs Blocket private cars: price and days-since-published distributions, full history |
 | `facts/news.csv` | one row per article | B2B blog posts from finn and blocket |
 | `reference/price_list_latest.csv` | one row per price | every tracked price list today |
 | `reference/finn_homes_package_prices.csv` | year × zone × package × band | what finn charges for a home listing (typed in, validated) |
@@ -47,6 +48,9 @@ Metrics:
 | `visits`, `supply_cars`, `avg_days_to_sell` | bilinfo.dk | bilinfo's weekly report on the Danish dealer market (Bilbasen), as reported. `supply_cars` is filled across weeks with no report by straight-line interpolation, flagged `interpolated` |
 | `adj_days_to_sell` | bilinfo.dk | **use this, not `avg_days_to_sell`.** Days to sell on one basis: before 2026-06-08 bilinfo measured the top 50 models only, so those weeks are reported × 56/41 (rounded to 0.1); from the break it equals reported (E17). Same definition as the bilinfo workbook in vend-scraper-v2, read from it on every build. Interpolated across missing weeks |
 | `implied_cars_sold` | bilinfo.dk | estimate, cars per week: last week's `supply_cars` × 7 / this week's `adj_days_to_sell`. Really outflow (cars also leave unsold), so an upper bound on sales |
+| `median_price`, `p25_price`, `p75_price` | tradera.com, blocket.se (private cars) | weekly census of every private car listing, SEK |
+| `median_days_since_published` | tradera.com, blocket.se (private cars) | median listing age. Tradera: exact publish date. Blocket: an **estimate** from the ad ID sequence, since Blocket shows no publish date |
+| `median_days_since_renewed` | blocket.se (private cars) | median time since the ad was published or last renewed (the card time). Below the estimate above by however much renewing goes on |
 | `implied_cars_added` | bilinfo.dk | estimate, cars per week: this week's `supply_cars` − last week's + `implied_cars_sold`. Matches the workbook's implied new listings × 7 to the car on every reported week |
 
 ## Rules that are easy to get wrong
@@ -59,6 +63,12 @@ Metrics:
 - **Tradera dealer cars are syndicated from Wayke** (since May 2026, E18). Never add
   tradera.com dealer to wayke.se: most listings are the same cars. Tradera dealer
   before 2026-05-13 is excluded from trends; the ramp was the feed switching on.
+- **Private car listing age is not measured the same way on the two sites.**
+  Tradera ads run 60 days and carry their publish date. Blocket's is estimated
+  from ad IDs (an ad is no newer than the oldest card time among higher IDs),
+  so compare Tradera with `median_days_since_published`, never with
+  `median_days_since_renewed`. The census reads every listing, so these are
+  market figures, not samples; the stock itself is in the daily `listings`.
 - **leboncoin.fr has a `total` segment that overlaps `dealer` + `private`.** Never
   sum segments for that site. It is also only two manual points (E12).
 - **Car package counts are a sample** (`is_sample=1`) and doubled on 2026-07-20 when
@@ -97,7 +107,7 @@ facts on the next build.
 | source repo | cadence | feeds |
 |---|---|---|
 | `vend-scraper-v2` | daily scrape 23:50 Oslo, exported ~23:00–03:00 UTC | daily listings, bilinfo weekly, leboncoin manual |
-| `finn-mobility-packages` | weekly, Sunday night | car package mix |
+| `finn-mobility-packages` | weekly, Sunday night | car package mix; Tradera vs Blocket private car census (from 2026-10) |
 | `finn-bolig-packages` | weekly, Sunday night | home package mix, geo grid, finn home prices |
 | `vend-price-monitor` | daily 06:00 Oslo, exported 18:30 UTC | price lists, news |
 

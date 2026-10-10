@@ -136,6 +136,34 @@ class BuildTest(unittest.TestCase):
         digest = (self.out / "digest/latest.md").read_text()
         self.assertIn("| 2026-06-01 * | 51 000 | 56 |", digest)
 
+    def test_private_cars_census(self):
+        hdr = "run_timestamp,site,metric,band,value"
+        rows = []
+        # a Saturday test run and the Sunday run land in one ISO week: keep the later
+        for ts, med in (("2026-10-10T18:50:00+00:00", "49000.0"), ("2026-10-11T22:10:00+00:00", "50000.0")):
+            rows += [f"{ts},tradera,median_price_sek,,{med}",
+                     f"{ts},tradera,median_age_published_days,,22.4",
+                     f"{ts},blocket,median_age_published_id_estimate_days,,25.1",
+                     f"{ts},blocket,median_age_published_or_renewed_days,,15.0",
+                     f"{ts},blocket,price_pct,0k–25k,14.4",
+                     f"{ts},tradera,listings_site_count,,3011.0"]
+        _write(self.src / "finn-mobility-packages/data/private_cars_se/history.csv", hdr, rows)
+        facts = self._build()
+        pc = {(r["site"], r["metric"]): r for r in facts if r["segment"] == "private"
+              and r["source"] == "finn-mobility-packages/history"}
+        self.assertEqual(pc[("tradera.com", "median_price")]["value"], "50000")
+        self.assertEqual(pc[("tradera.com", "median_price")]["date"], "2026-10-05")
+        self.assertEqual(pc[("blocket.se", "median_days_since_published")]["value"], "25.1")
+        self.assertEqual(pc[("blocket.se", "median_days_since_renewed")]["value"], "15")
+        # site counts would duplicate the daily listings series; distributions go elsewhere
+        self.assertNotIn(("tradera.com", "listings_site_count"), pc)
+        self.assertEqual(len(pc), 4)
+        dist = _read(self.out / "facts/private_cars_se.csv")
+        self.assertEqual(len(dist), 6)
+        self.assertEqual({r["run_timestamp"][:10] for r in dist}, {"2026-10-11"})
+        self.assertIn({"site": "blocket.se", "band": "0k–25k", "value": "14.4"},
+                      [{k: r[k] for k in ("site", "band", "value")} for r in dist])
+
     def test_same_day_runs_keep_later(self):
         rows = self._build()
         large = [r for r in rows if r["metric"] == "package_count" and r["package"] == "large"]
