@@ -1,7 +1,11 @@
 # Vend market digest
 
-Generated 2026-10-10 13:06 UTC. Data up to **2026-10-09**.
+Generated 2026-10-10 18:45 UTC. Data up to **2026-10-09**.
 Read `CATALOG.md` for what each series means and `events.csv` before trusting a jump.
+
+## ⚠️ Missing inputs
+
+- `sources/finn-mobility-packages/data/private_cars_se/history.csv`
 
 ## Series with no value today
 
