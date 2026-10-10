@@ -56,6 +56,9 @@ Metrics:
   steady seasonal move eventually gets blanked (see E16).
 - **finn.no `real_estate_homes` is USED homes only, on purpose.** It is the revenue
   signal. `real_estate_homes_new` is context. Do not add them by default.
+- **Tradera dealer cars are syndicated from Wayke** (since May 2026, E18). Never add
+  tradera.com dealer to wayke.se: most listings are the same cars. Tradera dealer
+  before 2026-05-13 is excluded from trends; the ramp was the feed switching on.
 - **leboncoin.fr has a `total` segment that overlaps `dealer` + `private`.** Never
   sum segments for that site. It is also only two manual points (E12).
 - **Car package counts are a sample** (`is_sample=1`) and doubled on 2026-07-20 when

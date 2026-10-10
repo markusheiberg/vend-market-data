@@ -1299,7 +1299,6 @@ date,country,site,vertical,segment,package,metric,value,unit,is_sample,valid_day
 2026-05-04,NO,finn.no,real_estate_homes,,,listings,20117,listings,0,7
 2026-05-04,NO,finn.no,real_estate_homes,,,new_listings,602,listings,0,7
 2026-05-04,NO,hjem.no,real_estate_homes,,,listings,8345,listings,0,7
-2026-05-04,SE,tradera.com,mobility_cars,dealer,,listings,22490.1,listings,0,7
 2026-05-04,SE,tradera.com,mobility_cars,private,,listings,1867.3,listings,0,7
 2026-05-04,SE,wayke.se,mobility_cars,dealer,,listings,51130.9,listings,0,7
 2026-05-11,DK,bilbasen.dk,mobility_cars,dealer,,listings,43325.3,listings,0,7
@@ -1347,7 +1346,7 @@ date,country,site,vertical,segment,package,metric,value,unit,is_sample,valid_day
 2026-05-11,NO,finn.no,real_estate_homes,,,listings,20412.8,listings,0,7
 2026-05-11,NO,finn.no,real_estate_homes,,,new_listings,634,listings,0,7
 2026-05-11,NO,hjem.no,real_estate_homes,,,listings,8419,listings,0,7
-2026-05-11,SE,tradera.com,mobility_cars,dealer,,listings,36148.6,listings,0,7
+2026-05-11,SE,tradera.com,mobility_cars,dealer,,listings,37423.1,listings,0,5
 2026-05-11,SE,tradera.com,mobility_cars,private,,listings,1994.3,listings,0,7
 2026-05-11,SE,wayke.se,mobility_cars,dealer,,listings,51405.3,listings,0,7
 2026-05-15,NO,finn.no,real_estate_homes,,large,package_count,12767,listings,0,

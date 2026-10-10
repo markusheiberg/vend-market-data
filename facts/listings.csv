@@ -1820,7 +1820,7 @@ date,grain,country,site,vertical,segment,package,metric,value,unit,is_sample,qua
 2026-04-25,weekly,NO,finn.no,real_estate_homes,,small,package_count,630,listings,0,,finn-bolig-packages/packages_history
 2026-04-25,weekly,NO,finn.no,real_estate_homes,,small,package_share,3.3,pct,0,,finn-bolig-packages/packages_history
 2026-04-25,daily,NO,hjem.no,real_estate_homes,,,listings,7949.3333,listings,0,,vend-scraper-v2/daily_filtered
-2026-04-25,daily,SE,tradera.com,mobility_cars,dealer,,listings,13345,listings,0,outlier,vend-scraper-v2/daily_filtered
+2026-04-25,daily,SE,tradera.com,mobility_cars,dealer,,listings,13345,listings,0,exclude:E18,vend-scraper-v2/daily_filtered
 2026-04-25,daily,SE,tradera.com,mobility_cars,private,,listings,1673,listings,0,,vend-scraper-v2/daily_filtered
 2026-04-25,daily,SE,wayke.se,mobility_cars,dealer,,listings,51789.3333,listings,0,,vend-scraper-v2/daily_filtered
 2026-04-26,daily,DK,bilbasen.dk,mobility_cars,dealer,,listings,43421,listings,0,,vend-scraper-v2/daily_filtered
@@ -1843,7 +1843,7 @@ date,grain,country,site,vertical,segment,package,metric,value,unit,is_sample,qua
 2026-04-26,daily,NO,finn.no,mobility_cars,private,,new_listings,1069,listings,0,,vend-scraper-v2/daily_filtered
 2026-04-26,daily,NO,finn.no,real_estate_homes,,,listings,19139,listings,0,,vend-scraper-v2/daily_filtered
 2026-04-26,daily,NO,finn.no,real_estate_homes,,,new_listings,280,listings,0,,vend-scraper-v2/daily_filtered
-2026-04-26,daily,SE,tradera.com,mobility_cars,dealer,,listings,14670,listings,0,outlier,vend-scraper-v2/daily_filtered
+2026-04-26,daily,SE,tradera.com,mobility_cars,dealer,,listings,14670,listings,0,exclude:E18,vend-scraper-v2/daily_filtered
 2026-04-26,daily,SE,tradera.com,mobility_cars,private,,listings,1761,listings,0,,vend-scraper-v2/daily_filtered
 2026-04-27,daily,DK,bilbasen.dk,mobility_cars,dealer,,listings,43310,listings,0,,vend-scraper-v2/daily_filtered
 2026-04-27,daily,DK,bilbasen.dk,mobility_cars,private,,listings,3436,listings,0,,vend-scraper-v2/daily_filtered
@@ -1950,7 +1950,7 @@ date,grain,country,site,vertical,segment,package,metric,value,unit,is_sample,qua
 2026-05-01,daily,NO,finn.no,real_estate_homes,,,listings,19748,listings,0,,vend-scraper-v2/daily_filtered
 2026-05-01,daily,NO,finn.no,real_estate_homes,,,new_listings,839.3333,listings,0,,vend-scraper-v2/daily_filtered
 2026-05-01,daily,NO,hjem.no,real_estate_homes,,,listings,8118,listings,0,,vend-scraper-v2/daily_filtered
-2026-05-01,daily,SE,tradera.com,mobility_cars,dealer,,listings,14674,listings,0,outlier,vend-scraper-v2/daily_filtered
+2026-05-01,daily,SE,tradera.com,mobility_cars,dealer,,listings,14674,listings,0,exclude:E18,vend-scraper-v2/daily_filtered
 2026-05-01,daily,SE,tradera.com,mobility_cars,private,,listings,1759.6667,listings,0,,vend-scraper-v2/daily_filtered
 2026-05-01,daily,SE,wayke.se,mobility_cars,dealer,,listings,51068,listings,0,,vend-scraper-v2/daily_filtered
 2026-05-02,daily,DK,bilbasen.dk,mobility_cars,dealer,,listings,43959,listings,0,,vend-scraper-v2/daily_filtered
@@ -1974,7 +1974,7 @@ date,grain,country,site,vertical,segment,package,metric,value,unit,is_sample,qua
 2026-05-02,daily,NO,finn.no,real_estate_homes,,,listings,19511,listings,0,,vend-scraper-v2/daily_filtered
 2026-05-02,daily,NO,finn.no,real_estate_homes,,,new_listings,394,listings,0,,vend-scraper-v2/daily_filtered
 2026-05-02,daily,NO,hjem.no,real_estate_homes,,,listings,8085,listings,0,,vend-scraper-v2/daily_filtered
-2026-05-02,daily,SE,tradera.com,mobility_cars,dealer,,listings,14734,listings,0,outlier,vend-scraper-v2/daily_filtered
+2026-05-02,daily,SE,tradera.com,mobility_cars,dealer,,listings,14734,listings,0,exclude:E18,vend-scraper-v2/daily_filtered
 2026-05-02,daily,SE,tradera.com,mobility_cars,private,,listings,1768,listings,0,,vend-scraper-v2/daily_filtered
 2026-05-02,daily,SE,wayke.se,mobility_cars,dealer,,listings,50540,listings,0,,vend-scraper-v2/daily_filtered
 2026-05-03,daily,DK,bilbasen.dk,mobility_cars,dealer,,listings,43339,listings,0,,vend-scraper-v2/daily_filtered
@@ -1998,7 +1998,7 @@ date,grain,country,site,vertical,segment,package,metric,value,unit,is_sample,qua
 2026-05-03,daily,NO,finn.no,real_estate_homes,,,listings,19142,listings,0,,vend-scraper-v2/daily_filtered
 2026-05-03,daily,NO,finn.no,real_estate_homes,,,new_listings,431,listings,0,,vend-scraper-v2/daily_filtered
 2026-05-03,daily,NO,hjem.no,real_estate_homes,,,listings,7959,listings,0,,vend-scraper-v2/daily_filtered
-2026-05-03,daily,SE,tradera.com,mobility_cars,dealer,,listings,14559,listings,0,outlier,vend-scraper-v2/daily_filtered
+2026-05-03,daily,SE,tradera.com,mobility_cars,dealer,,listings,14559,listings,0,exclude:E18,vend-scraper-v2/daily_filtered
 2026-05-03,daily,SE,tradera.com,mobility_cars,private,,listings,1787,listings,0,,vend-scraper-v2/daily_filtered
 2026-05-03,daily,SE,wayke.se,mobility_cars,dealer,,listings,50131,listings,0,,vend-scraper-v2/daily_filtered
 2026-05-04,daily,DK,bilbasen.dk,mobility_cars,dealer,,listings,43212,listings,0,,vend-scraper-v2/daily_filtered
@@ -2028,7 +2028,7 @@ date,grain,country,site,vertical,segment,package,metric,value,unit,is_sample,qua
 2026-05-04,daily,NO,finn.no,real_estate_homes,,,listings,19546,listings,0,,vend-scraper-v2/daily_filtered
 2026-05-04,daily,NO,finn.no,real_estate_homes,,,new_listings,770,listings,0,,vend-scraper-v2/daily_filtered
 2026-05-04,daily,NO,hjem.no,real_estate_homes,,,listings,8150,listings,0,,vend-scraper-v2/daily_filtered
-2026-05-04,daily,SE,tradera.com,mobility_cars,dealer,,listings,16059,listings,0,,vend-scraper-v2/daily_filtered
+2026-05-04,daily,SE,tradera.com,mobility_cars,dealer,,listings,16059,listings,0,exclude:E18,vend-scraper-v2/daily_filtered
 2026-05-04,daily,SE,tradera.com,mobility_cars,private,,listings,1809,listings,0,,vend-scraper-v2/daily_filtered
 2026-05-04,daily,SE,wayke.se,mobility_cars,dealer,,listings,50453,listings,0,,vend-scraper-v2/daily_filtered
 2026-05-05,daily,DK,bilbasen.dk,mobility_cars,dealer,,listings,43335,listings,0,,vend-scraper-v2/daily_filtered
@@ -2052,7 +2052,7 @@ date,grain,country,site,vertical,segment,package,metric,value,unit,is_sample,qua
 2026-05-05,daily,NO,finn.no,real_estate_homes,,,listings,20026,listings,0,,vend-scraper-v2/daily_filtered
 2026-05-05,daily,NO,finn.no,real_estate_homes,,,new_listings,774,listings,0,,vend-scraper-v2/daily_filtered
 2026-05-05,daily,NO,hjem.no,real_estate_homes,,,listings,8355,listings,0,,vend-scraper-v2/daily_filtered
-2026-05-05,daily,SE,tradera.com,mobility_cars,dealer,,listings,19912,listings,0,,vend-scraper-v2/daily_filtered
+2026-05-05,daily,SE,tradera.com,mobility_cars,dealer,,listings,19912,listings,0,exclude:E18,vend-scraper-v2/daily_filtered
 2026-05-05,daily,SE,tradera.com,mobility_cars,private,,listings,1835,listings,0,,vend-scraper-v2/daily_filtered
 2026-05-05,daily,SE,wayke.se,mobility_cars,dealer,,listings,50856,listings,0,,vend-scraper-v2/daily_filtered
 2026-05-06,daily,DK,bilbasen.dk,mobility_cars,dealer,,listings,43504,listings,0,,vend-scraper-v2/daily_filtered
@@ -2076,7 +2076,7 @@ date,grain,country,site,vertical,segment,package,metric,value,unit,is_sample,qua
 2026-05-06,daily,NO,finn.no,real_estate_homes,,,listings,20394,listings,0,,vend-scraper-v2/daily_filtered
 2026-05-06,daily,NO,finn.no,real_estate_homes,,,new_listings,632,listings,0,,vend-scraper-v2/daily_filtered
 2026-05-06,daily,NO,hjem.no,real_estate_homes,,,listings,8493,listings,0,,vend-scraper-v2/daily_filtered
-2026-05-06,daily,SE,tradera.com,mobility_cars,dealer,,listings,21173,listings,0,,vend-scraper-v2/daily_filtered
+2026-05-06,daily,SE,tradera.com,mobility_cars,dealer,,listings,21173,listings,0,exclude:E18,vend-scraper-v2/daily_filtered
 2026-05-06,daily,SE,tradera.com,mobility_cars,private,,listings,1857,listings,0,,vend-scraper-v2/daily_filtered
 2026-05-06,daily,SE,wayke.se,mobility_cars,dealer,,listings,51201,listings,0,,vend-scraper-v2/daily_filtered
 2026-05-07,daily,DK,bilbasen.dk,mobility_cars,dealer,,listings,43646,listings,0,,vend-scraper-v2/daily_filtered
@@ -2100,7 +2100,7 @@ date,grain,country,site,vertical,segment,package,metric,value,unit,is_sample,qua
 2026-05-07,daily,NO,finn.no,real_estate_homes,,,listings,20328,listings,0,,vend-scraper-v2/daily_filtered
 2026-05-07,daily,NO,finn.no,real_estate_homes,,,new_listings,533,listings,0,,vend-scraper-v2/daily_filtered
 2026-05-07,daily,NO,hjem.no,real_estate_homes,,,listings,8453,listings,0,,vend-scraper-v2/daily_filtered
-2026-05-07,daily,SE,tradera.com,mobility_cars,dealer,,listings,23363,listings,0,,vend-scraper-v2/daily_filtered
+2026-05-07,daily,SE,tradera.com,mobility_cars,dealer,,listings,23363,listings,0,exclude:E18,vend-scraper-v2/daily_filtered
 2026-05-07,daily,SE,tradera.com,mobility_cars,private,,listings,1884,listings,0,,vend-scraper-v2/daily_filtered
 2026-05-07,daily,SE,wayke.se,mobility_cars,dealer,,listings,51480,listings,0,,vend-scraper-v2/daily_filtered
 2026-05-08,daily,DK,bilbasen.dk,mobility_cars,dealer,,listings,43994,listings,0,,vend-scraper-v2/daily_filtered
@@ -2124,7 +2124,7 @@ date,grain,country,site,vertical,segment,package,metric,value,unit,is_sample,qua
 2026-05-08,daily,NO,finn.no,real_estate_homes,,,listings,20461,listings,0,,vend-scraper-v2/daily_filtered
 2026-05-08,daily,NO,finn.no,real_estate_homes,,,new_listings,972,listings,0,,vend-scraper-v2/daily_filtered
 2026-05-08,daily,NO,hjem.no,real_estate_homes,,,listings,8438,listings,0,,vend-scraper-v2/daily_filtered
-2026-05-08,daily,SE,tradera.com,mobility_cars,dealer,,listings,25835,listings,0,,vend-scraper-v2/daily_filtered
+2026-05-08,daily,SE,tradera.com,mobility_cars,dealer,,listings,25835,listings,0,exclude:E18,vend-scraper-v2/daily_filtered
 2026-05-08,daily,SE,tradera.com,mobility_cars,private,,listings,1887,listings,0,,vend-scraper-v2/daily_filtered
 2026-05-08,daily,SE,wayke.se,mobility_cars,dealer,,listings,51730,listings,0,,vend-scraper-v2/daily_filtered
 2026-05-09,daily,DK,bilbasen.dk,mobility_cars,dealer,,listings,43796,listings,0,,vend-scraper-v2/daily_filtered
@@ -2148,7 +2148,7 @@ date,grain,country,site,vertical,segment,package,metric,value,unit,is_sample,qua
 2026-05-09,daily,NO,finn.no,real_estate_homes,,,listings,20193,listings,0,,vend-scraper-v2/daily_filtered
 2026-05-09,daily,NO,finn.no,real_estate_homes,,,new_listings,325,listings,0,,vend-scraper-v2/daily_filtered
 2026-05-09,daily,NO,hjem.no,real_estate_homes,,,listings,8321,listings,0,,vend-scraper-v2/daily_filtered
-2026-05-09,daily,SE,tradera.com,mobility_cars,dealer,,listings,25588,listings,0,,vend-scraper-v2/daily_filtered
+2026-05-09,daily,SE,tradera.com,mobility_cars,dealer,,listings,25588,listings,0,exclude:E18,vend-scraper-v2/daily_filtered
 2026-05-09,daily,SE,tradera.com,mobility_cars,private,,listings,1892,listings,0,,vend-scraper-v2/daily_filtered
 2026-05-09,daily,SE,wayke.se,mobility_cars,dealer,,listings,51244,listings,0,,vend-scraper-v2/daily_filtered
 2026-05-10,daily,DK,bilbasen.dk,mobility_cars,dealer,,listings,43221,listings,0,,vend-scraper-v2/daily_filtered
@@ -2172,7 +2172,7 @@ date,grain,country,site,vertical,segment,package,metric,value,unit,is_sample,qua
 2026-05-10,daily,NO,finn.no,real_estate_homes,,,listings,19871,listings,0,,vend-scraper-v2/daily_filtered
 2026-05-10,daily,NO,finn.no,real_estate_homes,,,new_listings,208,listings,0,,vend-scraper-v2/daily_filtered
 2026-05-10,daily,NO,hjem.no,real_estate_homes,,,listings,8205,listings,0,,vend-scraper-v2/daily_filtered
-2026-05-10,daily,SE,tradera.com,mobility_cars,dealer,,listings,25501,listings,0,,vend-scraper-v2/daily_filtered
+2026-05-10,daily,SE,tradera.com,mobility_cars,dealer,,listings,25501,listings,0,exclude:E18,vend-scraper-v2/daily_filtered
 2026-05-10,daily,SE,tradera.com,mobility_cars,private,,listings,1907,listings,0,,vend-scraper-v2/daily_filtered
 2026-05-10,daily,SE,wayke.se,mobility_cars,dealer,,listings,50952,listings,0,,vend-scraper-v2/daily_filtered
 2026-05-11,daily,DK,bilbasen.dk,mobility_cars,dealer,,listings,43193,listings,0,,vend-scraper-v2/daily_filtered
@@ -2216,7 +2216,7 @@ date,grain,country,site,vertical,segment,package,metric,value,unit,is_sample,qua
 2026-05-11,daily,NO,finn.no,real_estate_homes,,,listings,19745,listings,0,,vend-scraper-v2/daily_filtered
 2026-05-11,daily,NO,finn.no,real_estate_homes,,,new_listings,669,listings,0,,vend-scraper-v2/daily_filtered
 2026-05-11,daily,NO,hjem.no,real_estate_homes,,,listings,8187,listings,0,,vend-scraper-v2/daily_filtered
-2026-05-11,daily,SE,tradera.com,mobility_cars,dealer,,listings,29410,listings,0,,vend-scraper-v2/daily_filtered
+2026-05-11,daily,SE,tradera.com,mobility_cars,dealer,,listings,29410,listings,0,exclude:E18,vend-scraper-v2/daily_filtered
 2026-05-11,daily,SE,tradera.com,mobility_cars,private,,listings,1926,listings,0,,vend-scraper-v2/daily_filtered
 2026-05-11,daily,SE,wayke.se,mobility_cars,dealer,,listings,51112,listings,0,,vend-scraper-v2/daily_filtered
 2026-05-12,daily,DK,bilbasen.dk,mobility_cars,dealer,,listings,43425,listings,0,,vend-scraper-v2/daily_filtered
@@ -2240,7 +2240,7 @@ date,grain,country,site,vertical,segment,package,metric,value,unit,is_sample,qua
 2026-05-12,daily,NO,finn.no,real_estate_homes,,,listings,20247,listings,0,,vend-scraper-v2/daily_filtered
 2026-05-12,daily,NO,finn.no,real_estate_homes,,,new_listings,813,listings,0,,vend-scraper-v2/daily_filtered
 2026-05-12,daily,NO,hjem.no,real_estate_homes,,,listings,8384,listings,0,,vend-scraper-v2/daily_filtered
-2026-05-12,daily,SE,tradera.com,mobility_cars,dealer,,listings,36515,listings,0,,vend-scraper-v2/daily_filtered
+2026-05-12,daily,SE,tradera.com,mobility_cars,dealer,,listings,36515,listings,0,exclude:E18,vend-scraper-v2/daily_filtered
 2026-05-12,daily,SE,tradera.com,mobility_cars,private,,listings,1951,listings,0,,vend-scraper-v2/daily_filtered
 2026-05-12,daily,SE,wayke.se,mobility_cars,dealer,,listings,51468,listings,0,,vend-scraper-v2/daily_filtered
 2026-05-13,daily,DK,bilbasen.dk,mobility_cars,dealer,,listings,43707,listings,0,,vend-scraper-v2/daily_filtered
