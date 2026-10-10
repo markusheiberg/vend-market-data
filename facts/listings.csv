@@ -8671,7 +8671,12 @@ date,grain,country,site,vertical,segment,package,metric,value,unit,is_sample,qua
 2026-10-05,daily,SE,blocket.se,mobility_cars,dealer,,listings,123562,listings,0,,vend-scraper-v2/daily_filtered
 2026-10-05,daily,SE,blocket.se,mobility_cars,dealer,,new_listings,4733,listings,0,,vend-scraper-v2/daily_filtered
 2026-10-05,daily,SE,blocket.se,mobility_cars,private,,listings,26713,listings,0,,vend-scraper-v2/daily_filtered
+2026-10-05,weekly,SE,blocket.se,mobility_cars,private,,median_days_since_published,25.28,days,0,,finn-mobility-packages/history
+2026-10-05,weekly,SE,blocket.se,mobility_cars,private,,median_days_since_renewed,15.28,days,0,,finn-mobility-packages/history
+2026-10-05,weekly,SE,blocket.se,mobility_cars,private,,median_price,72900,SEK,0,,finn-mobility-packages/history
 2026-10-05,daily,SE,blocket.se,mobility_cars,private,,new_listings,1206,listings,0,,vend-scraper-v2/daily_filtered
+2026-10-05,weekly,SE,blocket.se,mobility_cars,private,,p25_price,35000,SEK,0,,finn-mobility-packages/history
+2026-10-05,weekly,SE,blocket.se,mobility_cars,private,,p75_price,140000,SEK,0,,finn-mobility-packages/history
 2026-10-05,daily,SE,blocket.se,mobility_other,dealer,,listings,63998,listings,0,,vend-scraper-v2/daily_filtered
 2026-10-05,daily,SE,blocket.se,mobility_other,dealer,,new_listings,1818,listings,0,,vend-scraper-v2/daily_filtered
 2026-10-05,daily,SE,blocket.se,mobility_other,private,,listings,19336,listings,0,,vend-scraper-v2/daily_filtered
@@ -8704,6 +8709,10 @@ date,grain,country,site,vertical,segment,package,metric,value,unit,is_sample,qua
 2026-10-05,daily,FI,oikotie.fi,real_estate_homes,,,new_listings,463,listings,0,,vend-scraper-v2/daily_filtered
 2026-10-05,daily,SE,tradera.com,mobility_cars,dealer,,listings,48220,listings,0,,vend-scraper-v2/daily_filtered
 2026-10-05,daily,SE,tradera.com,mobility_cars,private,,listings,3008,listings,0,,vend-scraper-v2/daily_filtered
+2026-10-05,weekly,SE,tradera.com,mobility_cars,private,,median_days_since_published,21.75,days,0,,finn-mobility-packages/history
+2026-10-05,weekly,SE,tradera.com,mobility_cars,private,,median_price,50000,SEK,0,,finn-mobility-packages/history
+2026-10-05,weekly,SE,tradera.com,mobility_cars,private,,p25_price,24000,SEK,0,,finn-mobility-packages/history
+2026-10-05,weekly,SE,tradera.com,mobility_cars,private,,p75_price,105000,SEK,0,,finn-mobility-packages/history
 2026-10-05,daily,SE,wayke.se,mobility_cars,dealer,,listings,51943,listings,0,,vend-scraper-v2/daily_filtered
 2026-10-06,daily,DK,bilbasen.dk,mobility_cars,dealer,,listings,47379,listings,0,,vend-scraper-v2/daily_filtered
 2026-10-06,daily,DK,bilbasen.dk,mobility_cars,private,,listings,4305,listings,0,,vend-scraper-v2/daily_filtered
