@@ -37,6 +37,7 @@ COUNTRY = {
     "finn.no": "NO", "hjem.no": "NO",
     "bilbasen.dk": "DK", "biltorvet.dk": "DK", "bilhandel.dk": "DK", "bilinfo.dk": "DK",
     "blocket.se": "SE", "wayke.se": "SE", "tradera.com": "SE", "hemnet.se": "SE",
+    "tradera.com+blocket.se": "SE",
     "oikotie.fi": "FI", "etuovi.com": "FI",
     "leboncoin.fr": "FR",
 }
@@ -273,8 +274,14 @@ PRIVATE_CARS_SCALARS = {
     # Blocket shows no publish date; this is the ID-sequence estimate (see CATALOG)
     ("blocket", "median_age_published_id_estimate_days"): ("median_days_since_published", "days"),
     ("blocket", "median_age_published_or_renewed_days"): ("median_days_since_renewed", "days"),
+    # Same car on both sites, matched on brand/model/year/mileage/fuel/gearbox,
+    # net of the chance-match baseline (see CATALOG)
+    ("both", "overlap_estimate"): ("cars_on_both_sites", "listings"),
+    ("both", "overlap_pct_of_tradera"): ("cars_on_both_sites_pct_of_tradera", "pct"),
+    ("both", "overlap_pct_of_blocket"): ("cars_on_both_sites_pct_of_blocket", "pct"),
 }
-PRIVATE_CARS_SITE = {"tradera": "tradera.com", "blocket": "blocket.se"}
+PRIVATE_CARS_SITE = {"tradera": "tradera.com", "blocket": "blocket.se",
+                     "both": "tradera.com+blocket.se"}
 PRIVATE_CARS_REL = "finn-mobility-packages/data/private_cars_se/history.csv"
 
 

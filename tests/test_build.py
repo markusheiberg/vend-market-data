@@ -146,7 +146,9 @@ class BuildTest(unittest.TestCase):
                      f"{ts},blocket,median_age_published_id_estimate_days,,25.1",
                      f"{ts},blocket,median_age_published_or_renewed_days,,15.0",
                      f"{ts},blocket,price_pct,0k–25k,14.4",
-                     f"{ts},tradera,listings_site_count,,3011.0"]
+                     f"{ts},tradera,listings_site_count,,3011.0",
+                     f"{ts},both,overlap_estimate,,318.0",
+                     f"{ts},both,overlap_matched,,375.0"]
         _write(self.src / "finn-mobility-packages/data/private_cars_se/history.csv", hdr, rows)
         facts = self._build()
         pc = {(r["site"], r["metric"]): r for r in facts if r["segment"] == "private"
@@ -157,9 +159,11 @@ class BuildTest(unittest.TestCase):
         self.assertEqual(pc[("blocket.se", "median_days_since_renewed")]["value"], "15")
         # site counts would duplicate the daily listings series; distributions go elsewhere
         self.assertNotIn(("tradera.com", "listings_site_count"), pc)
-        self.assertEqual(len(pc), 4)
+        self.assertEqual(pc[("tradera.com+blocket.se", "cars_on_both_sites")]["value"], "318")
+        self.assertEqual(pc[("tradera.com+blocket.se", "cars_on_both_sites")]["country"], "SE")
+        self.assertEqual(len(pc), 5)        # overlap_matched stays in private_cars_se.csv only
         dist = _read(self.out / "facts/private_cars_se.csv")
-        self.assertEqual(len(dist), 6)
+        self.assertEqual(len(dist), 8)
         self.assertEqual({r["run_timestamp"][:10] for r in dist}, {"2026-10-11"})
         self.assertIn({"site": "blocket.se", "band": "0k–25k", "value": "14.4"},
                       [{k: r[k] for k in ("site", "band", "value")} for r in dist])

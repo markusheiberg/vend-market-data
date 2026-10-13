@@ -50,6 +50,7 @@ Metrics:
 | `implied_cars_sold` | bilinfo.dk | estimate, cars per week: last week's `supply_cars` × 7 / this week's `adj_days_to_sell`. Really outflow (cars also leave unsold), so an upper bound on sales |
 | `median_price`, `p25_price`, `p75_price` | tradera.com, blocket.se (private cars) | weekly census of every private car listing, SEK |
 | `median_days_since_published` | tradera.com, blocket.se (private cars) | median listing age. Tradera: exact publish date. Blocket: an **estimate** from the ad ID sequence, since Blocket shows no publish date |
+| `cars_on_both_sites`, `…_pct_of_tradera`, `…_pct_of_blocket` | `tradera.com+blocket.se` (private cars) | private cars listed on both, matched on brand, model, year, mileage, fuel and gearbox, minus the matches expected by chance. A lower bound (a different mileage typed on each site is missed). From 2026-10 |
 | `median_days_since_renewed` | blocket.se (private cars) | median time since the ad was published or last renewed (the card time). Below the estimate above by however much renewing goes on |
 | `implied_cars_added` | bilinfo.dk | estimate, cars per week: this week's `supply_cars` − last week's + `implied_cars_sold`. Matches the workbook's implied new listings × 7 to the car on every reported week |
 
