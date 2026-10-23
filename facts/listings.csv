@@ -8666,6 +8666,10 @@ date,grain,country,site,vertical,segment,package,metric,value,unit,is_sample,qua
 2026-10-05,daily,DK,bilbasen.dk,mobility_cars,private,,listings,4277,listings,0,,vend-scraper-v2/daily_filtered
 2026-10-05,daily,DK,bilhandel.dk,mobility_cars,dealer,,listings,27143,listings,0,,vend-scraper-v2/daily_filtered
 2026-10-05,daily,DK,bilhandel.dk,mobility_cars,private,,listings,2211,listings,0,,vend-scraper-v2/daily_filtered
+2026-10-05,weekly,DK,bilinfo.dk,mobility_cars,,,adj_days_to_sell,57,days,0,interpolated,"vend-scraper-v2/bilinfo_weekly, x 1.3659 before 2026-06-08"
+2026-10-05,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,6362,cars_per_week,0,interpolated,"vend-market-data, as build_bilinfo_workbook.add_implied_flows"
+2026-10-05,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,6312,cars_per_week,0,interpolated,"vend-market-data, as build_bilinfo_workbook.add_implied_flows"
+2026-10-05,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,51450,listings,0,interpolated,vend-scraper-v2/bilinfo_weekly
 2026-10-05,daily,DK,biltorvet.dk,mobility_cars,dealer,,listings,44367,listings,0,,vend-scraper-v2/daily_filtered
 2026-10-05,daily,DK,biltorvet.dk,mobility_cars,private,,listings,2038,listings,0,,vend-scraper-v2/daily_filtered
 2026-10-05,daily,SE,blocket.se,mobility_cars,dealer,,listings,123562,listings,0,,vend-scraper-v2/daily_filtered
@@ -8982,6 +8986,12 @@ date,grain,country,site,vertical,segment,package,metric,value,unit,is_sample,qua
 2026-10-12,daily,DK,bilbasen.dk,mobility_cars,private,,listings,4395,listings,0,,vend-scraper-v2/daily_filtered
 2026-10-12,daily,DK,bilhandel.dk,mobility_cars,dealer,,listings,27400,listings,0,,vend-scraper-v2/daily_filtered
 2026-10-12,daily,DK,bilhandel.dk,mobility_cars,private,,listings,2258,listings,0,,vend-scraper-v2/daily_filtered
+2026-10-12,weekly,DK,bilinfo.dk,mobility_cars,,,adj_days_to_sell,57,days,0,,"vend-scraper-v2/bilinfo_weekly, x 1.3659 before 2026-06-08"
+2026-10-12,weekly,DK,bilinfo.dk,mobility_cars,,,avg_days_to_sell,57,days,0,,vend-scraper-v2/bilinfo_weekly
+2026-10-12,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_added,6368,cars_per_week,0,interpolated,"vend-market-data, as build_bilinfo_workbook.add_implied_flows"
+2026-10-12,weekly,DK,bilinfo.dk,mobility_cars,,,implied_cars_sold,6318,cars_per_week,0,interpolated,"vend-market-data, as build_bilinfo_workbook.add_implied_flows"
+2026-10-12,weekly,DK,bilinfo.dk,mobility_cars,,,supply_cars,51500,listings,0,,vend-scraper-v2/bilinfo_weekly
+2026-10-12,weekly,DK,bilinfo.dk,mobility_cars,,,visits,426000,visitors,0,,vend-scraper-v2/bilinfo_weekly
 2026-10-12,daily,DK,biltorvet.dk,mobility_cars,dealer,,listings,44473,listings,0,,vend-scraper-v2/daily_filtered
 2026-10-12,daily,DK,biltorvet.dk,mobility_cars,private,,listings,2162,listings,0,,vend-scraper-v2/daily_filtered
 2026-10-12,daily,SE,blocket.se,mobility_cars,dealer,,listings,125557,listings,0,,vend-scraper-v2/daily_filtered
@@ -9411,3 +9421,42 @@ date,grain,country,site,vertical,segment,package,metric,value,unit,is_sample,qua
 2026-10-21,daily,FI,oikotie.fi,real_estate_homes,,,new_listings,666,listings,0,,vend-scraper-v2/daily_filtered
 2026-10-21,daily,SE,tradera.com,mobility_cars,dealer,,listings,50904,listings,0,,vend-scraper-v2/daily_filtered
 2026-10-21,daily,SE,tradera.com,mobility_cars,private,,listings,3066,listings,0,,vend-scraper-v2/daily_filtered
+2026-10-22,daily,DK,bilbasen.dk,mobility_cars,dealer,,listings,48148,listings,0,,vend-scraper-v2/daily_filtered
+2026-10-22,daily,DK,bilbasen.dk,mobility_cars,private,,listings,4437,listings,0,,vend-scraper-v2/daily_filtered
+2026-10-22,daily,DK,bilhandel.dk,mobility_cars,dealer,,listings,27790,listings,0,,vend-scraper-v2/daily_filtered
+2026-10-22,daily,DK,bilhandel.dk,mobility_cars,private,,listings,2089,listings,0,,vend-scraper-v2/daily_filtered
+2026-10-22,daily,SE,blocket.se,mobility_cars,dealer,,listings,127868,listings,0,,vend-scraper-v2/daily_filtered
+2026-10-22,daily,SE,blocket.se,mobility_cars,dealer,,new_listings,5496,listings,0,,vend-scraper-v2/daily_filtered
+2026-10-22,daily,SE,blocket.se,mobility_cars,private,,listings,26597,listings,0,,vend-scraper-v2/daily_filtered
+2026-10-22,daily,SE,blocket.se,mobility_cars,private,,new_listings,1038,listings,0,,vend-scraper-v2/daily_filtered
+2026-10-22,daily,SE,blocket.se,mobility_other,dealer,,listings,62918,listings,0,,vend-scraper-v2/daily_filtered
+2026-10-22,daily,SE,blocket.se,mobility_other,dealer,,new_listings,1641,listings,0,,vend-scraper-v2/daily_filtered
+2026-10-22,daily,SE,blocket.se,mobility_other,private,,listings,15488,listings,0,,vend-scraper-v2/daily_filtered
+2026-10-22,daily,SE,blocket.se,mobility_other,private,,new_listings,312,listings,0,,vend-scraper-v2/daily_filtered
+2026-10-22,daily,FI,etuovi.com,real_estate_homes,,,listings,51910,listings,0,,vend-scraper-v2/daily_filtered
+2026-10-22,daily,FI,etuovi.com,real_estate_homes,,,new_listings,421,listings,0,,vend-scraper-v2/daily_filtered
+2026-10-22,daily,NO,finn.no,jobs_listings,,,listings,14101,listings,0,,vend-scraper-v2/daily_filtered
+2026-10-22,daily,NO,finn.no,jobs_listings,,,new_listings,716,listings,0,,vend-scraper-v2/daily_filtered
+2026-10-22,daily,NO,finn.no,jobs_positions,,,listings,28326,listings,0,,vend-scraper-v2/daily_filtered
+2026-10-22,daily,NO,finn.no,jobs_positions,,,new_listings,1242,listings,0,,vend-scraper-v2/daily_filtered
+2026-10-22,daily,NO,finn.no,mobility_cars,dealer,,listings,55209,listings,0,,vend-scraper-v2/daily_filtered
+2026-10-22,daily,NO,finn.no,mobility_cars,dealer,,new_listings,2175,listings,0,,vend-scraper-v2/daily_filtered
+2026-10-22,daily,NO,finn.no,mobility_cars,private,,listings,19032,listings,0,,vend-scraper-v2/daily_filtered
+2026-10-22,daily,NO,finn.no,mobility_cars,private,,new_listings,856,listings,0,,vend-scraper-v2/daily_filtered
+2026-10-22,daily,NO,finn.no,mobility_other,dealer,,listings,28989,listings,0,,vend-scraper-v2/daily_filtered
+2026-10-22,daily,NO,finn.no,mobility_other,dealer,,new_listings,655,listings,0,,vend-scraper-v2/daily_filtered
+2026-10-22,daily,NO,finn.no,mobility_other,private,,listings,9667,listings,0,,vend-scraper-v2/daily_filtered
+2026-10-22,daily,NO,finn.no,mobility_other,private,,new_listings,328,listings,0,,vend-scraper-v2/daily_filtered
+2026-10-22,daily,NO,finn.no,real_estate_homes,,,listings,22956,listings,0,,vend-scraper-v2/daily_filtered
+2026-10-22,daily,NO,finn.no,real_estate_homes,,,new_listings,510,listings,0,,vend-scraper-v2/daily_filtered
+2026-10-22,daily,NO,finn.no,real_estate_homes_new,,,listings,17309,listings,0,,vend-scraper-v2/daily_filtered
+2026-10-22,daily,NO,finn.no,real_estate_homes_new,,,new_listings,65,listings,0,,vend-scraper-v2/daily_filtered
+2026-10-22,daily,NO,finn.no,real_estate_other,,,listings,26440,listings,0,,vend-scraper-v2/daily_filtered
+2026-10-22,daily,NO,finn.no,real_estate_other,,,new_listings,456,listings,0,,vend-scraper-v2/daily_filtered
+2026-10-22,daily,SE,hemnet.se,real_estate_homes,,,listings,40212,listings,0,,vend-scraper-v2/daily_filtered
+2026-10-22,daily,SE,hemnet.se,real_estate_homes,,,new_listings,2960,listings,0,,vend-scraper-v2/daily_filtered
+2026-10-22,daily,NO,hjem.no,real_estate_homes,,,listings,8913,listings,0,,vend-scraper-v2/daily_filtered
+2026-10-22,daily,FI,oikotie.fi,real_estate_homes,,,listings,47595,listings,0,,vend-scraper-v2/daily_filtered
+2026-10-22,daily,FI,oikotie.fi,real_estate_homes,,,new_listings,698,listings,0,,vend-scraper-v2/daily_filtered
+2026-10-22,daily,SE,tradera.com,mobility_cars,dealer,,listings,51120,listings,0,,vend-scraper-v2/daily_filtered
+2026-10-22,daily,SE,tradera.com,mobility_cars,private,,listings,3134,listings,0,,vend-scraper-v2/daily_filtered
