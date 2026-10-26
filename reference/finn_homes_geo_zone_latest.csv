@@ -1,21 +1,22 @@
 geo_zone,zone_description,price_bracket,large_count,medium_count,small_count,total_count,distinct_postal_codes
-Geo 1,Deler av Nord-Norge,LAV,6,5,4,15,15
-Geo 1,Deler av Nord-Norge,UNDER,107,31,41,179,103
-Geo 1,Deler av Nord-Norge,VANLIG,312,91,25,428,141
-Geo 1,Deler av Nord-Norge,OVER,113,41,10,164,88
-Geo 1,Deler av Nord-Norge,HOY,172,54,7,233,87
-Geo 2,Mindre byer og steder,LAV,249,86,74,409,246
-Geo 2,Mindre byer og steder,UNDER,951,210,68,1229,549
-Geo 2,Mindre byer og steder,VANLIG,1669,545,82,2296,787
-Geo 2,Mindre byer og steder,OVER,731,279,40,1050,497
-Geo 2,Mindre byer og steder,HOY,1215,420,38,1673,580
-Geo 3,Større byer og Østlandet,LAV,156,68,22,246,131
-Geo 3,Større byer og Østlandet,UNDER,925,458,8,1391,436
-Geo 3,Større byer og Østlandet,VANLIG,2340,1123,30,3493,743
-Geo 3,Større byer og Østlandet,OVER,1136,626,13,1775,647
-Geo 3,Større byer og Østlandet,HOY,2453,1507,34,3994,802
-Geo 4,"Oslo, Asker og Bærum",LAV,45,39,170,254,70
-Geo 4,"Oslo, Asker og Bærum",UNDER,63,66,1,130,65
-Geo 4,"Oslo, Asker og Bærum",VANLIG,762,869,11,1642,358
-Geo 4,"Oslo, Asker og Bærum",OVER,335,396,5,736,239
-Geo 4,"Oslo, Asker og Bærum",HOY,617,803,6,1426,298
+Geo 1,Deler av Nord-Norge,LAV,5,6,5,16,16
+Geo 1,Deler av Nord-Norge,UNDER,106,31,42,179,105
+Geo 1,Deler av Nord-Norge,VANLIG,315,92,25,432,144
+Geo 1,Deler av Nord-Norge,OVER,121,39,8,168,86
+Geo 1,Deler av Nord-Norge,HOY,166,52,7,225,86
+Geo 2,Mindre byer og steder,LAV,249,88,76,413,249
+Geo 2,Mindre byer og steder,UNDER,971,209,65,1245,544
+Geo 2,Mindre byer og steder,VANLIG,1676,536,81,2293,790
+Geo 2,Mindre byer og steder,OVER,745,270,38,1053,495
+Geo 2,Mindre byer og steder,HOY,1217,407,38,1662,582
+Geo 2,Mindre byer og steder,UNKNOWN,0,0,1,1,1
+Geo 3,Større byer og Østlandet,LAV,171,74,23,268,144
+Geo 3,Større byer og Østlandet,UNDER,929,467,7,1403,435
+Geo 3,Større byer og Østlandet,VANLIG,2281,1142,31,3454,734
+Geo 3,Større byer og Østlandet,OVER,1131,610,12,1753,643
+Geo 3,Større byer og Østlandet,HOY,2424,1450,34,3908,797
+Geo 4,"Oslo, Asker og Bærum",LAV,43,44,175,262,77
+Geo 4,"Oslo, Asker og Bærum",UNDER,62,65,1,128,62
+Geo 4,"Oslo, Asker og Bærum",VANLIG,763,839,14,1616,356
+Geo 4,"Oslo, Asker og Bærum",OVER,344,373,5,722,245
+Geo 4,"Oslo, Asker og Bærum",HOY,596,775,7,1378,289
