@@ -248,3 +248,83 @@ observed_date,country,site,vertical,currency,event,source,year,category,subcateg
 2026-10-03,NO,finn.no,jobs,NOK,changed,finn_jobb,2026,jobb,Deltidstilling,Kategori 2,,,8720,,,0,exclude:E15,2026-10-03T04:00:16.333313+00:00,https://www.finn.no/jobb/prisoversikt
 2026-10-03,NO,finn.no,jobs,NOK,changed,finn_jobb,2026,jobb,Deltidstilling,Kategori 3,,,10880,,,0,exclude:E15,2026-10-03T04:00:16.333313+00:00,https://www.finn.no/jobb/prisoversikt
 2026-10-03,NO,finn.no,jobs,NOK,changed,finn_jobb,2026,jobb,Deltidstilling,Kategori 4,,,11840,,,0,exclude:E15,2026-10-03T04:00:16.333313+00:00,https://www.finn.no/jobb/prisoversikt
+2026-10-26,,,,,new,finn_cars_2027,2027,bil,bilannonser,Basis,,0-30,870,,,0,,2026-10-26T18:32:47.367504+00:00,https://www.finn.no/bedriftskunde/motor/pakker-priser-og-rabatter-for-2027
+2026-10-26,,,,,new,finn_cars_2027,2027,bil,bilannonser,Basis,,31-200,726,,,0,,2026-10-26T18:32:47.367504+00:00,https://www.finn.no/bedriftskunde/motor/pakker-priser-og-rabatter-for-2027
+2026-10-26,,,,,new,finn_cars_2027,2027,bil,bilannonser,Basis,,201-500,675,,,0,,2026-10-26T18:32:47.367504+00:00,https://www.finn.no/bedriftskunde/motor/pakker-priser-og-rabatter-for-2027
+2026-10-26,,,,,new,finn_cars_2027,2027,bil,bilannonser,Basis,,501-1500,591,,,0,,2026-10-26T18:32:47.367504+00:00,https://www.finn.no/bedriftskunde/motor/pakker-priser-og-rabatter-for-2027
+2026-10-26,,,,,new,finn_cars_2027,2027,bil,bilannonser,Basis,,1501-5000,473,,,0,,2026-10-26T18:32:47.367504+00:00,https://www.finn.no/bedriftskunde/motor/pakker-priser-og-rabatter-for-2027
+2026-10-26,,,,,new,finn_cars_2027,2027,bil,bilannonser,Basis,,5001-12000,355,,,0,,2026-10-26T18:32:47.367504+00:00,https://www.finn.no/bedriftskunde/motor/pakker-priser-og-rabatter-for-2027
+2026-10-26,,,,,new,finn_cars_2027,2027,bil,bilannonser,Basis,,12001-15000,254,,,0,,2026-10-26T18:32:47.367504+00:00,https://www.finn.no/bedriftskunde/motor/pakker-priser-og-rabatter-for-2027
+2026-10-26,,,,,new,finn_cars_2027,2027,bil,bilannonser,Basis,,15001-30000,185,,,0,,2026-10-26T18:32:47.367504+00:00,https://www.finn.no/bedriftskunde/motor/pakker-priser-og-rabatter-for-2027
+2026-10-26,,,,,new,finn_cars_2027,2027,bil,bilannonser,Pluss,,0-30,1044,,,0,,2026-10-26T18:32:47.367504+00:00,https://www.finn.no/bedriftskunde/motor/pakker-priser-og-rabatter-for-2027
+2026-10-26,,,,,new,finn_cars_2027,2027,bil,bilannonser,Pluss,,31-200,871,,,0,,2026-10-26T18:32:47.367504+00:00,https://www.finn.no/bedriftskunde/motor/pakker-priser-og-rabatter-for-2027
+2026-10-26,,,,,new,finn_cars_2027,2027,bil,bilannonser,Pluss,,201-500,811,,,0,,2026-10-26T18:32:47.367504+00:00,https://www.finn.no/bedriftskunde/motor/pakker-priser-og-rabatter-for-2027
+2026-10-26,,,,,new,finn_cars_2027,2027,bil,bilannonser,Pluss,,501-1500,709,,,0,,2026-10-26T18:32:47.367504+00:00,https://www.finn.no/bedriftskunde/motor/pakker-priser-og-rabatter-for-2027
+2026-10-26,,,,,new,finn_cars_2027,2027,bil,bilannonser,Pluss,,1501-5000,568,,,0,,2026-10-26T18:32:47.367504+00:00,https://www.finn.no/bedriftskunde/motor/pakker-priser-og-rabatter-for-2027
+2026-10-26,,,,,new,finn_cars_2027,2027,bil,bilannonser,Pluss,,5001-12000,425,,,0,,2026-10-26T18:32:47.367504+00:00,https://www.finn.no/bedriftskunde/motor/pakker-priser-og-rabatter-for-2027
+2026-10-26,,,,,new,finn_cars_2027,2027,bil,bilannonser,Pluss,,12001-15000,303,,,0,,2026-10-26T18:32:47.367504+00:00,https://www.finn.no/bedriftskunde/motor/pakker-priser-og-rabatter-for-2027
+2026-10-26,,,,,new,finn_cars_2027,2027,bil,bilannonser,Pluss,,15001-30000,223,,,0,,2026-10-26T18:32:47.367504+00:00,https://www.finn.no/bedriftskunde/motor/pakker-priser-og-rabatter-for-2027
+2026-10-26,,,,,new,finn_cars_2027,2027,bil,bilannonser,Premium,,0-30,1165,,,0,,2026-10-26T18:32:47.367504+00:00,https://www.finn.no/bedriftskunde/motor/pakker-priser-og-rabatter-for-2027
+2026-10-26,,,,,new,finn_cars_2027,2027,bil,bilannonser,Premium,,31-200,974,,,0,,2026-10-26T18:32:47.367504+00:00,https://www.finn.no/bedriftskunde/motor/pakker-priser-og-rabatter-for-2027
+2026-10-26,,,,,new,finn_cars_2027,2027,bil,bilannonser,Premium,,201-500,905,,,0,,2026-10-26T18:32:47.367504+00:00,https://www.finn.no/bedriftskunde/motor/pakker-priser-og-rabatter-for-2027
+2026-10-26,,,,,new,finn_cars_2027,2027,bil,bilannonser,Premium,,501-1500,792,,,0,,2026-10-26T18:32:47.367504+00:00,https://www.finn.no/bedriftskunde/motor/pakker-priser-og-rabatter-for-2027
+2026-10-26,,,,,new,finn_cars_2027,2027,bil,bilannonser,Premium,,1501-5000,634,,,0,,2026-10-26T18:32:47.367504+00:00,https://www.finn.no/bedriftskunde/motor/pakker-priser-og-rabatter-for-2027
+2026-10-26,,,,,new,finn_cars_2027,2027,bil,bilannonser,Premium,,5001-12000,476,,,0,,2026-10-26T18:32:47.367504+00:00,https://www.finn.no/bedriftskunde/motor/pakker-priser-og-rabatter-for-2027
+2026-10-26,,,,,new,finn_cars_2027,2027,bil,bilannonser,Premium,,12001-15000,340,,,0,,2026-10-26T18:32:47.367504+00:00,https://www.finn.no/bedriftskunde/motor/pakker-priser-og-rabatter-for-2027
+2026-10-26,,,,,new,finn_cars_2027,2027,bil,bilannonser,Premium,,15001-30000,249,,,0,,2026-10-26T18:32:47.367504+00:00,https://www.finn.no/bedriftskunde/motor/pakker-priser-og-rabatter-for-2027
+2026-10-26,,,,,new,blocket_cars_2027,2027,bil,bilannonser,Bas,,0-50,673,,,0,,2026-10-26T18:32:47.367504+00:00,https://www.blocket.se/for-foretag/fordon/annonspaket-priser-och-rabattstruktur-foer-2027
+2026-10-26,,,,,new,blocket_cars_2027,2027,bil,bilannonser,Bas,,51-200,656,,,0,,2026-10-26T18:32:47.367504+00:00,https://www.blocket.se/for-foretag/fordon/annonspaket-priser-och-rabattstruktur-foer-2027
+2026-10-26,,,,,new,blocket_cars_2027,2027,bil,bilannonser,Bas,,201-500,497,,,0,,2026-10-26T18:32:47.367504+00:00,https://www.blocket.se/for-foretag/fordon/annonspaket-priser-och-rabattstruktur-foer-2027
+2026-10-26,,,,,new,blocket_cars_2027,2027,bil,bilannonser,Bas,,501-1000,420,,,0,,2026-10-26T18:32:47.367504+00:00,https://www.blocket.se/for-foretag/fordon/annonspaket-priser-och-rabattstruktur-foer-2027
+2026-10-26,,,,,new,blocket_cars_2027,2027,bil,bilannonser,Bas,,1001-5000,370,,,0,,2026-10-26T18:32:47.367504+00:00,https://www.blocket.se/for-foretag/fordon/annonspaket-priser-och-rabattstruktur-foer-2027
+2026-10-26,,,,,new,blocket_cars_2027,2027,bil,bilannonser,Bas,,5001-10000,238,,,0,,2026-10-26T18:32:47.367504+00:00,https://www.blocket.se/for-foretag/fordon/annonspaket-priser-och-rabattstruktur-foer-2027
+2026-10-26,,,,,new,blocket_cars_2027,2027,bil,bilannonser,Bas,,10001-20000,231,,,0,,2026-10-26T18:32:47.367504+00:00,https://www.blocket.se/for-foretag/fordon/annonspaket-priser-och-rabattstruktur-foer-2027
+2026-10-26,,,,,new,blocket_cars_2027,2027,bil,bilannonser,Bas,,20001-40000,226,,,0,,2026-10-26T18:32:47.367504+00:00,https://www.blocket.se/for-foretag/fordon/annonspaket-priser-och-rabattstruktur-foer-2027
+2026-10-26,,,,,new,blocket_cars_2027,2027,bil,bilannonser,Bas,,40001-60000,219,,,0,,2026-10-26T18:32:47.367504+00:00,https://www.blocket.se/for-foretag/fordon/annonspaket-priser-och-rabattstruktur-foer-2027
+2026-10-26,,,,,new,blocket_cars_2027,2027,bil,bilannonser,Bas,,60001-80000,212,,,0,,2026-10-26T18:32:47.367504+00:00,https://www.blocket.se/for-foretag/fordon/annonspaket-priser-och-rabattstruktur-foer-2027
+2026-10-26,,,,,new,blocket_cars_2027,2027,bil,bilannonser,Bas,,80001-100000,183,,,0,,2026-10-26T18:32:47.367504+00:00,https://www.blocket.se/for-foretag/fordon/annonspaket-priser-och-rabattstruktur-foer-2027
+2026-10-26,,,,,new,blocket_cars_2027,2027,bil,bilannonser,Bas,,100001+,169,,,0,,2026-10-26T18:32:47.367504+00:00,https://www.blocket.se/for-foretag/fordon/annonspaket-priser-och-rabattstruktur-foer-2027
+2026-10-26,,,,,new,blocket_cars_2027,2027,bil,bilannonser,Plus,,0-50,815,,,0,,2026-10-26T18:32:47.367504+00:00,https://www.blocket.se/for-foretag/fordon/annonspaket-priser-och-rabattstruktur-foer-2027
+2026-10-26,,,,,new,blocket_cars_2027,2027,bil,bilannonser,Plus,,51-200,793,,,0,,2026-10-26T18:32:47.367504+00:00,https://www.blocket.se/for-foretag/fordon/annonspaket-priser-och-rabattstruktur-foer-2027
+2026-10-26,,,,,new,blocket_cars_2027,2027,bil,bilannonser,Plus,,201-500,602,,,0,,2026-10-26T18:32:47.367504+00:00,https://www.blocket.se/for-foretag/fordon/annonspaket-priser-och-rabattstruktur-foer-2027
+2026-10-26,,,,,new,blocket_cars_2027,2027,bil,bilannonser,Plus,,501-1000,507,,,0,,2026-10-26T18:32:47.367504+00:00,https://www.blocket.se/for-foretag/fordon/annonspaket-priser-och-rabattstruktur-foer-2027
+2026-10-26,,,,,new,blocket_cars_2027,2027,bil,bilannonser,Plus,,1001-5000,447,,,0,,2026-10-26T18:32:47.367504+00:00,https://www.blocket.se/for-foretag/fordon/annonspaket-priser-och-rabattstruktur-foer-2027
+2026-10-26,,,,,new,blocket_cars_2027,2027,bil,bilannonser,Plus,,5001-10000,287,,,0,,2026-10-26T18:32:47.367504+00:00,https://www.blocket.se/for-foretag/fordon/annonspaket-priser-och-rabattstruktur-foer-2027
+2026-10-26,,,,,new,blocket_cars_2027,2027,bil,bilannonser,Plus,,10001-20000,279,,,0,,2026-10-26T18:32:47.367504+00:00,https://www.blocket.se/for-foretag/fordon/annonspaket-priser-och-rabattstruktur-foer-2027
+2026-10-26,,,,,new,blocket_cars_2027,2027,bil,bilannonser,Plus,,20001-40000,273,,,0,,2026-10-26T18:32:47.367504+00:00,https://www.blocket.se/for-foretag/fordon/annonspaket-priser-och-rabattstruktur-foer-2027
+2026-10-26,,,,,new,blocket_cars_2027,2027,bil,bilannonser,Plus,,40001-60000,265,,,0,,2026-10-26T18:32:47.367504+00:00,https://www.blocket.se/for-foretag/fordon/annonspaket-priser-och-rabattstruktur-foer-2027
+2026-10-26,,,,,new,blocket_cars_2027,2027,bil,bilannonser,Plus,,60001-80000,256,,,0,,2026-10-26T18:32:47.367504+00:00,https://www.blocket.se/for-foretag/fordon/annonspaket-priser-och-rabattstruktur-foer-2027
+2026-10-26,,,,,new,blocket_cars_2027,2027,bil,bilannonser,Plus,,80001-100000,220,,,0,,2026-10-26T18:32:47.367504+00:00,https://www.blocket.se/for-foretag/fordon/annonspaket-priser-och-rabattstruktur-foer-2027
+2026-10-26,,,,,new,blocket_cars_2027,2027,bil,bilannonser,Plus,,100001+,205,,,0,,2026-10-26T18:32:47.367504+00:00,https://www.blocket.se/for-foretag/fordon/annonspaket-priser-och-rabattstruktur-foer-2027
+2026-10-26,,,,,new,blocket_cars_2027,2027,bil,bilannonser,Premium,,0-50,929,,,0,,2026-10-26T18:32:47.367504+00:00,https://www.blocket.se/for-foretag/fordon/annonspaket-priser-och-rabattstruktur-foer-2027
+2026-10-26,,,,,new,blocket_cars_2027,2027,bil,bilannonser,Premium,,51-200,902,,,0,,2026-10-26T18:32:47.367504+00:00,https://www.blocket.se/for-foretag/fordon/annonspaket-priser-och-rabattstruktur-foer-2027
+2026-10-26,,,,,new,blocket_cars_2027,2027,bil,bilannonser,Premium,,201-500,684,,,0,,2026-10-26T18:32:47.367504+00:00,https://www.blocket.se/for-foretag/fordon/annonspaket-priser-och-rabattstruktur-foer-2027
+2026-10-26,,,,,new,blocket_cars_2027,2027,bil,bilannonser,Premium,,501-1000,578,,,0,,2026-10-26T18:32:47.367504+00:00,https://www.blocket.se/for-foretag/fordon/annonspaket-priser-och-rabattstruktur-foer-2027
+2026-10-26,,,,,new,blocket_cars_2027,2027,bil,bilannonser,Premium,,1001-5000,508,,,0,,2026-10-26T18:32:47.367504+00:00,https://www.blocket.se/for-foretag/fordon/annonspaket-priser-och-rabattstruktur-foer-2027
+2026-10-26,,,,,new,blocket_cars_2027,2027,bil,bilannonser,Premium,,5001-10000,327,,,0,,2026-10-26T18:32:47.367504+00:00,https://www.blocket.se/for-foretag/fordon/annonspaket-priser-och-rabattstruktur-foer-2027
+2026-10-26,,,,,new,blocket_cars_2027,2027,bil,bilannonser,Premium,,10001-20000,318,,,0,,2026-10-26T18:32:47.367504+00:00,https://www.blocket.se/for-foretag/fordon/annonspaket-priser-och-rabattstruktur-foer-2027
+2026-10-26,,,,,new,blocket_cars_2027,2027,bil,bilannonser,Premium,,20001-40000,310,,,0,,2026-10-26T18:32:47.367504+00:00,https://www.blocket.se/for-foretag/fordon/annonspaket-priser-och-rabattstruktur-foer-2027
+2026-10-26,,,,,new,blocket_cars_2027,2027,bil,bilannonser,Premium,,40001-60000,301,,,0,,2026-10-26T18:32:47.367504+00:00,https://www.blocket.se/for-foretag/fordon/annonspaket-priser-och-rabattstruktur-foer-2027
+2026-10-26,,,,,new,blocket_cars_2027,2027,bil,bilannonser,Premium,,60001-80000,293,,,0,,2026-10-26T18:32:47.367504+00:00,https://www.blocket.se/for-foretag/fordon/annonspaket-priser-och-rabattstruktur-foer-2027
+2026-10-26,,,,,new,blocket_cars_2027,2027,bil,bilannonser,Premium,,80001-100000,251,,,0,,2026-10-26T18:32:47.367504+00:00,https://www.blocket.se/for-foretag/fordon/annonspaket-priser-och-rabattstruktur-foer-2027
+2026-10-26,,,,,new,blocket_cars_2027,2027,bil,bilannonser,Premium,,100001+,232,,,0,,2026-10-26T18:32:47.367504+00:00,https://www.blocket.se/for-foretag/fordon/annonspaket-priser-och-rabattstruktur-foer-2027
+2026-10-26,,,,,new,blocket_butik,2026,butik,Motorbåt,,,,174,,,0,,2026-10-26T19:24:09.254063+00:00,https://blocket.zendesk.com/hc/sv/articles/22776763359378
+2026-10-26,,,,,new,blocket_butik,2026,butik,Segelbåt,,,,174,,,0,,2026-10-26T19:24:09.254063+00:00,https://blocket.zendesk.com/hc/sv/articles/22776763359378
+2026-10-26,,,,,new,blocket_butik,2026,butik,Gummi / ribbåt,,,,133,,,0,,2026-10-26T19:24:09.254063+00:00,https://blocket.zendesk.com/hc/sv/articles/22776763359378
+2026-10-26,,,,,new,blocket_butik,2026,butik,Jolle / roddbåt,,,,133,,,0,,2026-10-26T19:24:09.254063+00:00,https://blocket.zendesk.com/hc/sv/articles/22776763359378
+2026-10-26,,,,,new,blocket_butik,2026,butik,Vattenskoter,,,,174,,,0,,2026-10-26T19:24:09.254063+00:00,https://blocket.zendesk.com/hc/sv/articles/22776763359378
+2026-10-26,,,,,new,blocket_butik,2026,butik,Båtar / Övrigt,,,,174,,,0,,2026-10-26T19:24:09.254063+00:00,https://blocket.zendesk.com/hc/sv/articles/22776763359378
+2026-10-26,,,,,new,blocket_butik,2026,butik,Båtplats & förvaring,,,,133,,,0,,2026-10-26T19:24:09.254063+00:00,https://blocket.zendesk.com/hc/sv/articles/22776763359378
+2026-10-26,,,,,new,blocket_butik,2026,butik,Husvagn,,,,180,,,0,,2026-10-26T19:24:09.254063+00:00,https://blocket.zendesk.com/hc/sv/articles/22776763359378
+2026-10-26,,,,,new,blocket_butik,2026,butik,Husbil,,,,180,,,0,,2026-10-26T19:24:09.254063+00:00,https://blocket.zendesk.com/hc/sv/articles/22776763359378
+2026-10-26,,,,,new,blocket_butik,2026,butik,Mopeder,,,,96,,,0,,2026-10-26T19:24:09.254063+00:00,https://blocket.zendesk.com/hc/sv/articles/22776763359378
+2026-10-26,,,,,new,blocket_butik,2026,butik,A-traktor,,,,133,,,0,,2026-10-26T19:24:09.254063+00:00,https://blocket.zendesk.com/hc/sv/articles/22776763359378
+2026-10-26,,,,,new,blocket_butik,2026,butik,Snöskoter,,,,120,,,0,,2026-10-26T19:24:09.254063+00:00,https://blocket.zendesk.com/hc/sv/articles/22776763359378
+2026-10-26,,,,,new,blocket_butik,2026,butik,Lastbil & buss,,,,175,,,0,,2026-10-26T19:24:09.254063+00:00,https://blocket.zendesk.com/hc/sv/articles/22776763359378
+2026-10-26,,,,,new,blocket_butik,2026,butik,Lantbruksmaskin,,,,175,,,0,,2026-10-26T19:24:09.254063+00:00,https://blocket.zendesk.com/hc/sv/articles/22776763359378
+2026-10-26,,,,,new,blocket_butik,2026,butik,Entreprenadmaskin,,,,175,,,0,,2026-10-26T19:24:09.254063+00:00,https://blocket.zendesk.com/hc/sv/articles/22776763359378
+2026-10-26,,,,,new,blocket_butik,2026,butik,Truck & materialhantering,,,,175,,,0,,2026-10-26T19:24:09.254063+00:00,https://blocket.zendesk.com/hc/sv/articles/22776763359378
+2026-10-26,,,,,new,blocket_butik,2026,butik,Skogsmaskin,,,,175,,,0,,2026-10-26T19:24:09.254063+00:00,https://blocket.zendesk.com/hc/sv/articles/22776763359378
+2026-10-26,,,,,new,blocket_butik,2026,butik,Grönytemaskin,,,,175,,,0,,2026-10-26T19:24:09.254063+00:00,https://blocket.zendesk.com/hc/sv/articles/22776763359378
+2026-10-26,,,,,new,blocket_dealer_fees,2026,minimiavgift,bil,,,,3200,,,0,,2026-10-26T19:24:09.254063+00:00,https://www.blocket.se/for-foretag/fordon/priser
+2026-10-26,,,,,new,blocket_dealer_fees,2026,minimiavgift,"mc, husvagn, husbil, snöskoter",,,,1450,,,0,,2026-10-26T19:24:09.254063+00:00,https://www.blocket.se/for-foretag/fordon/priser
