@@ -328,3 +328,45 @@ observed_date,country,site,vertical,currency,event,source,year,category,subcateg
 2026-10-26,,,,,new,blocket_butik,2026,butik,Grönytemaskin,,,,175,,,0,,2026-10-26T19:24:09.254063+00:00,https://blocket.zendesk.com/hc/sv/articles/22776763359378
 2026-10-26,,,,,new,blocket_dealer_fees,2026,minimiavgift,bil,,,,3200,,,0,,2026-10-26T19:24:09.254063+00:00,https://www.blocket.se/for-foretag/fordon/priser
 2026-10-26,,,,,new,blocket_dealer_fees,2026,minimiavgift,"mc, husvagn, husbil, snöskoter",,,,1450,,,0,,2026-10-26T19:24:09.254063+00:00,https://www.blocket.se/for-foretag/fordon/priser
+2026-10-27,,,,,new,bilbasen_2027,2027,bil,bilannonser,Discount,,,649,,,0,,2026-10-27T16:34:51.678131+00:00,https://bilinfo.dk/2027priser
+2026-10-27,,,,,new,bilbasen_2027,2027,bil,bilannonser,Standard,,,859,,,0,,2026-10-27T16:34:51.678131+00:00,https://bilinfo.dk/2027priser
+2026-10-27,,,,,new,bilbasen_2027,2027,bil,bilannonser,Plus,,,1399,,,0,,2026-10-27T16:34:51.678131+00:00,https://bilinfo.dk/2027priser
+2026-10-27,,,,,new,bilbasen_2027,2027,bil,klikxtra,,,,2.15,,,0,,2026-10-27T16:34:51.678131+00:00,https://bilinfo.dk/2027priser
+2026-10-27,,,,,new,bilbasen_2027,2027,bilinfo,oprettelse,Start,,,0,,,0,,2026-10-27T16:34:51.678131+00:00,https://bilinfo.dk/2027priser
+2026-10-27,,,,,new,bilbasen_2027,2027,bilinfo,abonnement,Start,,,0,,,0,,2026-10-27T16:34:51.678131+00:00,https://bilinfo.dk/2027priser
+2026-10-27,,,,,new,bilbasen_2027,2027,bilinfo,oprettelse,Basis,,,1199,,,0,,2026-10-27T16:34:51.678131+00:00,https://bilinfo.dk/2027priser
+2026-10-27,,,,,new,bilbasen_2027,2027,bilinfo,abonnement,Basis,,,639,,,0,,2026-10-27T16:34:51.678131+00:00,https://bilinfo.dk/2027priser
+2026-10-27,,,,,new,bilbasen_2027,2027,bilinfo,oprettelse,Pro,,,2969,,,0,,2026-10-27T16:34:51.678131+00:00,https://bilinfo.dk/2027priser
+2026-10-27,,,,,new,bilbasen_2027,2027,bilinfo,abonnement,Pro,,,1499,,,0,,2026-10-27T16:34:51.678131+00:00,https://bilinfo.dk/2027priser
+2026-10-27,,,,,new,bilbasen_2027,2027,bil,rabat,,,0-14.263,0,,,0,,2026-10-27T16:34:51.678131+00:00,https://bilinfo.dk/2027priser
+2026-10-27,,,,,new,bilbasen_2027,2027,bil,rabat,,,14.264-34.633,30,,,0,,2026-10-27T16:34:51.678131+00:00,https://bilinfo.dk/2027priser
+2026-10-27,,,,,new,bilbasen_2027,2027,bil,rabat,,,34.634-55.005,40,,,0,,2026-10-27T16:34:51.678131+00:00,https://bilinfo.dk/2027priser
+2026-10-27,,,,,new,bilbasen_2027,2027,bil,rabat,,,55.006-101.862,50,,,0,,2026-10-27T16:34:51.678131+00:00,https://bilinfo.dk/2027priser
+2026-10-27,,,,,new,bilbasen_2027,2027,bil,rabat,,,101.863-201.685,55,,,0,,2026-10-27T16:34:51.678131+00:00,https://bilinfo.dk/2027priser
+2026-10-27,,,,,new,bilbasen_2027,2027,bil,rabat,,,201.686-407.568,60,,,0,,2026-10-27T16:34:51.678131+00:00,https://bilinfo.dk/2027priser
+2026-10-27,,,,,new,bilbasen_2027,2027,bil,rabat,,,407.569-100.000.000,65,,,0,,2026-10-27T16:34:51.678131+00:00,https://bilinfo.dk/2027priser
+2026-10-27,,,,,new,bilinfo_prices,2026,bil,bilannonser,Discount,,,599,,,0,,2026-10-27T16:34:51.678131+00:00,https://bilinfo.dk/priser
+2026-10-27,,,,,new,bilinfo_prices,2026,bil,bilannonser,Standard,,,799,,,0,,2026-10-27T16:34:51.678131+00:00,https://bilinfo.dk/priser
+2026-10-27,,,,,new,bilinfo_prices,2026,bil,bilannonser,Plus,,,1299,,,0,,2026-10-27T16:34:51.678131+00:00,https://bilinfo.dk/priser
+2026-10-27,,,,,new,bilinfo_prices,2026,bil,klikxtra,,,,1.99,,,0,,2026-10-27T16:34:51.678131+00:00,https://bilinfo.dk/priser
+2026-10-27,,,,,new,bilinfo_prices,2026,bilinfo,oprettelse,Start,,,0,,,0,,2026-10-27T16:34:51.678131+00:00,https://bilinfo.dk/priser
+2026-10-27,,,,,new,bilinfo_prices,2026,bilinfo,abonnement,Start,,,0,,,0,,2026-10-27T16:34:51.678131+00:00,https://bilinfo.dk/priser
+2026-10-27,,,,,new,bilinfo_prices,2026,bilinfo,oprettelse,Basis,,,1100,,,0,,2026-10-27T16:34:51.678131+00:00,https://bilinfo.dk/priser
+2026-10-27,,,,,new,bilinfo_prices,2026,bilinfo,abonnement,Basis,,,589,,,0,,2026-10-27T16:34:51.678131+00:00,https://bilinfo.dk/priser
+2026-10-27,,,,,new,bilinfo_prices,2026,bilinfo,oprettelse,Pro,,,2750,,,0,,2026-10-27T16:34:51.678131+00:00,https://bilinfo.dk/priser
+2026-10-27,,,,,new,bilinfo_prices,2026,bilinfo,abonnement,Pro,,,1399,,,0,,2026-10-27T16:34:51.678131+00:00,https://bilinfo.dk/priser
+2026-10-27,,,,,new,bilinfo_prices,2026,bil,rabat,,,0-13.207,0,,,0,,2026-10-27T16:34:51.678131+00:00,https://bilinfo.dk/priser
+2026-10-27,,,,,new,bilinfo_prices,2026,bil,rabat,,,13.208-32.068,30,,,0,,2026-10-27T16:34:51.678131+00:00,https://bilinfo.dk/priser
+2026-10-27,,,,,new,bilinfo_prices,2026,bil,rabat,,,32.069-50.931,40,,,0,,2026-10-27T16:34:51.678131+00:00,https://bilinfo.dk/priser
+2026-10-27,,,,,new,bilinfo_prices,2026,bil,rabat,,,50.932-94.317,50,,,0,,2026-10-27T16:34:51.678131+00:00,https://bilinfo.dk/priser
+2026-10-27,,,,,new,bilinfo_prices,2026,bil,rabat,,,94.318-186.746,55,,,0,,2026-10-27T16:34:51.678131+00:00,https://bilinfo.dk/priser
+2026-10-27,,,,,new,bilinfo_prices,2026,bil,rabat,,,186.747-377.378,60,,,0,,2026-10-27T16:34:51.678131+00:00,https://bilinfo.dk/priser
+2026-10-27,,,,,new,bilinfo_prices,2026,bil,rabat,,,377.379-100.000.000,65,,,0,,2026-10-27T16:34:51.678131+00:00,https://bilinfo.dk/priser
+2026-10-27,,,,,new,dba_cars,2026,bil,maanedspris,Basis,,,729,,,0,,2026-10-27T16:52:07.896215+00:00,https://bilinfo.dk/annoncering/dba
+2026-10-27,,,,,new,dba_cars,2026,bil,pr_bil,Basis,,,24.9,,,0,,2026-10-27T16:52:07.896215+00:00,https://bilinfo.dk/annoncering/dba
+2026-10-27,,,,,new,dba_boost,2026,boost,abonnement,Standard,,10 fremhævede,599,,,0,,2026-10-27T16:52:07.896215+00:00,https://boost.dba.dk/
+2026-10-27,,,,,new,dba_boost,2026,boost,abonnement,Advanced,,20 fremhævede,899,,,0,,2026-10-27T16:52:07.896215+00:00,https://boost.dba.dk/
+2026-10-27,,,,,new,dba_boost,2026,boost,abonnement,Plus,,50 fremhævede,1499,,,0,,2026-10-27T16:52:07.896215+00:00,https://boost.dba.dk/
+2026-10-27,,,,,new,dba_boost,2026,boost,abonnement,Premium,,100 fremhævede,2499,,,0,,2026-10-27T16:52:07.896215+00:00,https://boost.dba.dk/
+2026-10-27,,,,,new,dba_boost,2026,boost,abonnement,Ultimate,,200 fremhævede,3499,,,0,,2026-10-27T16:52:07.896215+00:00,https://boost.dba.dk/
+2026-10-27,,,,,new,finn_private_cars,2026,bil,privatannonse,fra,,14 dager,359,,,1,,2026-10-27T19:21:11.014469+00:00,https://www.finn.no/mobility/sell-car
