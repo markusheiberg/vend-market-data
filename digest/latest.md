@@ -1,6 +1,6 @@
 # Vend market digest
 
-Generated 2026-10-30 11:22 UTC. Data up to **2026-10-29**.
+Generated 2026-10-31 10:54 UTC. Data up to **2026-10-31**.
 Read `CATALOG.md` for what each series means and `events.csv` before trusting a jump.
 
 ## Series with no value today
@@ -20,32 +20,32 @@ outlier filter (raw shown). ⚠️ = latest value older than a day.
 
 | site | vertical | segment | latest | date | 7d vs prior 7d | vs 4 weeks ago |
 |---|---|---|---:|---|---:|---:|
-| bilbasen.dk | mobility_cars | dealer | 48 586 | 2026-10-29 | +1.2% | +1.1% |
-| bilbasen.dk | mobility_cars | private | 4 337 | 2026-10-29 | -1.7% | +4.3% |
-| bilhandel.dk | mobility_cars | dealer | 28 376 | 2026-10-29 | +1.2% | +5.3% |
-| bilhandel.dk | mobility_cars | private | 2 102 | 2026-10-29 | -3.7% | -3.7% |
+| bilbasen.dk | mobility_cars | dealer | 48 856 | 2026-10-31 | +0.9% | +1.2% |
+| bilbasen.dk | mobility_cars | private | 4 315 | 2026-10-31 | -1.9% | +3.3% |
+| bilhandel.dk | mobility_cars | dealer | 26 822 | 2026-10-31 | +0.2% | +3.7% |
+| bilhandel.dk | mobility_cars | private | 2 115 | 2026-10-31 | -0.7% | -3.8% |
 | biltorvet.dk | mobility_cars | dealer | 44 631 | 2026-10-20 ⚠️ |  |  |
 | biltorvet.dk | mobility_cars | private | 2 284 | 2026-10-20 ⚠️ |  |  |
-| blocket.se | mobility_cars | dealer | 127 222 | 2026-10-29 | +0.2% | +3.1% |
-| blocket.se | mobility_cars | private | 26 389 | 2026-10-29 | -0.1% | +1.0% |
-| blocket.se | mobility_other | dealer | 63 087 | 2026-10-29 | -0.0% | -1.5% |
-| blocket.se | mobility_other | private | 14 069 | 2026-10-29 | -9.2% | -29.7% |
-| etuovi.com | real_estate_homes | - | 51 723 | 2026-10-29 | -0.2% | -1.2% |
-| finn.no | jobs_listings | - | 14 071 | 2026-10-29 | -0.3% | -6.8% |
-| finn.no | jobs_positions | - | 28 475 | 2026-10-29 | +0.1% | -6.1% |
-| finn.no | mobility_cars | dealer | 56 418 | 2026-10-29 | +1.7% | +4.7% |
-| finn.no | mobility_cars | private | 18 879 | 2026-10-29 | +0.5% | +4.7% |
-| finn.no | mobility_other | dealer | 29 271 | 2026-10-29 | +1.5% | +7.7% |
-| finn.no | mobility_other | private | 8 785 | 2026-10-29 | -8.4% | -27.3% |
-| finn.no | real_estate_homes | - | 22 472 | 2026-10-29 | -1.2% | +0.1% |
-| finn.no | real_estate_homes_new | - | 17 217 | 2026-10-29 | -0.2% | -3.4% |
-| finn.no | real_estate_other | - | 26 309 | 2026-10-29 | -0.7% | -0.9% |
+| blocket.se | mobility_cars | dealer | 127 486 | 2026-10-31 | -0.1% | +2.9% |
+| blocket.se | mobility_cars | private | 26 309 | 2026-10-31 | -0.6% | +0.2% |
+| blocket.se | mobility_other | dealer | 63 196 | 2026-10-31 | +0.0% | -1.5% |
+| blocket.se | mobility_other | private | 13 915 | 2026-10-31 | -8.5% | -29.6% |
+| etuovi.com | real_estate_homes | - | 51 720 | 2026-10-31 | -0.2% | -1.0% |
+| finn.no | jobs_listings | - | 14 202 | 2026-10-31 | -0.4% | -5.4% |
+| finn.no | jobs_positions | - | 28 858 | 2026-10-31 | +0.2% | -4.5% |
+| finn.no | mobility_cars | dealer | 56 694 | 2026-10-31 | +1.8% | +5.1% |
+| finn.no | mobility_cars | private | 18 826 | 2026-10-31 | -0.3% | +4.3% |
+| finn.no | mobility_other | dealer | 29 568 | 2026-10-31 | +1.2% | +7.7% |
+| finn.no | mobility_other | private | 8 658 | 2026-10-31 | -8.1% | -27.1% |
+| finn.no | real_estate_homes | - | 22 478 | 2026-10-31 | -1.6% | -0.0% |
+| finn.no | real_estate_homes_new | - | 17 319 | 2026-10-31 | -0.3% | -3.5% |
+| finn.no | real_estate_other | - | 26 230 | 2026-10-31 | -0.5% | -1.0% |
 | hemnet.se | real_estate_homes | - | 41 229 | 2026-10-25 ⚠️ |  |  |
 | hemnet.se | real_estate_homes_upcoming | - | 5 723 | 2026-10-05 ⚠️ |  |  |
-| hjem.no | real_estate_homes | - | 8 718 | 2026-10-29 | -1.5% | -0.0% |
-| oikotie.fi | real_estate_homes | - | 47 433 | 2026-10-29 | -0.1% | -1.0% |
-| tradera.com | mobility_cars | dealer | 51 715 | 2026-10-29 | +1.5% | +8.0% |
-| tradera.com | mobility_cars | private | 3 184 | 2026-10-29 | +3.8% | +7.3% |
+| hjem.no | real_estate_homes | - | 8 623 | 2026-10-31 | -2.0% | -0.3% |
+| oikotie.fi | real_estate_homes | - | 47 436 | 2026-10-31 | -0.2% | -0.9% |
+| tradera.com | mobility_cars | dealer | 51 219 | 2026-10-31 | +1.2% | +7.4% |
+| tradera.com | mobility_cars | private | 3 166 | 2026-10-31 | +2.6% | +6.8% |
 | wayke.se | mobility_cars | dealer | 53 039 | 2026-10-08 ⚠️ |  |  |
 
 ## Package mix
