@@ -1,6 +1,6 @@
 # Vend market digest
 
-Generated 2026-11-19 11:23 UTC. Data up to **2026-11-18**.
+Generated 2026-11-19 12:08 UTC. Data up to **2026-11-18**.
 Read `CATALOG.md` for what each series means and `events.csv` before trusting a jump.
 
 ## Series with no value today
@@ -91,3 +91,5 @@ None (excluding glitches listed in `events.csv`).
 ## Data events touching the last 30 days
 
 - **E12** 2026-09-02→ongoing · leboncoin.fr mobility_cars · info: DataDome blocks the scraper and robots.txt disallows the path. Only two manual observations exist; the series is not tracked.
+- **E19** 2026-11-09→2026-11-18 · * * · info: vend-market-data build failed on all 10 scheduled runs 2026-11-09 to 11-18: package_table() raised on a blank package_share value from finn-mobility-packages week 2026-11-09 (finn 0/0/0 after finn refused every ad fetch with 403). facts/ and digest/ stayed at data up to 2026-11-07. Fixed 2026-11-19 (7b65649); rebuilt to data up to 2026-11-18 after the upstream zero rows were deleted.
+- **E20** 2026-11-09→2026-11-15 · * mobility_cars · info: No Tradera vs Blocket private car census for the week of 2026-11-09: on 2026-11-15 22:59 UTC tradera.com answered the census's first request with 403 four times and the run wrote nothing. One-off in 30 days; vend-scraper-v2 read Tradera normally the same night. Not recoverable: the census is a point-in-time snapshot. finn-mobility-packages health.md now flags a missed census.
