@@ -483,7 +483,14 @@ def package_table(listings: list[dict]) -> list[str]:
     shares = defaultdict(dict)
     for r in listings:
         if r["metric"] == "package_share" and not r["quality_flag"]:
-            shares[(r["site"], r["vertical"])].setdefault(r["date"], {})[r["package"]] = float(r["value"])
+            # A blank value is a week whose upstream sample came back empty
+            # (finn, week 2026-11-09: counts 0/0/0, percentages missing). num()
+            # is how every other reader takes a value; the bare float() that
+            # stood here crashed the build on ten consecutive nights.
+            v = num(r["value"])
+            if v is None:
+                continue
+            shares[(r["site"], r["vertical"])].setdefault(r["date"], {})[r["package"]] = v
     lines = ["| site | vertical | latest week | mix now | mix 4 runs earlier |", "|---|---|---|---|---|"]
     for (site, vert), by_date in sorted(shares.items()):
         ds = sorted(by_date)
