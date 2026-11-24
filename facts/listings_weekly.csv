@@ -3122,6 +3122,13 @@ date,country,site,vertical,segment,package,metric,value,unit,is_sample,valid_day
 2026-11-16,DK,bilhandel.dk,mobility_cars,private,,listings,2126.6,listings,0,7
 2026-11-16,SE,blocket.se,mobility_cars,dealer,,listings,132678.7,listings,0,7
 2026-11-16,SE,blocket.se,mobility_cars,dealer,,new_listings,4837.1,listings,0,7
+2026-11-16,SE,blocket.se,mobility_cars,dealer,,sample_fraction,0.1,fraction,0,
+2026-11-16,SE,blocket.se,mobility_cars,dealer,basis,package_sample_count,9248,sampled_listings,1,
+2026-11-16,SE,blocket.se,mobility_cars,dealer,basis,package_share,69.7,pct,1,
+2026-11-16,SE,blocket.se,mobility_cars,dealer,pluss,package_sample_count,99,sampled_listings,1,
+2026-11-16,SE,blocket.se,mobility_cars,dealer,pluss,package_share,0.7,pct,1,
+2026-11-16,SE,blocket.se,mobility_cars,dealer,premium,package_sample_count,3923,sampled_listings,1,
+2026-11-16,SE,blocket.se,mobility_cars,dealer,premium,package_share,29.6,pct,1,
 2026-11-16,SE,blocket.se,mobility_cars,private,,listings,25848.4,listings,0,7
 2026-11-16,SE,blocket.se,mobility_cars,private,,new_listings,992.9,listings,0,7
 2026-11-16,SE,blocket.se,mobility_other,dealer,,listings,64439.1,listings,0,7
@@ -3136,6 +3143,13 @@ date,country,site,vertical,segment,package,metric,value,unit,is_sample,valid_day
 2026-11-16,NO,finn.no,jobs_positions,,,new_listings,841.6,listings,0,7
 2026-11-16,NO,finn.no,mobility_cars,dealer,,listings,59155,listings,0,7
 2026-11-16,NO,finn.no,mobility_cars,dealer,,new_listings,1709.7,listings,0,7
+2026-11-16,NO,finn.no,mobility_cars,dealer,,sample_fraction,0.1,fraction,0,
+2026-11-16,NO,finn.no,mobility_cars,dealer,basis,package_sample_count,2002,sampled_listings,1,
+2026-11-16,NO,finn.no,mobility_cars,dealer,basis,package_share,33.9,pct,1,
+2026-11-16,NO,finn.no,mobility_cars,dealer,pluss,package_sample_count,1419,sampled_listings,1,
+2026-11-16,NO,finn.no,mobility_cars,dealer,pluss,package_share,24,pct,1,
+2026-11-16,NO,finn.no,mobility_cars,dealer,premium,package_sample_count,2493,sampled_listings,1,
+2026-11-16,NO,finn.no,mobility_cars,dealer,premium,package_share,42.2,pct,1,
 2026-11-16,NO,finn.no,mobility_cars,private,,listings,18362.4,listings,0,7
 2026-11-16,NO,finn.no,mobility_cars,private,,new_listings,813.4,listings,0,7
 2026-11-16,NO,finn.no,mobility_other,dealer,,listings,29744.7,listings,0,7
