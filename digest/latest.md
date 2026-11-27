@@ -1,6 +1,6 @@
 # Vend market digest
 
-Generated 2026-11-26 15:08 UTC. Data up to **2026-11-25**.
+Generated 2026-11-27 15:00 UTC. Data up to **2026-11-26**.
 Read `CATALOG.md` for what each series means and `events.csv` before trusting a jump.
 
 ## Series with no value today
@@ -24,33 +24,33 @@ outlier filter (raw shown). ⚠️ = latest value older than a day.
 
 | site | vertical | segment | latest | date | 7d vs prior 7d | vs 4 weeks ago |
 |---|---|---|---:|---|---:|---:|
-| bilbasen.dk | mobility_cars | dealer | 50 215 | 2026-11-25 | +1.4% | +4.0% |
-| bilbasen.dk | mobility_cars | private | 4 052 | 2026-11-25 | -4.2% | -6.2% |
-| bilhandel.dk | mobility_cars | dealer | 28 055 | 2026-11-25 | +2.2% | -0.5% |
-| bilhandel.dk | mobility_cars | private | 325 † | 2026-11-25 | -13.5% | -11.3% |
+| bilbasen.dk | mobility_cars | dealer | 50 686 | 2026-11-26 | +1.3% | +4.1% |
+| bilbasen.dk | mobility_cars | private | 4 016 | 2026-11-26 | -4.5% | -6.5% |
+| bilhandel.dk | mobility_cars | dealer | 28 347 | 2026-11-26 | +2.3% | -0.4% |
+| bilhandel.dk | mobility_cars | private | 329 † | 2026-11-26 | -25.3% | -23.5% |
 | biltorvet.dk | mobility_cars | dealer | 44 631 | 2026-10-20 ⚠️ |  |  |
 | biltorvet.dk | mobility_cars | private | 2 284 | 2026-10-20 ⚠️ |  |  |
-| blocket.se | mobility_cars | dealer | 134 054 | 2026-11-25 | +1.7% | +5.0% |
-| blocket.se | mobility_cars | private | 25 130 | 2026-11-25 | -2.8% | -4.1% |
-| blocket.se | mobility_other | dealer | 64 884 | 2026-11-25 | +0.2% | +2.5% |
-| blocket.se | mobility_other | private | 10 375 | 2026-11-25 | -7.9% | -27.8% |
-| etuovi.com | real_estate_homes | - | 50 439 | 2026-11-25 | -0.7% | -2.4% |
-| finn.no | jobs_listings | - | 13 047 | 2026-11-25 | -3.8% | -4.9% |
-| finn.no | jobs_positions | - | 26 539 | 2026-11-25 | -5.2% | -4.5% |
-| finn.no | mobility_cars | dealer | 60 494 | 2026-11-25 | +1.8% | +8.1% |
-| finn.no | mobility_cars | private | 17 912 | 2026-11-25 | -3.7% | -4.9% |
-| finn.no | mobility_other | dealer | 29 716 | 2026-11-25 | +0.0% | +2.2% |
-| finn.no | mobility_other | private | 6 321 | 2026-11-25 | -9.1% | -29.5% |
-| finn.no | real_estate_homes | - | 20 597 | 2026-11-25 |  | -8.6% |
-| finn.no | real_estate_homes_new | - | 17 246 | 2026-11-25 |  | -0.9% |
-| finn.no | real_estate_other | - | 26 083 | 2026-11-25 |  | -0.8% |
+| blocket.se | mobility_cars | dealer | 134 449 | 2026-11-26 | +1.5% | +5.2% |
+| blocket.se | mobility_cars | private | 24 960 | 2026-11-26 | -3.0% | -4.4% |
+| blocket.se | mobility_other | dealer | 64 870 | 2026-11-26 | +0.3% | +2.5% |
+| blocket.se | mobility_other | private | 10 116 | 2026-11-26 | -8.2% | -27.8% |
+| etuovi.com | real_estate_homes | - | 50 357 | 2026-11-26 | -0.7% | -2.5% |
+| finn.no | jobs_listings | - | 13 186 | 2026-11-26 | -3.7% | -5.3% |
+| finn.no | jobs_positions | - | 26 974 | 2026-11-26 | -5.1% | -4.9% |
+| finn.no | mobility_cars | dealer | 60 801 | 2026-11-26 | +1.8% | +8.0% |
+| finn.no | mobility_cars | private | 17 706 | 2026-11-26 | -3.6% | -5.2% |
+| finn.no | mobility_other | dealer | 29 655 | 2026-11-26 | -0.1% | +2.0% |
+| finn.no | mobility_other | private | 6 246 | 2026-11-26 | -8.9% | -29.4% |
+| finn.no | real_estate_homes | - | 20 369 | 2026-11-26 |  | -8.8% |
+| finn.no | real_estate_homes_new | - | 17 250 | 2026-11-26 |  | -0.8% |
+| finn.no | real_estate_other | - | 25 972 | 2026-11-26 |  | -0.8% |
 | hemnet.se | real_estate_homes | - | 41 229 | 2026-10-25 ⚠️ |  |  |
 | hemnet.se | real_estate_homes_incl_upcoming | - | 68 560 | 2026-11-21 ⚠️ |  |  |
 | hemnet.se | real_estate_homes_upcoming | - | 5 723 | 2026-10-05 ⚠️ |  |  |
-| hjem.no | real_estate_homes | - | 7 963 | 2026-11-25 | -2.8% | -9.1% |
-| oikotie.fi | real_estate_homes | - | 46 419 | 2026-11-25 | +131.9% | -1.9% |
-| tradera.com | mobility_cars | dealer | 55 057 | 2026-11-25 | +1.9% | +6.9% |
-| tradera.com | mobility_cars | private | 3 232 | 2026-11-25 | -0.5% | +2.5% |
+| hjem.no | real_estate_homes | - | 7 868 | 2026-11-26 | -2.8% | -9.2% |
+| oikotie.fi | real_estate_homes | - | 46 374 | 2026-11-26 | +73.8% | -2.0% |
+| tradera.com | mobility_cars | dealer | 55 236 | 2026-11-26 | +1.8% | +6.9% |
+| tradera.com | mobility_cars | private | 3 214 | 2026-11-26 | -1.0% | +1.9% |
 | wayke.se | mobility_cars | dealer | 53 039 | 2026-10-08 ⚠️ |  |  |
 
 ## Package mix
@@ -74,12 +74,12 @@ workbook does. Days are whole numbers, so one day moves sold by ~2%.
 
 | week | stock | adj. days to sell | implied sold | implied added |
 |---|---:|---:|---:|---:|
-| 2026-10-05 * | 51 450 | 57 | 6 312 | 6 362 |
 | 2026-10-12 * | 51 500 | 57 | 6 318 | 6 368 |
 | 2026-10-19 | 51 500 | 57 | 6 325 | 6 325 |
 | 2026-10-26 | 51 700 | 57 | 6 325 | 6 525 |
 | 2026-11-02 | 51 700 | 57 | 6 349 | 6 349 |
 | 2026-11-09 | 51 700 | 57 | 6 349 | 6 349 |
+| 2026-11-16 | 52 000 | 57 | 6 349 | 6 649 |
 
 ## Price changes, last 30 days
 
@@ -87,12 +87,6 @@ None (excluding glitches listed in `events.csv`).
 
 ## Price-related news, last 30 days
 
-- 2026-10-26 · www.finn.no · [Priser fra 1. juni 2026](https://www.finn.no/bedriftskunde/motor/priser/priser-subvertikaler#notice-33c72f53d5f0)
-- 2026-10-26 · www.blocket.se · [Den 1 februari 2027 får annonspaketen nya priser. Läs mer och räkna ut era priser för 2027 här .](https://www.blocket.se/for-foretag/fordon/annonspaket-priser-och-rabattstruktur-foer-2027)
-- 2026-10-26 · www.blocket.se · [Den 1 februari 2027 får annonspaketen nya priser. Läs mer och räkna ut era priser för 2027 här .](https://www.blocket.se/for-foretag/fordon/annonspaket#notice-7bb8f67210dc)
-- 2026-10-26 · www.blocket.se · [Den 1 februari 2027 får annonspaketen Bas, Plus och Premium för bilar och transportbilar nya priser. Läs mer och räkna ut era priser för 2027 här .](https://www.blocket.se/for-foretag/fordon/priser#notice-578e5425038a)
-- 2026-10-26 · www.finn.no · [Priser 2027](https://www.finn.no/bedriftskunde/motor/pakker-priser-og-rabatter-for-2027)
-- 2026-10-26 · www.finn.no · [Annonsepakkene på FINN motor er derfor utviklet i samarbeid med bransjen, for å sikre at dere får elementene som er viktige for dere. Her ser du våre pakker og priser for bil fra 1. juni 2026.](https://www.finn.no/bedriftskunde/motor/priser/priser-bilannonsering#notice-91d5be82e9b8)
 - 2026-10-27 · bilinfo.dk · [2027 Priser BILINFO Abonnementer BILINFO Webprodukter Bilbasen Annoncering](https://bilinfo.dk/2027priser)
 
 ## Data events touching the last 30 days
